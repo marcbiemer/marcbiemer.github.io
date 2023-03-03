@@ -1,0 +1,171 @@
+/* Global Setup */
+* {
+	font-family: 'Poppins', -apple-system, "Helvetica Neue", sans-serif;
+	font-weight: 300;
+	line-height: 145%;
+	hyphens: auto;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	box-sizing: border-box;
+	background-color: #fcfcfc;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	text-align: left;
+}
+main {
+	box-sizing: border-box;
+}
+ul, li, ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.screenreader-only {
+	display: block;
+	position: absolute;
+	overflow: hidden;
+	top: -10000px;
+	left: -10000px;
+}
+
+/* Text Styling */
+.txt-h {
+	font-size: 2rem;
+	line-height: 115%;
+}
+.txt-p {
+	font-size: 1rem;
+	line-height: 150%;
+}
+.txt-c {
+	font-size: 0.875rem;
+	line-height: 140%;
+}
+.txt-black {
+	color: #202020;
+}
+.txt-grey {
+	color: #6a6a6a;
+}
+.txt-greyLight {
+	color: #cccccc;
+}
+.txt-white {
+	color: #ffffff;
+}
+
+/* Link Styling */
+a {
+	color: #0038FF;
+	text-decoration: none;
+	transition: .2s;
+}
+a:hover, a:focus {
+	text-decoration: underline;
+	transition: .2s;
+}
+.body-copy a {
+	text-decoration: underline;
+	color: #6a6a6a;
+	transition: .2s;
+}
+.body-copy a:hover, .body-copy a:focus {
+	color: #0038FF;
+	transition: .2s;
+}
+
+/* BG Styling */
+.bg-default {
+	background-color: #fcfcfc;
+}
+.bg-dark {
+	background-color: #202020;
+}
+.bg-white {
+	background-color: #ffffff;
+}
+
+/* Layout */
+.pd-lr {
+	padding-left: 16px;
+	padding-right: 16px;
+}
+.pd-tb-sm {
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+.pd-tb-lg {
+	padding-top: 64px;
+	padding-bottom: 64px;
+}
+.pd-t-sm {
+	padding-top: 16px;
+}
+.pd-t-lg {
+	padding-top: 64px;
+}
+.pd-b-lg {
+	padding-bottom: 64px;
+}
+.max-width {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+.nav-wrapper {
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.nav-wrapper-fixed {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	z-index: 100;
+}
+.footer-wrapper {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;   
+}
+@media (min-width: 750px) {
+	.txt-h {
+		font-size: 5rem;
+	}
+	.txt-p {
+		font-size: 1.125rem;
+	}
+	.pd-lr {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.pd-tb-sm {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.pd-t-sm {
+		padding-top: 40px;
+	}
+	.pd-tb-lg {
+		padding-top: 160px;
+		padding-bottom: 160px;
+	}
+	.pd-t-lg {
+		padding-top: 160px;
+	}
+	.pd-b-lg {
+		padding-bottom: 160px;
+	}
+}
