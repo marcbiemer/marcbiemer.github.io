@@ -21,6 +21,10 @@ h1, h2, h3, h4, h5, h6, p {
 	margin: 0;
 	text-align: left;
 }
+h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, a::selection, br::selection, li::selection, span::selection {
+	background: #0038FF;
+	color: #ffffff;
+  }
 main {
 	box-sizing: border-box;
 }
@@ -61,6 +65,9 @@ ul, li, ol {
 }
 .txt-white {
 	color: #ffffff;
+}
+.txt-action {
+	color: #0038FF;
 }
 
 /* Link Styling */
