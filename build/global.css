@@ -1,0 +1,218 @@
+/* Defining Design Variables */
+:root {
+    /* SIZING & SPACING */
+    --xxxs: 4px;
+    --xxs: 8px;
+    --xs: 12px;
+    --sm: 16px;
+    --md: 20px;
+    --lg: 24px;
+    --xl: 32px;
+    --xxl: 40px;
+    --xxxl: 64px;
+
+    --doc-height: 100vh;
+    
+    /* BASE COLORS */
+    --black-900: rgb(28, 28, 30);
+    --black-800: rgb(44, 44, 46);
+    --black-700: rgb(58, 58, 60);
+    --black-600: rgb(72, 72, 74);
+    --black-500: rgb(99, 99, 102);
+    --white-500: rgb(174, 174, 178);
+    --white-600: rgb(199, 199, 204);
+    --white-700: rgb(209, 209, 214);
+    --white-800: rgb(229, 229, 234);
+    --white-900: rgb(242, 242, 247);
+    --gray-900: rgb(142, 142, 147); 
+    --blue-900: rgb(0, 56, 255);
+
+    /* SEMANTIC COLORS */
+    --fg-default: var(--white-900);
+    --fg-muted: var(--white-800);
+    --fg-subtle: var(--white-700);
+    --fg-accent: var(--blue-900);
+    --fg-onEmphasis: var(--white-900);
+    --bg-emphasis: var(--white-900);
+    --bg-default: var(--black-900);
+    --bg-subtle: var(--black-800);
+    --bg-inset: var(--black-700);
+    --border-default: var(--white-700);
+    --border-muted: var(--white-800);
+    --border-emphasis: var(--black-900);
+    --bg-accent: var(--blue-900);
+
+    /* OPACITY */
+    --alpha-default: 1;
+    --alpha-lowest: .1;
+    --alpha-low: .2;
+    --alpha-med: .3;
+    --alpha-high: .5;
+
+    /* FONT SIZING */
+    --txt-s-d: 2.5rem;
+    --txt-s-t-1: 2rem;
+    --txt-s-t-2: 1.6rem;
+    --txt-s-h: 1rem;
+    --txt-s-b: 1rem;
+    --txt-s-c: .85rem;
+    /* FONT LINE HEIGHT */
+    --txt-h-l: 105%;
+    --txt-h-d: 115%;
+    --txt-h-m: 125%;
+    --txt-h-h: 140%;
+    /* FONT WEIGHT */
+    --txt-w-l: 200;
+    --txt-w-d: 300;
+    --txt-w-m: 500;
+    --txt-w-h: 600;
+}
+
+/* Adjusting Font Styles To Device Size */
+@media screen and (min-width: 450px) {
+    :root {
+        --txt-s-d: 4.25rem;
+        --txt-s-t-1: 2.3rem;
+        --txt-s-t-2: 1.8rem;
+        --txt-s-h: 1.125rem;
+        --txt-s-b: 1.125rem;
+        --txt-s-c: .9rem;
+    }
+}
+
+/* TO DO: Handling Modes */
+/* Or apply it via media query */
+/* @media (prefers-color-scheme: dark) {
+    img {
+      filter: brightness(.8) contrast(1.2);
+    }
+  } */
+
+
+/* Global Styles */
+@font-face {
+    font-family: 'Switzer-Variable';
+    src: url('/fonts/switzer/Switzer-Variable.woff2') format('woff2'),
+            url('/fonts/switzer/Switzer-Variable.woff') format('woff'),
+            url('/fonts/switzer/Switzer-Variable.ttf') format('truetype');
+            font-weight: 100 900;
+            font-display: swap;
+            font-style: normal;
+}
+
+* {
+	font-family: 'Switzer-Variable', -apple-system, 'Helvetica Neue', sans-serif;
+	font-weight: var(--txt-w-d);
+	line-height: var(--txt-h-d);
+	hyphens: auto;
+}
+html {
+	scroll-behavior: smooth;
+}
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+	box-sizing: border-box;
+	background-color: var(--bg-default);
+}
+h1, h2, h3, h4, h5, h6, p, small {
+	margin: 0;
+	text-align: left;
+}
+h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, h6::selection, p::selection, a::selection, br::selection, li::selection, span::selection, small::selection {
+	background: var(--bg-accent);
+	color: var(--fg-onEmphasis);
+}
+a {
+    color: var(--fg-subtle);
+    text-decoration: underline;
+    font-weight: var(--txt-w-m);
+}
+a:hover {
+    color: var(--fg-default);
+}
+main {
+	box-sizing: border-box;
+}
+ul, li, ol {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+img {
+    filter: brightness(.85) contrast(1);
+}
+.screenreader-only {
+	display: block;
+	position: absolute;
+	overflow: hidden;
+	top: -10000px;
+	left: -10000px;
+}
+
+/* FONT STYLES */
+.txt-d {
+    font-size: var(--txt-s-d);
+    line-height: var(--txt-h-l);
+    font-weight: var(--txt-w-h);
+}
+.txt-t-1 {
+    font-size: var(--txt-s-t-1);
+    line-height: var(--txt-h-m);
+    font-weight: var(--txt-w-d);
+}
+.txt-t-2 {
+    font-size: var(--txt-s-t-2);
+    line-height: var(--txt-h-m);
+    font-weight: var(--txt-w-h);
+}
+.txt-t-3 {
+    font-size: var(--txt-s-t-2);
+    line-height: var(--txt-h-m);
+    font-weight: var(--txt-w-d);
+}
+.txt-h {
+    font-size: var(--txt-s-h);
+    line-height: var(--txt-h-h);
+    font-weight: var(--txt-w-h);
+}
+.txt-b {
+    font-size: var(--txt-s-b);
+    line-height: var(--txt-h-h);
+    font-weight: var(--txt-w-d);
+}
+.txt-c-1 {
+    font-size: var(--txt-s-c);
+    line-height: var(--txt-h-d);
+    font-weight: var(--txt-w-d);
+}
+.txt-c-2 {
+    font-size: var(--txt-s-c);
+    line-height: var(--txt-h-d);
+    font-weight: var(--txt-w-m);
+}
+
+/* Glass Styles */
+.glass {
+    background-color: rgb(242, 242, 247, var(--alpha-lowest));
+    border: 1px solid rgb(242, 242, 247, var(--alpha-low));
+    backdrop-filter: blur(var(--xxxs));
+    -webkit-backdrop-filter: blur(var(--xxxs));
+    box-shadow:
+        1px 2px 4px rgba(0, 0, 0, 0.015),
+        4px 8px 10px rgba(0, 0, 0, 0.021),
+        10px 22px 24px rgba(0, 0, 0, 0.027),
+        40px 80px 80px rgba(0, 0, 0, 0.04)
+    ;
+}
+.shadow {
+    box-shadow:
+        1px 2px 4px rgba(0, 0, 0, 0.015),
+        4px 8px 10px rgba(0, 0, 0, 0.021),
+        10px 22px 24px rgba(0, 0, 0, 0.027),
+        40px 80px 80px rgba(0, 0, 0, 0.04)
+    ;
+}
