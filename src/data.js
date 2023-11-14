@@ -1,68 +1,175 @@
 export const projects = [
-    // {
-    //     info: {
-    //         title: 'Alva Labs',
-    //         year: '2022 – 2023',
-    //         con: ['UX/UI', 'Research', 'Design System'],
-    //         path: 'alva-labs',
-    //     },
-    //     preview: {
-    //         url: '/images/projects/alva/hero/Hero-',
-    //         imgAlt: 'test',
-    //         dark: true,
-    //     },
-    //     content: [
-    //         {
-    //             block: 'txt',
-    //             title: 'Hire potential',
-    //             body: 'At <a href="https://www.alvalabs.io/" target="_blank" rel="noreferrer">Alva Labs</a>, I was part of the squad responsible for the candidate assessments. In close collaboration with the product manager and engineering manager, I translated the product vision into actionable user stories and further structured those in the form of a product roadmap. To facilitate alignment around those initiatives across the multiple functions involved I created storyboards and concept designs.<br><br>Team<ul><li>1x Product Manager</li><li>1x Engineering Manager</li><li>3x Software Engineer</li><li>1x Product Designer</li></ul>',
-    //         },
-    //         {
-    //             block: 'img',
-    //             type: 's',
-    //             pd: undefined,
-    //             img: [
-    //                 {src: 'https://placebear.com/500/',
-    //                 alt: 'test'},
-    //                 {src: 'https://placebear.com/1200/',
-    //                 alt: 'test'},
-    //             ],
-    //         },
-    //         {
-    //             block: 'img',
-    //             type: 'c',
-    //             pd: 'pd-tb-lg',
-    //             img: [
-    //                 {src: 'https://placebear.com/500/',
-    //                 alt: 'test'},
-    //             ],
-    //         },
-    //         {
-    //             block: 'img',
-    //             type: '',
-    //             pd: '',
-    //             img: [
-    //                 {src: 'https://placebear.com/500/',
-    //                 alt: 'test'},
-    //             ],
-    //         },
-    //         {
-    //             block: 'txt',
-    //             title: 'Team',
-    //             body: "<ul><li>1x Product Manager</li><li>1x Designer</li></ul>",
-    //         },
-    //     ],
-    // },
     {
         info: {
-            title: 'AI-Powered Search',
+            title: 'Alva Labs',
+            year: '2022 – 2023',
+            con: ['UX/UI', 'Research', 'Design System'],
+            path: 'alva-labs',
+        },
+        preview: {
+            url: '/images/projects/alva/hero/Hero-',
+            imgAlt: 'A recruiter browsing the Alva website.',
+            dark: true,
+        },
+        content: [
+            {
+                block: 'txt',
+                title: 'Hire potential',
+                body: 'The Swedish scale-up <a href="https://www.alvalabs.io/" target="_blank" rel="noreferrer">Alva Labs</a> is leading the way for organizations to make hiring decisions based on logic and data – not gut feeling. As part of the Assessment Squad, I worked on Alva’s science-backed candidate assessment platform. In close collaboration with the product manager and engineering manager, I translated the product vision into actionable user stories and designed the next generation of assessment features.<br><br>Team<ul><li>1x Product Manager</li><li>1x Product Designer</li><li>1x Engineering Manager</li><li>3x Software Engineer</li></ul>',
+            },
+            {
+                block: 'txt',
+                title: 'Interview templates',
+                body: 'One feature we developed were structured interviews. I conducted internal and external interviews, analyzed usage data and competitors to identify issues and essential user expectations. I then, together with the squad and other designers, ideated possible solutions. I created interactive prototypes and high-fidelity designs to collect further feedback from users, before deciding on the design of the final implementation. To assure a continuous creation of value, we split the feature into smaller versions which could be delivered and released independently.',
+            },
+            {
+                block: 'img',
+                type: 'f',
+                pd: undefined,
+                img: [
+                    {src: '/images/projects/alva/interviewTemplates/Template-',
+                    alt: 'The UI to access interview templates and add an interview to a position in Alva, shown on desktop devices.'},
+                ],
+            },
+            {
+                block: 'img',
+                type: 's',
+                pd: undefined,
+                img: [
+                    {src: '/images/projects/alva/interviewTemplates/CreateNew-',
+                    alt: 'The UI to create a new interview shown on a laptop.'},
+                    {src: '/images/projects/alva/interviewTemplates/Versions-',
+                    alt: 'An example of the feature versioning done in Figma.'},
+                ],
+            },
+            {
+                block: 'img',
+                type: 'f',
+                pd: undefined,
+                img: [
+                    {src: '/images/projects/alva/interviewTemplates/Scorecard-',
+                    alt: "A redesign of Alva's scorecard feature shown on desktop and tablet devices."},
+                ],
+            },
+            {
+                block: 'txt',
+                title: 'Job creation flow',
+                body: "Additionally, I led the redesign of the recruiters’ flow to create new jobs within the Alva platform. Conducting user interviews and collaborating with product managers, I gathered insights and requirements to accommodate the platform's evolving complexity. We further defined design principles to guide our process before designing the first concepts. I tested, and iteratively refined concepts based on user feedback. The final design was again delivered in versions to the engineering team, including future concepts incorporating (generative) AI functionalities.",
+            },
+            {
+                block: 'img',
+                type: 'f',
+                pd: undefined,
+                img: [
+                    {src: '/images/projects/alva/jobCreation/Start-',
+                    alt: 'The new design of the job creation flow shown on a tablet device.'},
+                ],
+            },
+            {
+                block: 'img',
+                type: 'f',
+                pd: undefined,
+                img: [
+                    {src: '/images/projects/alva/jobCreation/Overview-',
+                    alt: 'The new design of the job creation flow shown on desktop devices.'},
+                ],
+            },
+            {
+                block: 'img',
+                type: 's',
+                pd: undefined,
+                img: [
+                    {src: '/images/projects/alva/jobCreation/Flow-',
+                    alt: 'A screenshot of the job creation flow prototype connections built in Figma.'},
+                    {src: '/images/projects/alva/jobCreation/Versions-',
+                    alt: 'An example of the versioning done in Figma.'},
+                ],
+            },
+            {
+                block: 'txt',
+                title: 'Concept studies',
+                body: "I often created smaller concept studies, storyboards, or visualizations to align different functions or challenge the team to rethink established norms. Examples include a new page layout for the growing complexity of the product or a new navigation structure and information architecture optimized for users' mental models and jobs to be done.",
+            },
+            {
+                block: 'img',
+                type: 'f',
+                pd: undefined,
+                img: [
+                    {src: '/images/projects/alva/concepts/Layout-Comparison-',
+                    alt: 'The current app layout and a new layout concept next to each other.'},
+                ],
+            },
+            {
+                block: 'img',
+                type: 'f',
+                pd: undefined,
+                img: [
+                    {src: '/images/projects/alva/concepts/Layout-Detail-',
+                    alt: 'Concept study for a new app layout.'},
+                ],
+            },
+            {
+                block: 'img',
+                type: 's',
+                pd: undefined,
+                img: [
+                    {src: '/images/projects/alva/concepts/Navigation-Sitemap-',
+                    alt: 'A sitemap created in Figma showing the current IA and a potential redesign.'},
+                    {src: '/images/projects/alva/concepts/Navigation-Mockup-',
+                    alt: "A redesign of Alva's website navigation on desktop and mobile devices."},
+                ],
+            },
+            {
+                block: 'txt',
+                title: 'Brand book',
+                body: "In a collaborative effort with the marketing team, I spearheaded the revamp of our brand's visual identity. We harmonized design elements across print and web, which I integrated into our product's design system. The outcome was a new, modern, digital brand book incl. a set of comprehensive guidelines, examples and assets to ensure clarity and coherence for our team members and external collaborators.",
+            },
+            {
+                block: 'img',
+                type: 'f',
+                pd: '',
+                img: [
+                    {src: '/images/projects/alva/brand/Brand-',
+                    alt: 'A collection of pages from the new Alva brand book showing examples and instructions for the usage of different brand assets.'},
+                ],
+            },
+            {
+                block: 'txt',
+                title: 'Design system',
+                body: `Simultaneously, I enhanced the existing design system by eliminating outdated components, and aligning the remaining with the new visual identity. This also provided the chance to improve the component’s responsiveness and to address visual accessibility concerns such as contrast ratios. I further introduced <a href="https://www.figma.com/community/plugin/843461159747178978/tokens-studio-for-figma-figma-tokens" target="_blank" rel="noreferrer">Design Tokens</a> to seamlessly connect <a href="https://www.figma.com/" target="_blank" rel="noreferrer">Figma</a> with the product's code base for a more efficient workflow. Based on my efforts a design system task force originated, which met regularly to foster and streamline collaboration, implement and discuss changes, and create clearer documentation for both designers and developers.`,
+            },
+            {
+                block: 'img',
+                type: 's',
+                pd: undefined,
+                img: [
+                    {src: '/images/projects/alva/ds/DS-Cover-',
+                    alt: 'The file cover of the Alva design system.'},
+                    {src: '/images/projects/alva/ds/DS-Type-',
+                    alt: 'Typography examples from the Alva design system.'},
+                ],
+            },
+            {
+                block: 'img',
+                type: 'f',
+                pd: '',
+                img: [
+                    {src: '/images/projects/alva/ds/DS-Tokens-',
+                    alt: 'Color swatches from the Alva design system and their connected design tokens.'},
+                ],
+            },
+        ],
+    },
+    {
+        info: {
+            title: 'Sustainability Search',
             year: '2021 – 2022',
             con: ['UX/UI', 'Research', 'Cognitive Systems'],
             path: 'ai-powered-search',
         },
         preview: {
             url: '/images/projects/aiSearch/hero/Hero-',
-            imgAlt: 'Abstract 3D model of neuron structures.',
+            imgAlt: 'A laptop showing the homepage of the Intelligent Sustainability Search tool.',
             dark: true,
         },
         content: [

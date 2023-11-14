@@ -20,12 +20,6 @@ const config = {
 			precompress: false,
 			strict: true
 		}),
-		// paths: {
-        //     // change below to your repo name
-        //     base: dev ? "" : "/marcbiemer",
-        // },
-        // hydrate the <div id="svelte"> element in src/app.html
-        // target: "#svelte"
 	}
 };
 
