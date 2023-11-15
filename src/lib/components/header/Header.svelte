@@ -22,7 +22,7 @@
     <Socials />
     <MainScene />
     <Intro />
-    <Tagline txt="Design fuelled by research & art"/>
+    <Tagline txt="Design fuelled by data"/>
     <ScrollInfo />
 </header>
 

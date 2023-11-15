@@ -56,7 +56,8 @@
             justify-content: space-between;
         }
         p {
-            max-width: 75%;
+            width: 75%;
+            max-width: 800px;
         }
         h2::before {
             width: calc(100vw - var(--xxl) * 2 - var(--xxs) * 2);

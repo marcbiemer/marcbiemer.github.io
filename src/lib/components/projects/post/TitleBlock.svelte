@@ -2,6 +2,7 @@
     export let title: string;
     export let year: string;
     export let contributions: Array<string>;
+    // export let team: Array<string>;
     export let i: any;
 
     import Tag from "$lib/components/ui-elements/Tag.svelte";
@@ -71,10 +72,8 @@
         flex-direction: column;
         justify-content: flex-end;
         gap: var(--xxs);
-        border-radius: var(--lg);
         box-sizing: border-box;
         padding: var(--sm);
-        overflow: hidden;
         color: var(--fg-default);
     }
     header :not(figure, div) {
@@ -90,6 +89,7 @@
         height: 100%;
         align-items: stretch;
         overflow: hidden;
+        border-radius: var(--lg);
     }
     figure img {
         vertical-align: middle;
@@ -116,5 +116,5 @@
         header {
             padding: var(--xxl);
         }
-	}
+    }
 </style>
