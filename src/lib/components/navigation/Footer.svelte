@@ -1,4 +1,8 @@
-<footer>
+<script>
+    export let dark = false;
+</script>
+
+<footer class={dark ? 'dark' : ''}>
     <small class="txt-c-1">All rights reserved</small>
     <small class="txt-c-1">&#169; 2023</small>
 </footer>
@@ -15,6 +19,12 @@
     }
     small {
         color: var(--fg-muted);
+    }
+    .dark {
+        background-color: var(--bg-emphasis);
+    }
+    .dark  small {
+        color: var(--fg-onEmpasis);
     }
     @media (min-width: 750px) {
         footer {
