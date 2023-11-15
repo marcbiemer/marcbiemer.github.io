@@ -9,14 +9,27 @@
     import TitleBlock from '$lib/components/projects/post/TitleBlock.svelte';
     import TextBlock from '$lib/components/projects/post/TextBlock.svelte';
     import ImgBlock from '$lib/components/projects/post/ImgBlock.svelte';
+    import PostNav from '$lib/components/projects/post/PostNav.svelte';
     import Footer from '$lib/components/navigation/Footer.svelte';
+
+    import { onMount } from "svelte";
+
+    onMount(()=>{
+        if('ontouchstart' in window) {
+            document.documentElement.style.setProperty('--doc-height', `${window.innerHeight}px`);
+        } else {
+            document.documentElement.style.setProperty('--doc-height', `100vh`);
+        }
+    });
 </script>
 
-<div class="post-wrapper">
-    <nav>
-        <Logo link={'/#proj-'+data.id} />
-    </nav>
-    <article>
+<div >
+    <div class="nav-wrapper">
+        <nav>
+            <Logo link={'/#proj-'+data.id} />
+        </nav>
+    </div>
+    <article class="post-wrapper">
         <main>
             <TitleBlock title={data.info.title} year={data.info.year} contributions={data.info.con} i={data.preview}/>
             {#if data.content}
@@ -29,26 +42,30 @@
             {/each}
         {/if}
         </main>
-        <Footer />
     </article>
+    <PostNav 
+        prev={data.nav.prev}
+        next={data.nav.next} />
+    <Footer dark />
 </div>
 
 <style>
     .post-wrapper {
         display: flex;
         flex-direction: column;
-        background-color: antiquewhite;
+        box-sizing: border-box;
         background-color: var(--bg-default);
         padding: var(--xxs);
+    }
+    .nav-wrapper {
+        position: absolute;
+        top: var(--xxs);
+        left: var(--xxs);
     }
     nav {
         display: flex;
         flex-direction: row;
         position: relative;
-    }
-    article {
-        width: 100%;
-        box-sizing: border-box;
     }
     main {
         display: flex;

@@ -6,15 +6,6 @@
     export let i: any;
 
     import Tag from "$lib/components/ui-elements/Tag.svelte";
-    import { onMount } from "svelte";
-
-    onMount(()=>{
-        if('ontouchstart' in window) {
-            document.documentElement.style.setProperty('--doc-height', `${window.innerHeight}px`);
-        } else {
-            document.documentElement.style.setProperty('--doc-height', `100vh`);
-        }
-    });
 </script>
 
 <header>

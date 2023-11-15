@@ -33,7 +33,7 @@
     --fg-subtle: var(--white-700);
     --fg-accent: var(--blue-900);
     --fg-onEmphasis: var(--white-900);
-    --bg-emphasis: var(--white-900);
+    --bg-emphasis: var(--white-800);
     --bg-default: var(--black-900);
     --bg-subtle: var(--black-800);
     --bg-inset: var(--black-700);
@@ -130,9 +130,11 @@ a {
     color: var(--fg-subtle);
     text-decoration: underline;
     font-weight: var(--txt-w-m);
+    transition: .5s ease-in-out;
 }
 a:hover {
     color: var(--fg-default);
+    transition: .5s ease-in-out;
 }
 main {
 	box-sizing: border-box;
