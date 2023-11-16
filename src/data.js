@@ -5,7 +5,6 @@ export const projects = [
             year: '2022 – 2023',
             con: ['UX/UI', 'Research', 'Design System'],
             path: 'alva-labs',
-            team: ['Product Manager', 'Product Designer', 'Engineering Manager', '3x Software Engineer'],
         },
         preview: {
             url: '/images/projects/alva/hero/Hero-',
@@ -17,6 +16,11 @@ export const projects = [
                 block: 'txt',
                 title: 'Hire potential',
                 body: 'The Swedish scale-up <a href="https://www.alvalabs.io/" target="_blank" rel="noreferrer">Alva Labs</a> is leading the way for organizations to make hiring decisions based on logic and data – not gut feeling. As part of the Assessment Squad, I worked on Alva’s science-backed candidate assessment platform. In close collaboration with the product manager and engineering manager, I translated the product vision into actionable user stories and designed the next generation of assessment features.',
+            },
+            {
+                block: 'txt',
+                title: 'Team',
+                body: 'Product Manager, Product Designer, Engineering Manager, 3x Software Engineer',
             },
             {
                 block: 'txt',
@@ -167,7 +171,6 @@ export const projects = [
             year: '2021 – 2022',
             con: ['UX/UI', 'Research', 'Cognitive Systems'],
             path: 'ai-powered-search',
-            team: ['Product Owner','Sustainability Expert', '3x Software Engineer', '2x Product Designer'],
         },
         preview: {
             url: '/images/projects/aiSearch/hero/Hero-',
@@ -179,6 +182,11 @@ export const projects = [
                 block: 'txt',
                 title: 'Finding the right answer',
                 body: 'With AI finding its way into more and more services, a leading provider of renewable materials approached our team at <a href="https://futurice.com/" target="_blank" rel="noreferrer">Futurice</a> to support them in exploring the potential of AI-powered search. Given an unstructured collection of sustainability documents, we set out to improve the discoverability of the information within these documents for internal and external users.',
+            },
+            {
+                block: 'txt',
+                title: 'Team',
+                body: 'Product Owner, Sustainability Expert, 3x Software Engineer, 2x Product Designer',
             },
             {
                 block: 'img',
@@ -250,7 +258,6 @@ export const projects = [
             year: '2021 – 2022',
             con: ['UX/UI', '3D', 'XR'],
             path: 'packaging-design-tools',
-            team: ['Product Owner', 'Packaging Expert', 'Data Scientist', 'Frontend Engineer', '2x Software Engineer', 'Product Designer'],
         },
         preview: {
             url: '/images/projects/packTools/hero/Hero-',
@@ -262,6 +269,11 @@ export const projects = [
                 block: 'txt',
                 title: 'Thinking outside the box',
                 body: 'Studies indicate that packaging design elements like color, imagery, and logos influence the way we think and feel about its contents. As part of my work at <a href="https://futurice.com/" target="_blank" rel="noreferrer">Futurice</a> I headed the design of a series of innovative packaging design tools for an eco-friendly packaging solutions provider.',
+            },
+            {
+                block: 'txt',
+                title: 'Team',
+                body: 'Product Owner, Packaging Expert, Data Scientist, Frontend Engineer, 2x Software Engineer, Product Designer',
             },
             {
                 block: 'txt',
@@ -340,7 +352,6 @@ export const projects = [
             year: '2019 – 2020',
             con: ['Research', 'XR', 'Data Analysis'],
             path: 'spark',
-            team: ['Software Engineer', '3D Artist', 'Digital Designer'],
         },
         preview: {
             url: '/images/projects/spark/hero/Hero-',
@@ -352,6 +363,11 @@ export const projects = [
                 block: 'txt',
                 title: 'Mixed reality gaming for social initiation',
                 body: 'To support children affected by an autism spectrum condition in learning about social initiation, researchers have been developing various intervention techniques. A promising line of research was found in the usage of game-based technology-enhanced interventions facilitating physical embodiment such as <a href="https://www.upf.edu/web/fubintlab/landsoffog" target="_blank" rel="noreferrer">Lands of Fog</a> (developed by the <a href="https://www.upf.edu/web/fubintlab" target="_blank" rel="noreferrer">Full-Body Interaction Laboratory, UPF Barcelona</a>). Despite its preceding success, Lands of Fog yielded further improvement potentials. In my master thesis project, I designed, developed and empirically validated a possible successor called Spark.',
+            },
+            {
+                block: 'txt',
+                title: 'Team',
+                body: 'Software Engineer, 3D Artist, Digital Designer',
             },
             {
                 block: 'img',
@@ -445,7 +461,6 @@ export const projects = [
             year: '2021',
             con: ['UX', 'Data Visualisation', 'Creative Coding'],
             path: 'data-portraits',
-            team: ['Head of Marketing', 'Digital Product Designer'],
         },
         preview: {
             url: '/images/projects/dataPortraits/hero/Hero-',
@@ -457,6 +472,11 @@ export const projects = [
                 block: 'txt',
                 title: 'Reinventing the postcard',
                 body: '<a href="https://futurice.com/" target="_blank" rel="noreferrer">Futurice</a>’s Marketing team approached me asking for a quirky, personal way to engage with our local business contacts in Sweden. In our discussions we fell in love with the thought of turning an ordinary postcard into a more innovative and engaging experience. I started experimenting with concepts that could make the postcard reflect the sender’s personality and ended up with the idea to turn the motif featured on the front of the card into a data portrait of its sender.',
+            },
+            {
+                block: 'txt',
+                title: 'Team',
+                body: 'Head of Marketing, Digital Product Designer',
             },
             {
                 block: 'txt',
@@ -496,7 +516,6 @@ export const projects = [
             year: '2018 – 2019',
             con: ['Service Design', 'Research', 'Co-Creation'],
             path: 'logistics',
-            team: ['Product Owner', 'Service Designer', '2x UX/UI Designer', 'Design Intern', 'Software Engineer', 'Data Scientist'],
         },
         preview: {
             url: '/images/projects/logistics/hero/Hero-',
@@ -508,6 +527,11 @@ export const projects = [
                 block: 'txt',
                 title: 'Reimagining logistics',
                 body: 'Despite being the largest industry worldwide, the logistic sector is only slowly digitalising. Together with a truck and bus manufacturer, we tackled the issues caused by paper-based processes and investigated potential digital solutions. In my role as senior service designer I was responsible for shaping the project’s design process.',
+            },
+            {
+                block: 'txt',
+                title: 'Team',
+                body: 'Product Owner, Service Designer, 2x UX/UI Designer, Design Intern, Software Engineer, Data Scientist',
             },
             {
                 block: 'img',
@@ -597,7 +621,6 @@ export const projects = [
             year: '2016 – 2017',
             con: ['UX/UI', 'Research', 'CRO'],
             path: 'vitafy',
-            team: ['Product Owner', '2x Frontend Developer', '2x UX Designer'],
         },
         preview: {
             url: '/images/projects/vitafy/hero/Hero-',
@@ -609,6 +632,11 @@ export const projects = [
                 block: 'txt',
                 title: 'Frictionless shopping',
                 body: 'As one of two UX designers at <a href="https://www.vitafy.de/" target="_blank" rel="noreferrer">Vitafy</a>, I worked on creating a seamless online shopping experience for fitness and nutrition enthusiasts. Since the design team had just been formed, we started by laying the foundations for an efficient collaboration and delivery through formalizing our processes.',
+            },
+            {
+                block: 'txt',
+                title: 'Team',
+                body: 'Product Owner, 2x Frontend Developer, 2x UX Designer',
             },
             {
                 block: 'img',
@@ -696,7 +724,6 @@ export const projects = [
             year: 'since 2017',
             con: ['Graphic Design'],
             path: 'graphics',
-            team: undefined,
         },
         preview: {
             url: '/images/projects/graphics/hero/Hero-',
