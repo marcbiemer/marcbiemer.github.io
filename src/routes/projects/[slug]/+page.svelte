@@ -5,12 +5,13 @@
 <script>
 	/** @type {import('./$types').PageData} */
 	export let data;
-    import Logo from '$lib/components/navigation/Logo.svelte';
+    import GoBack from '$lib/components/ui-elements/GoBack.svelte';
     import TitleBlock from '$lib/components/projects/post/TitleBlock.svelte';
     import TextBlock from '$lib/components/projects/post/TextBlock.svelte';
     import ImgBlock from '$lib/components/projects/post/ImgBlock.svelte';
     import PostNav from '$lib/components/projects/post/PostNav.svelte';
     import Footer from '$lib/components/navigation/Footer.svelte';
+    import ScrollToTop from '$lib/components/ui-elements/ScrollToTop.svelte';
 
     import { onMount } from "svelte";
 
@@ -24,11 +25,7 @@
 </script>
 
 <div >
-    <div class="nav-wrapper">
-        <nav>
-            <Logo link={'/#proj-'+data.id} />
-        </nav>
-    </div>
+    <GoBack />
     <article class="post-wrapper">
         <main>
             <TitleBlock title={data.info.title} year={data.info.year} contributions={data.info.con} i={data.preview}/>
@@ -43,10 +40,9 @@
         {/if}
         </main>
     </article>
-    <PostNav 
-        prev={data.nav.prev}
-        next={data.nav.next} />
-    <Footer dark />
+    <PostNav previews={data.previews} />
+    <Footer />
+    <ScrollToTop />
 </div>
 
 <style>
@@ -56,16 +52,6 @@
         box-sizing: border-box;
         background-color: var(--bg-default);
         padding: var(--xxs);
-    }
-    .nav-wrapper {
-        position: absolute;
-        top: var(--xxs);
-        left: var(--xxs);
-    }
-    nav {
-        display: flex;
-        flex-direction: row;
-        position: relative;
     }
     main {
         display: flex;
