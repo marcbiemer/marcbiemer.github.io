@@ -1,9 +1,9 @@
-<script>
-
+<script lang="ts">
+    export let id: number;
 </script>
 
 <button>
-    <a href="/" class="txt-c-2">&#8592; Home</a>
+    <a href={id ? "/#proj-"+id : "/"} class="txt-c-2">&#8592; Home</a>
 </button>
 
 <style>

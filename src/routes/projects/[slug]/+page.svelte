@@ -25,7 +25,7 @@
 </script>
 
 <div >
-    <GoBack />
+    <GoBack id={data.id}/>
     <article class="post-wrapper">
         <main>
             <TitleBlock title={data.info.title} year={data.info.year} contributions={data.info.con} i={data.preview}/>
