@@ -8,9 +8,10 @@
 
     let y:number = 0;
 	let innerHeight: number;
+    let innerWidth: number;
 
 	function calculate(y:number, startY:number, endY:number, startValue:number, endValue:number) {
-		const diffY = endY - startY
+        const diffY = endY - startY
 		const diffValue = endValue - startValue
 		if(y < startY) {
 			return startValue
@@ -23,13 +24,22 @@
 	}
 </script>
 
-<svelte:window bind:scrollY={y} bind:innerHeight={innerHeight}/>
+<svelte:window bind:scrollY={y} bind:innerHeight={innerHeight} bind:innerWidth={innerWidth}/>
 
 <header>
+    <div class="title-wrapper">
+        <p class="txt-c-2">{year}</p>
+        <h1 class="txt-d">{title}</h1>
+        <div class="tag-wrapper">
+            {#each contributions as c}
+                <Tag label={c}/>
+            {/each}
+        </div>
+    </div>
     <figure
         class='header-img-wrapper'
-        style:opacity="{calculate(y, .1*innerHeight, .5*innerHeight, 1, .66)}"
-        style:transform="scale({calculate(y, .1*innerHeight, .5*innerHeight, .8, 1)}) translateY({calculate(y, 0, .5*innerHeight, 0, 25)}%)"
+        style:opacity="{calculate(y, .1*innerHeight, .66*innerHeight, 1, .7)}"
+        style:transform={ innerWidth > 750 ? "scale("+calculate(y, 0, .2*innerHeight, .8, 1)+")" : "scale("+calculate(y, 0, .2*innerHeight, .95, 1)+")" }
         >
         <picture>
             <source 
@@ -64,49 +74,40 @@
         </picture>
         <figcaption class="screenreader-only">{i.imgAlt}</figcaption>
     </figure>
-    <div class="title-wrapper">
-        <p class="txt-c-2">{year}</p>
-        <h1 class="txt-d">{title}</h1>
-        <div class="tag-wrapper">
-            {#each contributions as c}
-                <Tag label={c}/>
-            {/each}
-        </div>
-    </div>
 </header>
 
 <style>
     header {
         position: relative;
         width: 100%;
-        height: calc(150vh);
-        height: calc(var(--doc-height) * 1.5);        
-        padding: var(--sm);
+        height: calc(125vh);
+        height: calc(var(--doc-height) * 1.25);        
+        padding: var(--sm) 0;
         box-sizing: border-box;
         color: var(--fg-default);
     }
     .title-wrapper {
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        z-index: 5;
         align-items: center;
         gap: var(--sm);
+        position: -webkit-sticky;
         position: sticky;
-		top: 16%;
-        margin-bottom: 20%;
+		top: calc(var(--doc-height) * .24);
+        margin-bottom: calc(var(--doc-height) * .66 / 2);
     }
     .title-wrapper h1 {
         text-align: center;
     }
     figure {
-        position: absolute;
-        top: 33%;
-        left: 0;
+        position: sticky;
         margin: 0;
         padding: 0;
         width: 100%;
+        height: calc(66vh);
+        height: calc(var(--doc-height) * .66);
         transform: scale(.8);
-        height: 50%;
         overflow: hidden;
         border-radius: var(--lg);
         box-sizing: border-box;
@@ -128,7 +129,9 @@
     }
     @media (min-width: 750px) {
         header {
-            padding: var(--xxl);
+            height: calc(133vh);
+            height: calc(var(--doc-height) * 1.33);        
+            padding: var(--xxl) 0;
         }
     }
 </style>

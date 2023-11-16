@@ -24,7 +24,7 @@
     });
 </script>
 
-<div >
+<div>
     <GoBack id={data.id}/>
     <article class="post-wrapper">
         <main>

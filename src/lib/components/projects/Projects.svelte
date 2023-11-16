@@ -91,6 +91,7 @@
             width: calc(100vw / 4);
             max-width: 400px;
             margin-left: var(--xxs);
+            position: -webkit-sticky;
             position: sticky;
             top: var(--xxxl);
             align-self: flex-start;
