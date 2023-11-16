@@ -3,7 +3,7 @@
 </script>
 
 <div class="intro-wrapper">
-    <h1 class="txt-d">Hej Hej.</h1>
+    <h1 class="txt-d">Marc Biemer</h1>
     <p class="txt-b">I&#39;m a digital designer, researcher, and XR creator with over 7 years&#39; experience and a master&#39;s degree in Cognitive Systems &amp; Interactive Media.</p>    
     <div class="tag-wrapper">
         <Tag label="UX/UI" />
