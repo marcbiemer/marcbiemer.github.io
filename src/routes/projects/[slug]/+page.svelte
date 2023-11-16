@@ -5,6 +5,7 @@
 <script>
 	/** @type {import('./$types').PageData} */
 	export let data;
+    import Logo from '$lib/components/navigation/Logo.svelte';
     import GoBack from '$lib/components/ui-elements/GoBack.svelte';
     import TitleBlock from '$lib/components/projects/post/TitleBlock.svelte';
     import TextBlock from '$lib/components/projects/post/TextBlock.svelte';
@@ -25,6 +26,9 @@
 </script>
 
 <div>
+    <div class="logo-pos">
+        <Logo free />
+    </div>
     <GoBack id={data.id}/>
     <article class="post-wrapper">
         <main>
@@ -46,6 +50,11 @@
 </div>
 
 <style>
+    .logo-pos {
+        position: fixed;
+        margin: var(--xxs);
+        z-index: 7;
+    }
     .post-wrapper {
         display: flex;
         flex-direction: column;

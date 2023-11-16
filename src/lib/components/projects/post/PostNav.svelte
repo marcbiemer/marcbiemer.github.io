@@ -8,7 +8,7 @@
         <h1 class="txt-d">Explore more</h1>
         <p class="txt-b">Like what you see?</p>
     </div>
-    <div class='stories-wrapper'>
+    <div class='stories-wrapper st-wrapper'>
         {#each previews as p}
             <SmallProjectTile p={p} />
         {/each}

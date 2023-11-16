@@ -2,22 +2,29 @@
     export let id: number;
 </script>
 
-<button>
-    <a href={id ? "/#proj-"+id : "/"} class="txt-c-2">&#8592; Home</a>
-</button>
+<div class="goBack-wrapper">
+    <a href={"/#proj-"+id} class="txt-c-2 glass">&#8592; Back Home</a>
+</div>
 
 <style>
-    button {
-        position: absolute;
-        top: var(--xxxs);
-        left: var(--xxxs);
-        z-index: 5;
-        padding: var(--sm);
+    .goBack-wrapper {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        padding: var(--xs);
         box-sizing: border-box;
-        border: 1px solid transparent;
-        background-color: var(--bg-default);
     }
-    button a {
+    a {
         text-decoration: none;
+        border-radius: var(--lg);
+        padding: var(--xxs) var(--xs);
+        background-color: rgba(0, 56, 255, .8);
+        transition: .5s ease-out;
+    }
+    a:hover { 
+        background-color: var(--bg-accent);
+        transition: .1s ease-out;
     }
 </style>

@@ -2,7 +2,7 @@
     export let p: any;
 </script>
 
-<a href={"/projects/"+p.info.path} class="project-tile-wrapper" aria-label={p.info.title}>
+<a href={"/projects/"+p.info.path} class="project-tile-wrapper story" aria-label={p.info.title}>
     <figure>
         <picture>
             <source 
@@ -76,6 +76,8 @@
         object-fit: cover;
         width: 100%;
         height: 100%;
+        filter: brightness(.65);
+        transition: .5s ease-out;
     }
     figcaption {
         width: 100%;
@@ -116,6 +118,11 @@
     .project-tile-wrapper:hover .arrow-wrapper {
         background-color: var(--bg-accent);
         color: var(--fg-onEmphasis);
+        transition: .5s ease-out;
+    }
+    .project-tile-wrapper:hover img {
+        opacity: 1;
+        filter: brightness(.85);
         transition: .5s ease-out;
     }
 </style>
