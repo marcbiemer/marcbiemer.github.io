@@ -50,7 +50,7 @@ void main() {
     vPosition = position;
     vNormal = normal;
     
-    float pat = pnoise(vec3(vUv * uNoise , sin(uTime) * 1.4 )) * uDisplace ;
+    float pat = pnoise(vec3(vUv * uNoise , sin(uTime) * 1.9 )) * uDisplace ;
     float proximity = abs(vUv.x - (.5 + sin(uTime)/(12. * uSpread ) ));
 
     vec3 full = pat * vec3(clamp(.23 * uSpread  - proximity , 0., 1.));

@@ -35,8 +35,7 @@
         box-sizing: border-box;
         margin: var(--xxs);
         border-radius: var(--lg);
-        /* TO DO: UPDATE BG */
         background-color: var(--black-800);
-        /* background: radial-gradient(circle, rgba(34,34,34,1) 0%, rgba(80,80,80,1) 53%, rgba(90,90,90,1) 100%); */
+        background: radial-gradient(circle, rgba(0, 56, 255, 0.4) 0%, rgba(0, 56, 255, 0.33) 60%, rgba(0, 56, 255, .66) 100%);
     }
 </style>

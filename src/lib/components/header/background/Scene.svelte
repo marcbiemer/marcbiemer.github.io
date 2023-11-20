@@ -12,7 +12,7 @@
   let animate = () => {
     const elapsedTime = clock.getElapsedTime();
     elapTime = elapsedTime;
-    rot = Math.sin(elapsedTime) / 4 + elapsedTime / 20 - 5;
+    rot = Math.sin(elapsedTime) / 20 + elapsedTime / 20 - 5;
     requestAnimationFrame(animate);
   };
   animate();
@@ -20,7 +20,7 @@
 
 <T.PerspectiveCamera
   makeDefault
-  position={[0, 0.2, 10]}
+  position={[0, 0, 6.5]}
   fov={15}
 >
   <!-- <OrbitControls
@@ -47,9 +47,8 @@
 /> -->
 
 <T.Mesh
-  position = {[0, .2, 0]}
-  rotation.z = {rot}
-
+  position = {[0, 0, 0]}
+  rotation = {[-.9125, 0.2, rot]}
 >
   <T.TorusGeometry args={[1, 0.3, 1000, 1000]}/>
   <T.ShaderMaterial
