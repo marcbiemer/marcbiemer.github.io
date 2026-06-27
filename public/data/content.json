@@ -1,0 +1,62 @@
+{
+    "bio": "Hi, I'm ...",
+    "projects": [
+      {
+        "id": "1",
+        "slug": "curvature",
+        "title": "curvature",
+        "description": "A cool thing I built",
+        "url": "https://github.com/...",
+        "tags": ["Next.js", "TypeScript"],
+        "heroImg": "exhibition01"
+      },
+      {
+        "id": "2",
+        "slug": "dataPortraitsFuturice",
+        "title": "dataPortraitsFuturice",
+        "description": "A cool thing I built",
+        "url": "https://github.com/...",
+        "tags": ["Next.js", "TypeScript"],
+        "heroImg": "cards"
+      },
+      {
+        "id": "3",
+        "slug": "dataPortraitsKonsthall",
+        "title": "dataPortraitsKonsthall",
+        "description": "A cool thing I built",
+        "url": "https://github.com/...",
+        "tags": ["Next.js", "TypeScript"],
+        "heroImg": "mockup/timeline"
+      },
+      {
+        "id": "4",
+        "slug": "oresundInMotion",
+        "title": "oresundInMotion",
+        "description": "A cool thing I built",
+        "url": "https://github.com/...",
+        "tags": ["Next.js", "TypeScript"],
+        "heroImg": "installation/installation01"
+      },
+      {
+        "id": "5",
+        "slug": "spark",
+        "title": "spark",
+        "description": "A cool thing I built",
+        "url": "https://github.com/...",
+        "tags": ["Next.js", "TypeScript"],
+        "heroImg": "play"
+      },
+      {
+        "id": "6",
+        "slug": "talkingPortraits",
+        "title": "talkingPortraits",
+        "description": "A cool thing I built",
+        "url": "https://github.com/...",
+        "tags": ["Next.js", "TypeScript"],
+        "heroImg": "installation01"
+      }
+    ],
+    "socials": [
+      { "label": "GitHub", "url": "https://github.com/YOUR_USER" }
+    ]
+}
