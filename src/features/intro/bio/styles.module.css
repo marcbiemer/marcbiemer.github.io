@@ -1,0 +1,21 @@
+.headline {
+	font: var(--sys-font-headline-large);
+	letter-spacing: var(--sys-letter-spacing-headline-large);
+}
+
+.textWrapper {
+	display: flex;
+	flex-direction: column;
+	gap: var(--sys-container-gap-normal);
+	font: var(--sys-font-body-medium);
+	letter-spacing: var(--sys-letter-spacing-body-medium);
+	color: rgb(var(--sys-color-fg-default));
+}
+
+@media screen and (min-width: 768px) {
+
+	.textWrapper {
+		flex-direction: row;
+	}
+
+}

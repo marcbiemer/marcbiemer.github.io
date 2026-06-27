@@ -1,0 +1,87 @@
+.hero {
+	position: relative;
+	isolation: isolate;
+	display: flex;
+}
+
+.bgLayer {
+	position: absolute;
+	inset: 0;
+	will-change: opacity;
+}
+
+.menu {
+	flex: 1;
+}
+
+.serviceList {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: var(--sys-stack-gap-spacious);
+	padding: 0 var(--sys-stack-pad-condensed);
+}
+
+.serviceItem {
+	position: relative;
+	cursor: pointer;
+}
+
+.serviceItem .label {
+	font: var(--sys-font-display-small);
+	letter-spacing: var(--sys-letter-spacing-display-small);
+	color: rgba(var(--sys-color-fg-default-subtle), var(--sys-opacity-hover));
+	transition: var(--sys-motion-hover-out);
+}
+
+.serviceList:has(.serviceItem):hover .label {
+	color: rgba(var(--sys-color-fg-default-subtle), var(--sys-opacity-hover));
+	transition: var(--sys-motion-hover-in);
+}
+
+.serviceItem:hover .label {
+	color: rgb(var(--sys-color-fg-default)) !important;
+	transition: var(--sys-motion-hover-in);
+}
+
+.serviceItem.active .label {
+	color: rgb(var(--sys-color-fg-default));
+	transition: var(--sys-motion-hover-in);
+}
+
+.textStack {
+	display: flex;
+	padding: 0 var(--sys-stack-pad-condensed);
+}
+
+.fadeGroup {
+	opacity: var(--sys-opacity-full);
+}
+
+.serviceDesc {
+	font: var(--sys-font-body-small);
+	letter-spacing: var(--sys-letter-spacing-body-small);
+	color: rgb(var(--sys-color-fg-default));
+}
+
+@media screen and (min-width: 768px) {
+
+	.topStack {
+		flex-direction: row;
+		gap: var(--sys-section-gap-condensed);
+	}
+
+	.navStack {
+		margin-top: -4px;
+	}
+
+	.textStack {
+		justify-content: flex-end;
+		align-items: flex-end;
+	}
+
+	/* .serviceDesc {
+		max-width: clamp(200px, 30vw, var(--sys-max-width-body));
+	} */
+
+}

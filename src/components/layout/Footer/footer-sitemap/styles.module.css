@@ -1,0 +1,20 @@
+.sitemap .list {
+	display: flex;
+	flex-direction: column;
+	gap: var(--sys-stack-gap-condensed);
+	align-items: center;
+	font: var(--sys-font-display-small);
+	letter-spacing: var(--sys-letter-spacing-display-small);
+}
+
+.sitemap .list a {
+	color: rgb(var(--sys-color-fg-default));
+}
+
+@media screen and (min-width: 768px) {
+
+	.sitemap .list {
+		align-items: flex-start;
+	}
+
+}

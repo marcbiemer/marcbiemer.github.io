@@ -1,0 +1,9 @@
+.projectGrid:has([data-tile]:hover) [data-tile] img {
+	filter: blur(var(--sys-blur-media-subtle));
+	transition: var(--sys-motion-hover-in);
+}
+
+.projectGrid:has([data-tile]:hover) [data-tile]:hover img {
+	filter: unset;
+	transition: var(--sys-motion-hover-out);
+}

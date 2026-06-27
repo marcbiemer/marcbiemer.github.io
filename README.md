@@ -1,6 +1,6 @@
 # marcbiemer.github.io
 
-Personal portfolio and works — built with Next.js, statically exported and hosted on GitHub Pages.
+Personal portfolio and work — built with Next.js, statically exported and hosted on GitHub Pages.
 
 🌐 [marcbiemer.github.io](https://marcbiemer.github.io)
 
@@ -27,7 +27,7 @@ Content is managed via a local `public/content.json` file — no CMS or database
 ├── src/
 │   ├── app/
 │   │   ├── page.tsx          # Home / landing
-│   │   └── works/
+│   │   └── work/
 │   │       └── [slug]/
 │   │           ├── page.tsx          # Server component — resolves slug
 │   │           └── ProjectClient.tsx # Client component — renders project
@@ -83,7 +83,7 @@ All content lives in `public/content.json`. Edit it to update the site:
 }
 ```
 
-Adding a new project automatically generates a static page at `/works/[id]` on the next build.
+Adding a new project automatically generates a static page at `/work/[id]` on the next build.
 
 ---
 

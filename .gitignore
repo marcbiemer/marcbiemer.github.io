@@ -32,6 +32,7 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+.env*.local
 
 # vercel
 .vercel
@@ -43,3 +44,9 @@ next-env.d.ts
 # agents
 AGENTS.md
 CLAUDE.md
+
+# Generated image sizes
+public/media/**/640/
+public/media/**/1080/
+public/media/**/1920/
+public/media/**/2560/

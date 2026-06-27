@@ -1,0 +1,133 @@
+.footer {
+	min-height: 100svh;
+	display: flex;
+	flex-direction: column;
+}
+
+.footer>section:first-child {
+	flex: 1;
+}
+
+.footer h3 {
+	font: var(--sys-font-title-small);
+	letter-spacing: var(--sys-letter-spacing-title-small);
+	color: rgb(var(--sys-color-fg-default-subtle));
+}
+
+.sitemap,
+.contact,
+.socials,
+.availability,
+.copyright,
+.studioName,
+.tagline {
+	padding: 0 var(--sys-stack-pad-condensed);
+}
+
+.sitemap,
+.contact,
+.socials,
+.list,
+.availability,
+.copyright {
+	display: flex;
+	flex-direction: column;
+	gap: var(--sys-container-gap-normal);
+	align-items: center;
+	color: rgb(var(--sys-color-fg-default));
+}
+
+.list {
+	gap: var(--sys-stack-gap-normal);
+}
+
+.contact p {
+	font: var(--sys-font-body-medium);
+	letter-spacing: var(--sys-letter-spacing-body-medium);
+	max-width: 280px;
+	text-align: center;
+	color: rgb(var(--sys-color-fg-default-subtle));
+
+}
+
+.clock,
+.availability,
+.copyright {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: flex-end;
+	font: var(--sys-font-body-small);
+	letter-spacing: var(--sys-letter-spacing-body-small);
+	gap: var(--sys-stack-gap-condensed);
+	color: rgb(var(--sys-color-fg-default-subtle));
+}
+
+.studioName,
+.tagline {
+	display: flex;
+	justify-content: center;
+	font: var(--sys-font-title-small);
+	letter-spacing: var(--sys-letter-spacing-title-small);
+	color: rgb(var(--sys-color-fg-default));
+}
+
+.clock>span {
+	text-align: center;
+}
+
+.scrollToTop {
+	display: flex;
+	flex-direction: row;
+	gap: var(--sys-control-gap-condensed);
+	align-items: center;
+	cursor: pointer;
+	background-color: transparent;
+	border: 0px solid transparent;
+	color: inherit;
+	font: inherit;
+	padding: 0;
+	margin: 0;
+	transition: var(--sys-motion-hover-out);
+}
+
+.scrollToTop:hover {
+	color: rgb(var(--sys-color-fg-default));
+	transition: var(--sys-motion-hover-in);
+}
+
+
+/* Responsive Layout */
+@media screen and (min-width: 768px) {
+
+	.sitemap,
+	.contact,
+	.socials,
+	.list,
+	.availability,
+	.copyright {
+		align-items: flex-start;
+	}
+
+	.contact p, .clock>span {
+		text-align: start;
+	}
+
+	.studioName {
+		justify-content: flex-start;
+	}
+
+	.tagline,
+	.copyright {
+		justify-content: flex-end;
+	}
+	
+}
+
+@media screen and (min-width: 1280px) {
+
+	.copyright {
+		align-items: flex-end;
+	}
+
+}

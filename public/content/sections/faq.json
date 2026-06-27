@@ -1,0 +1,32 @@
+{
+	"header": {
+		"layout": "col",
+		"hasMarker": false,
+		"title": "[Frequently]{br}[Asked]{br}[Questions.]",
+		"titleScaled": "xlarge",
+		"body": {
+			"blocks": [
+				"Things you've always [wondered].",
+				"We can give [answers]."
+			]
+		}
+	},
+	"content": [
+		{
+			"question": "How long does a project take you to perform?",
+			"answer": "This depends a lot on what you ask for. This depends a lot on what you ask for. This depends a lot on what you ask for. This depends a lot on what you ask for. This depends a lot on what you ask for. This depends a lot on what you ask for."
+		},
+		{
+			"question": "Why long does a project take you to perform?",
+			"answer": "This depends a lot on what you ask for. This depends a lot on what you ask for. This depends a lot on what you ask for. This depends a lot on what you ask for. This depends a lot on what you ask for. This depends a lot on what you ask for."
+		},
+		{
+			"question": "Who long does a project take you to perform?",
+			"answer": "This depends a lot on what you ask for. This depends a lot on what you ask for. This depends a lot on what you ask for. This depends a lot on what you ask for. This depends a lot on what you ask for. This depends a lot on what you ask for."
+		},
+		{
+			"question": "How long does a project take you to perform?",
+			"answer": "This depends a lot on what you ask for. This depends a lot on what you ask for. This depends a lot on what you ask for. This depends a lot on what you ask for. This depends a lot on what you ask for. This depends a lot on what you ask for."
+		}
+	]
+}

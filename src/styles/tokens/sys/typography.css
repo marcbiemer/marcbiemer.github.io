@@ -1,0 +1,56 @@
+:root {
+    --sys-font-size-1: var(--ref-font-size-1);
+    --sys-font-size-2: var(--ref-font-size-2);
+    --sys-font-size-3: var(--ref-font-size-3);
+    --sys-font-size-4: clamp(1rem, 0.958rem + 0.208vw, var(--ref-font-size-4));
+    --sys-font-size-5: clamp(1.125rem, 1.083rem + 0.208vw, var(--ref-font-size-5));
+    --sys-font-size-6: clamp(1.25rem, 1.167rem + 0.417vw, var(--ref-font-size-6));
+    --sys-font-size-7: clamp(1.4375rem, 1.333rem + 0.521vw, var(--ref-font-size-7));
+    --sys-font-size-8: clamp(1.625rem, 1.5rem + 0.625vw, var(--ref-font-size-8));
+    --sys-font-size-9: clamp(2rem, 1.833rem + 0.833vw, var(--ref-font-size-9));
+    --sys-font-size-10: clamp(2.3125rem, 2.083rem + 1.146vw, var(--ref-font-size-10));
+    --sys-font-size-11: clamp(2.425rem, 2.333rem + 1.458vw, var(--ref-font-size-11));
+
+    --sys-font-size-display-hero: clamp(2.75rem, 2.1rem + 3.25vw, 4.5rem);
+
+    --sys-font-label-small: var(--ref-font-weight-regular) var(--sys-font-size-1)/var(--ref-line-height-relaxed) var(--ref-font-family-mono);
+    --sys-font-label-medium: var(--ref-font-weight-bold) var(--sys-font-size-2)/var(--ref-line-height-snug) var(--ref-font-family-mono);
+    --sys-font-label-large: var(--ref-font-weight-bold) var(--sys-font-size-3)/var(--ref-line-height-relaxed) var(--ref-font-family-mono);
+
+    --sys-font-body-small: var(--ref-font-weight-regular) var(--sys-font-size-2)/var(--ref-line-height-snug) var(--ref-font-family-sans);
+    --sys-font-body-medium: var(--ref-font-weight-regular) var(--sys-font-size-3)/var(--ref-line-height-regular) var(--ref-font-family-sans);
+    --sys-font-body-large: var(--ref-font-weight-regular) var(--sys-font-size-4)/var(--ref-line-height-loose) var(--ref-font-family-sans);
+
+    --sys-font-title-small: var(--ref-font-weight-semibold) var(--sys-font-size-3)/var(--ref-line-height-regular) var(--ref-font-family-display);
+    --sys-font-title-medium: var(--ref-font-weight-semibold) var(--sys-font-size-4)/var(--ref-line-height-loose) var(--ref-font-family-display);
+    --sys-font-title-large: var(--ref-font-weight-semibold) var(--sys-font-size-5)/var(--ref-line-height-tight) var(--ref-font-family-display);
+
+    --sys-font-headline-small: var(--ref-font-weight-bold) var(--sys-font-size-6)/var(--ref-line-height-tight) var(--ref-font-family-display);
+    --sys-font-headline-medium: var(--ref-font-weight-bold) var(--sys-font-size-7)/var(--ref-line-height-tight) var(--ref-font-family-display);
+    --sys-font-headline-large: var(--ref-font-weight-bold) var(--sys-font-size-8)/var(--ref-line-height-tight) var(--ref-font-family-display);
+
+    --sys-font-display-small: var(--ref-font-weight-bold) var(--sys-font-size-9)/var(--ref-line-height-tight) var(--ref-font-family-display);
+    --sys-font-display-medium: var(--ref-font-weight-bold) var(--sys-font-size-10)/var(--ref-line-height-xtight) var(--ref-font-family-display);
+    --sys-font-display-large: var(--ref-font-weight-bold) var(--sys-font-size-11)/var(--ref-line-height-xtight) var(--ref-font-family-display);
+    --sys-font-display-hero: var(--ref-font-weight-bold) var(--sys-font-size-display-hero)/var(--ref-line-height-xtight) var(--ref-font-family-display);
+
+    --sys-letter-spacing-label-small: var(--ref-letter-spacing-loose);
+    --sys-letter-spacing-label-medium: var(--ref-letter-spacing-loose);
+    --sys-letter-spacing-label-large: var(--ref-letter-spacing-regular);
+
+    --sys-letter-spacing-body-small: var(--ref-letter-spacing-loose);
+    --sys-letter-spacing-body-medium: var(--ref-letter-spacing-relaxed);
+    --sys-letter-spacing-body-large: var(--ref-letter-spacing-loose);
+
+    --sys-letter-spacing-title-small: var(--ref-letter-spacing-regular);
+    --sys-letter-spacing-title-medium: var(--ref-letter-spacing-regular);
+    --sys-letter-spacing-title-large: var(--ref-letter-spacing-snug);
+
+    --sys-letter-spacing-headline-small: var(--ref-letter-spacing-snug);
+    --sys-letter-spacing-headline-medium: var(--ref-letter-spacing-snug);
+    --sys-letter-spacing-headline-large: var(--ref-letter-spacing-tight);
+
+    --sys-letter-spacing-display-small: var(--ref-letter-spacing-tight);
+    --sys-letter-spacing-display-medium: var(--ref-letter-spacing-tight);
+    --sys-letter-spacing-display-large: var(--ref-letter-spacing-tight);
+}

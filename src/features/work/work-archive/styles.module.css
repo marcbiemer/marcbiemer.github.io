@@ -1,0 +1,6 @@
+.btnWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: var(--sys-container-pad-normal);
+}

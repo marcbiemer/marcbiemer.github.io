@@ -1,0 +1,22 @@
+.follower {
+	position: fixed;
+	top: calc(-1 * var(--sys-control-size-small) / 2 - 10px);
+	left: 60px;
+	z-index: 10;
+	pointer-events: none;
+	will-change: transform;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+    padding: 0 var(--sys-stack-pad-condensed);
+    height: var(--sys-control-size-small);
+	border-radius: var(--sys-radius-xsmall);
+	background-color: rgb(var(--sys-color-fg-accent));
+	color: rgb(var(--sys-color-fg-inverse));
+	font: var(--sys-font-label-small);
+	letter-spacing: var(--sys-letter-spacing-label-small);
+	text-transform: uppercase;
+	white-space: nowrap;
+    box-shadow: var(--sys-shadow-4);
+}

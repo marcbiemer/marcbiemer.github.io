@@ -1,0 +1,52 @@
+.grid,
+.pseudoGrid {
+	display: grid;
+	grid-template-columns: repeat(4, minmax(0, 1fr));
+	width: 100%;
+	max-width: var(--sys-max-width-layout);
+	margin-inline: auto;
+	padding-inline: var(--sys-gutter);
+}
+
+.grid[data-row-gap="condensed"] {
+	row-gap: var(--sys-container-gap-condensed);
+}
+
+.grid[data-row-gap="normal"] {
+	row-gap: var(--sys-container-gap-normal);
+}
+
+.grid[data-row-gap="spacious"] {
+	row-gap: var(--sys-container-gap-spacious);
+}
+
+.grid[data-col-gap="condensed"] {
+	column-gap: var(--sys-container-gap-condensed);
+}
+
+.grid[data-col-gap="normal"] {
+	column-gap: var(--sys-container-gap-normal);
+}
+
+.grid[data-col-gap="spacious"] {
+	column-gap: var(--sys-container-gap-spacious);
+}
+
+.pseudoGrid {
+	position: absolute;
+	inset: 0;
+	height: 100%;
+	overflow: hidden;
+	pointer-events: none;
+	mix-blend-mode: difference;
+	z-index: var(--sys-z-pseudo-grid);
+}
+
+.pseudoColumn {
+	height: 100%;
+	border-inline-start: var(--sys-border-decorative);
+}
+
+.pseudoColumn:last-child {
+	border-inline-end: var(--sys-border-decorative);
+}

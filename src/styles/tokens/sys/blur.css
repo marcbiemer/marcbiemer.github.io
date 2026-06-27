@@ -1,0 +1,6 @@
+:root {
+    --sys-blur-surface: var(--ref-blur-3);
+    --sys-blur-media: var(--ref-blur-4);
+    --sys-blur-media-subtle: var(--ref-blur-1);
+    --sys-blur-overlay: var(--ref-blur-5);
+}

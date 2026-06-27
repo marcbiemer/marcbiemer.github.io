@@ -1,0 +1,24 @@
+/* 1. Reference tokens (primitives) — no var() dependencies */
+@import "./ref/blur.css";
+@import "./ref/border.css";
+@import "./ref/color.css";
+@import "./ref/motion.css";
+@import "./ref/opacity.css";
+@import "./ref/radius.css";
+@import "./ref/size.css";
+@import "./ref/space.css";
+@import "./ref/typography.css";
+@import "./ref/z-index.css";
+
+/* 2. System tokens (semantic) — reference ref.* only */
+@import "./sys/blur.css";
+@import "./sys/border.css";
+@import "./sys/color.css";
+@import "./sys/icon.css";
+@import "./sys/layout.css";
+@import "./sys/motion.css";
+@import "./sys/opacity.css";
+@import "./sys/radius.css";
+@import "./sys/shadow.css";
+@import "./sys/typography.css";
+@import "./sys/z-index.css";

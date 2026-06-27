@@ -1,0 +1,24 @@
+.stats {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sys-stack-gap-spacious);
+    padding: 0 var(--sys-stack-pad-condensed);
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+}
+
+.stat h3 {
+    font: var(--sys-font-label-medium);
+    letter-spacing: var(--sys-letter-spacing-label-medium);
+    text-transform: uppercase;
+    color: rgb(var(--sys-color-fg-default-subtle));
+    margin-bottom: calc(var(--sys-stack-gap-condensed) / 2);
+}
+
+.stat p {
+    font: var(--sys-font-body-medium);
+    letter-spacing: var(--sys-letter-spacing-body-medium);
+}

@@ -1,0 +1,23 @@
+.hero {
+	pointer-events: none;
+}
+
+.body {
+	padding: 0 var(--sys-stack-pad-condensed);
+	font: var(--sys-font-body-small);
+	letter-spacing: var(--sys-letter-spacing-body-small);
+	color: rgb(var(--sys-color-fg-default-subtle));
+	display: none;
+}
+
+.bodyAlt {
+	color: rgb(var(--sys-color-fg-default));
+}
+
+@media screen and (min-width: 768px) {
+
+	.body {
+		display: inline;
+	}
+	
+}

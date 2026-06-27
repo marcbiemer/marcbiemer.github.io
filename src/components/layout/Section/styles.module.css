@@ -1,0 +1,111 @@
+.section {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.background {
+	position: absolute;
+	inset: 0;
+	overflow: hidden;
+}
+
+.backgroundLayer {
+	position: absolute;
+	inset: 0;
+}
+
+.section>*:not(.background, .backgroundLayer) {
+	position: relative;
+	z-index: var(--sys-z-base);
+}
+
+/* Padding */
+
+.section[data-pad-start="condensed"] {
+	padding-block-start: var(--sys-section-pad-condensed);
+}
+
+.section[data-pad-start="normal"] {
+	padding-block-start: var(--sys-section-pad-normal);
+}
+
+.section[data-pad-start="spacious"] {
+	padding-block-start: var(--sys-section-pad-spacious);
+}
+
+.section[data-pad-end="condensed"] {
+	padding-block-end: var(--sys-section-pad-condensed);
+}
+
+.section[data-pad-end="normal"] {
+	padding-block-end: var(--sys-section-pad-normal);
+}
+
+.section[data-pad-end="spacious"] {
+	padding-block-end: var(--sys-section-pad-spacious);
+}
+
+/* Gap */
+
+.section[data-gap="condensed"] {
+	gap: var(--sys-section-gap-condensed);
+}
+
+.section[data-gap="normal"] {
+	gap: var(--sys-section-gap-normal);
+}
+
+.section[data-gap="spacious"] {
+	gap: var(--sys-section-gap-spacious);
+}
+
+/* Background */
+
+.backgroundLayer[data-color="default"] {
+	background-color: rgb(var(--sys-color-bg-default));
+}
+
+.backgroundLayer[data-color="inverse"] {
+	background-color: rgb(var(--sys-color-bg-inverse));
+}
+
+.backgroundLayer[data-color="accent"] {
+	background-color: rgb(var(--sys-color-bg-accent));
+}
+
+/* MinHeight */
+
+.section[data-min-height="true"] {
+	min-height: 100svh;
+}
+
+/* Vertical Alignment */
+
+.section[data-v-align="start"] {
+	justify-content: flex-start;
+}
+
+.section[data-v-align="end"] {
+	justify-content: flex-end;
+}
+
+.section[data-v-align="center"] {
+	justify-content: center;
+}
+
+.section[data-v-align="stretch"] {
+	justify-content: stretch;
+}
+
+.section[data-v-align="space-between"] {
+	justify-content: space-between;
+}
+
+.section[data-v-align="space-evenly"] {
+	justify-content: space-evenly;
+}
+
+.section[data-v-align="space-around"] {
+	justify-content: space-around;
+}

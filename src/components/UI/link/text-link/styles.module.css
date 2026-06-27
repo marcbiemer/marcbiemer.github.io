@@ -1,0 +1,68 @@
+.link {
+	position: relative;
+	display: inline-flex;
+	text-decoration: none;
+	color: inherit;
+}
+
+.container {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	gap: var(--sys-control-gap-condensed);
+}
+
+.highlightWrapper {
+	position: absolute;
+	inset: 0;
+	overflow: hidden;
+	z-index: -1;
+	border-radius: var(--sys-border-xsmall);
+	transform: scale(1.1);
+}
+
+.highlight {
+	position: absolute;
+	inset: 0;
+	background: rgb(var(--sys-color-fg-accent));
+}
+
+.labelWrapper {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	line-height: 1.2;
+}
+
+.label,
+.labelClone {
+	display: block;
+	white-space: nowrap;
+}
+
+.labelClone {
+	color: rgb(var(--sys-color-light));
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.iconWrapper {
+	display: inline-flex;
+	transition: var(--sys-motion-hover-out);
+}
+
+.link:hover .iconWrapper {
+	color: rgb(var(--sys-color-light));
+	transition: var(--sys-motion-hover-in);
+}
+
+.underline {
+	text-decoration: underline;
+	text-underline-offset: 3px;
+	transition: text-decoration-color 0.2s ease, opacity 0.2s ease;
+}
+
+.underline:hover {
+	color: rgb(var(--sys-color-fg-accent));
+}

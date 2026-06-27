@@ -1,0 +1,36 @@
+.hero {
+    min-height: 80svh;
+}
+
+.cover {
+    height: 100%;
+    opacity: 0.2;
+    transform: scale(1.25);
+    filter: blur(var(--sys-blur-media-subtle));
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sys-stack-gap-condensed);
+    padding: 0 var(--sys-stack-pad-condensed);
+    color: rgb(var(--sys-color-fg-default))
+}
+
+.title span {
+    font: var(--sys-font-label-medium);
+    letter-spacing: var(--sys-letter-spacing-label-medium);
+    color: rgb(var(--sys-color-fg-default-subtle));
+}
+
+.title h1 {
+    font: var(--sys-font-display-large);
+    letter-spacing: var(--sys-letter-spacing-display-large);
+}
+
+.title p {
+    font: var(--sys-font-body-medium);
+    letter-spacing: var(--sys-letter-spacing-body-medium);
+    max-width: var(--sys-max-width-body);
+    margin-top: var(--sys-stack-pad-condensed);
+}

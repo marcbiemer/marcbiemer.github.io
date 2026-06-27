@@ -1,0 +1,53 @@
+:root {
+    --sys-gutter: var(--ref-space-2);
+
+    --sys-max-width-layout: calc(1440px + 2 * var(--sys-gutter));
+    --sys-max-width-title: 600px;
+    --sys-max-width-body: 500px;
+    --sys-max-width-label: 480px;
+
+    --sys-marker-size: var(--ref-space-2);
+
+    --sys-section-pad-condensed: var(--ref-space-10);
+    --sys-section-pad-normal: var(--ref-space-20);
+    --sys-section-pad-spacious: var(--ref-space-30);
+    --sys-section-gap-condensed: var(--ref-space-10);
+    --sys-section-gap-normal: var(--ref-space-20);
+    --sys-section-gap-spacious: var(--ref-space-30);
+
+    --sys-container-pad-condensed: var(--ref-space-5);
+    --sys-container-pad-normal: var(--ref-space-10);
+    --sys-container-pad-spacious: var(--ref-space-20);
+    --sys-container-gap-condensed: var(--ref-space-5);
+    --sys-container-gap-normal: var(--ref-space-10);
+    --sys-container-gap-spacious: var(--ref-space-20);
+
+    --sys-stack-pad-condensed: var(--ref-space-2);
+    --sys-stack-pad-normal: var(--ref-space-4);
+    --sys-stack-pad-spacious: var(--ref-space-6);
+    --sys-stack-gap-condensed: var(--ref-space-2);
+    --sys-stack-gap-normal: var(--ref-space-4);
+    --sys-stack-gap-spacious: var(--ref-space-6);
+
+    --sys-control-pad-condensed: var(--ref-space-1);
+    --sys-control-pad-normal: var(--ref-space-2);
+    --sys-control-pad-spacious: var(--ref-space-3);
+    --sys-control-gap-condensed: var(--ref-space-1);
+    --sys-control-gap-normal: var(--ref-space-2);
+    --sys-control-gap-spacious: var(--ref-space-3);
+    --sys-control-size-small: var(--ref-size-8);
+    --sys-control-size-medium: var(--ref-size-10);
+    --sys-control-size-large: var(--ref-size-12);
+}
+
+@media (min-width: 768px) {
+	:root {
+		--sys-gutter: var(--ref-space-10);
+	}
+}
+
+@media (min-width: 1440px) {
+	:root {
+		--sys-gutter: var(--ref-space-20);
+	}
+}

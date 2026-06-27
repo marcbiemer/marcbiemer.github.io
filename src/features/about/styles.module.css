@@ -1,0 +1,30 @@
+.leftPane {
+	padding: 0 var(--sys-stack-pad-condensed);
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: var(--sys-container-gap-condensed);
+	justify-content: flex-end;
+	font: var(--sys-font-body-small);
+	letter-spacing: var(--sys-letter-spacing-body-small);
+	color: rgb(var(--sys-color-fg-default));
+}
+
+.textStack {
+	display: flex;
+	flex-direction: column;
+	gap: var(--sys-stack-gap-spacious);
+}
+
+.body {
+	max-width: var(--sys-max-width-body);
+}
+
+.link {
+	font: inherit;
+	letter-spacing: inherit;
+}
+
+.imgWrapper {
+	box-shadow: var(--sys-shadow-5);
+}

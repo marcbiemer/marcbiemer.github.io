@@ -1,0 +1,27 @@
+:root {
+
+	--sys-motion-hover-in: all var(--ref-duration-long) var(--ref-easing-emphasized-decelerate);
+	--sys-motion-hover-out: all var(--ref-duration-medium) var(--ref-easing-emphasized-accelerate) var(--ref-duration-xshort);
+	
+	--sys-motion-scroll-reveal: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+	--sys-motion-scroll-hide: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+
+	--sys-motion-expand: all var(--ref-duration-xxlong) var(--ref-easing-standard-decelerate) var(--ref-duration-medium);
+
+	/* --tile-motion-in-hover: all var(--duration-long) var(--motion-emphasized-decelerate);
+	--tile-motion-out-hover: all var(--duration-medium) var(--motion-emphasized-accelerate) var(--duration-xshort);
+
+	--button-motion-in-hover: all var(--duration-long) var(--motion-emphasized-decelerate);
+	--button-motion-out-hover: all var(--duration-medium) var(--motion-emphasized-accelerate) var(--duration-short);
+
+	--link-motion-in-hover: all var(--duration-long) var(--motion-emphasized-decelerate);
+	--link-motion-out-hover: all var(--duration-medium) var(--motion-emphasized-accelerate) var(--duration-xshort);
+
+	--accordion-motion-in-hover: all var(--duration-long) var(--motion-emphasized-decelerate);
+	--accordion-motion-out-hover: all var(--duration-medium) var(--motion-emphasized-accelerate) var(--duration-long);
+
+	--previewItem-motion-in-hover: all var(--duration-long) var(--motion-emphasized-decelerate);
+	--previewItem-motion-out-hover: all var(--duration-medium) var(--motion-emphasized-accelerate) var(--duration-xshort);
+	--previewItem-motion-appear: all 0.5s cubic-bezier(0.22, 1, 0.36, 1);
+	--previewItem-motion-disappear: all 0.5s cubic-bezier(0.22, 1, 0.36, 1); */
+}

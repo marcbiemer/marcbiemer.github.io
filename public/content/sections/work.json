@@ -1,0 +1,22 @@
+{
+	"header": {
+		"title": "Work"
+	},
+	"featured": {
+		"layout": "row",
+		"hasMarker": true,
+		"sectionTitle": "Highlight",
+		"title": "Selected Work {br}& Experiments",
+		"titleScale": "large",
+		"body": {
+			"blocks": [
+				"A selection of interactive, data-driven, and immersive works created for cultural, commercial, and experimental contexts."
+			]
+		}
+	},
+	"archive": {
+		"sectionTitle": "Work",
+		"hasMarker": true,
+		"titleScale": "small"
+	}
+}

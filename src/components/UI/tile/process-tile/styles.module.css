@@ -1,0 +1,77 @@
+.processTile {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	gap: var(--sys-container-gap-spacious);
+	padding: var(--sys-container-pad-condensed);
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+	border-radius: var(--sys-radius-tile);
+	outline-offset: 0px;
+	outline: var(--sys-border-inverse);
+	box-shadow: var(--sys-shadow-3);
+}
+
+.header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	pointer-events: none;
+}
+
+.dots {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	gap: var(--sys-stack-gap-condensed);
+}
+
+.dot {
+	display: block;
+	width: var(--sys-marker-size);
+	height: var(--sys-marker-size);
+	border-radius: var(--sys-radius-xsmall);
+	background-color: rgba(var(--sys-color-fg-accent), var(--sys-opacity-decorative));
+}
+
+.dot.active {
+	background-color: rgba(var(--sys-color-fg-accent), var(--sys-opacity-full));
+}
+
+.index {
+	font: var(--sys-font-label-medium);
+	letter-spacing: var(--sys-letter-spacing-label-medium);
+	color: rgb(var(--sys-color-fg-inverse));
+}
+
+.textStack {
+	display: flex;
+	flex-direction: column;
+	gap: var(--sys-stack-gap-normal);
+	pointer-events: none;
+}
+
+.title {
+	font: var(--sys-font-label-medium);
+	letter-spacing: var(--sys-letter-spacing-label-medium);
+	text-transform: uppercase;
+	color: rgb(var(--sys-color-fg-default));
+}
+
+.body {
+	font: var(--sys-font-body-small);
+	letter-spacing: var(--sys-letter-spacing-body-small);
+	color: rgb(var(--sys-color-fg-default-subtle));
+}
+
+.background,
+.backgroundLayer {
+	position: absolute;
+	inset: 0;
+}
+
+.processTile>*:not(.background, .backgroundLayer) {
+	z-index: var(--sys-z-overlay);
+}

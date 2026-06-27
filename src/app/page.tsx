@@ -1,37 +1,23 @@
-'use client'
+import meta from "@/data/meta";
+import intro from "@/data/intro";
+import work from "@/data/work";
+import { getFeaturedProjects } from "@/data/project";
+import services from "@/data/services";
+import wow from "@/data/wow";
+import about from "@/data/about";
 
-import { useRef } from "react"
-import gsap from "gsap"
-import { useGSAP } from "@gsap/react"
-import SplitType from "split-type"
-import ReactLenis from "lenis/react"
+import HomeClient from "./client";
 
-import styles from "./page.module.css"
-
-gsap.registerPlugin(useGSAP)
-
-export default function Home() {
-  const container = useRef<HTMLDivElement | null>(null)
-
-  useGSAP(() => {
-
-    const heroText = new SplitType(".home h1", { types: "chars" })
-    gsap.set(heroText.chars, {y: 400})
-    gsap.to(heroText.chars, {
-      y: 0,
-      duration: 1,
-      stagger: 0.075,
-      ease: "power4.out",
-      delay: 1
-    })
-
-  }, {scope: container})
-
+export default async function HomePage() {
+  const projects = await getFeaturedProjects();
   return (
-    <ReactLenis root>
-      <div className={`home ${styles.home}`} ref={container}>
-        <h1>NAUSEA</h1>
-      </div>
-    </ReactLenis>
+    <HomeClient
+      meta={meta}
+      intro={intro}
+      work={{...work, projects: projects }}
+      services={services}
+      wow={wow}
+      about={about}
+    />
   );
 }

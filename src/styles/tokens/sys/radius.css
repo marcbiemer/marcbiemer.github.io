@@ -1,0 +1,14 @@
+:root {
+	--sys-radius-xsmall: 2px;
+	--sys-radius-small: var(--ref-radius-1);
+	--sys-radius-medium: var(--ref-radius-2);
+	--sys-radius-large: var(--ref-radius-3);
+	--sys-radius-xlarge: var(--ref-radius-4);
+	--sys-radius-full: var(--ref-radius-full);
+
+	--sys-radius-tile: var(--sys-radius-small);
+	--sys-radius-media: var(--sys-radius-xsmall);
+	--sys-radius-input: var(--sys-radius-small);
+	--sys-radius-tag: var(--sys-radius-xsmall);
+	--sys-radius-marker: var(--sys-radius-small);
+}

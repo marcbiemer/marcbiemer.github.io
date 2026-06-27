@@ -1,0 +1,52 @@
+.sectionTitle,
+.title,
+.subTitle,
+.body {
+	padding: 0 var(--sys-stack-pad-condensed);
+}
+
+.sectionTitle,
+.title>h1,
+.subTitle>h2 {
+	font: var(--sys-font-title-small);
+	letter-spacing: var(--sys-letter-spacing-title-small);
+}
+
+.imgWrapper {
+	position: relative;
+	width: 100%;
+	aspect-ratio: calc(2 / 3);
+	border-radius: var(--sys-radius-media);
+	overflow: hidden;
+}
+
+.body {
+	display: flex;
+	flex-direction: column;
+	gap: var(--sys-stack-gap-spacious);
+}
+
+.body,
+.titleAlt {
+	font: var(--sys-font-body-small);
+	letter-spacing: var(--sys-letter-spacing-body-small);
+}
+
+.titleAlt,
+.bodyAlt {
+	color: rgb(var(--sys-color-fg-default-subtle));
+}
+
+@media screen and (min-width: 768px) {
+
+	.subTitle {
+		display: flex;
+		flex-direction: column;
+		padding-left: clamp(var(--sys-stack-pad-condensed), 4vw, var(--sys-container-pad-spacious));
+	}
+
+	.body {
+		padding: 0;
+	}
+
+}
