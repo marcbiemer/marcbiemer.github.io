@@ -1,0 +1,8 @@
+:root {
+    --sys-icon-size-small: var(--ref-size-4);
+    --sys-icon-size-medium: var(--ref-size-5);
+    --sys-icon-size-large: var(--ref-size-6);
+    --sys-icon-size-xlarge: var(--ref-size-8);
+    --sys-icon-weight: 300;
+    --sys-icon-opsz: 24;
+}

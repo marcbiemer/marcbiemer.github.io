@@ -1,0 +1,10 @@
+:root {
+    --sys-opacity-full: var(--ref-opacity-100);
+    --sys-opacity-decorative: var(--ref-opacity-40);
+    --sys-opacity-scrim: var(--ref-opacity-80);
+    --sys-opacity-glass: var(--ref-opactity-10);
+
+    --sys-opacity-hover: var(--ref-opacity-95);
+    --sys-opacity-focus: var(--ref-opacity-90);
+    --sys-opacity-disabled: var(--ref-opacity-40);
+}

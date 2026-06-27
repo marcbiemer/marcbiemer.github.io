@@ -1,0 +1,11 @@
+.sidebarWrapper {
+    position: relative;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: var(--sys-stack-gap-normal);
+    position: sticky;
+    top: var(--sys-section-pad-spacious);
+}

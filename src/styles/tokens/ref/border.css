@@ -1,0 +1,9 @@
+:root {
+    --ref-border-width-0: 0px;
+    --ref-border-width-1: 1px;
+    --ref-border-width-2: 2px;
+    --ref-border-width-4: 4px;
+    --ref-border-offset-1: -1px;
+    --ref-border-offset-2: -2px;
+    --ref-border-offset-4: -4px;
+}

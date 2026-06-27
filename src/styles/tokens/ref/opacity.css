@@ -1,0 +1,12 @@
+:root {
+    --ref-opacity-0: 0;
+    --ref-opacity-10: 0.1;
+    --ref-opacity-20: 0.2;
+    --ref-opacity-40: 0.4;
+    --ref-opacity-60: 0.6;
+    --ref-opacity-80: 0.8;
+    --ref-opacity-90: 0.9;
+    --ref-opacity-95: 0.95;
+    --ref-opacity-99: 0.99;
+    --ref-opacity-100: 1;
+}

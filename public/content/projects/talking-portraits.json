@@ -1,0 +1,188 @@
+{
+	"slug": "talking-portraits",
+	"title": "Talking Portraits",
+	"year": "2025",
+	"id": 7,
+	"intro": "An interactive installation that brings historical paintings to life, using AI-generated motion and voices driven by real actors.",
+	"tags": [
+		"Interactive Installation",
+		"Generative AI"
+	],
+	"stats": [
+		{
+			"label": "location",
+			"value": "Malmö, Sweden"
+		},
+		{
+			"label": "client",
+			"value": "Malmö museum"
+		},
+		{
+			"label": "dimensions",
+			"value": "0.7 × 1.2 m"
+		}
+	],
+	"images": [
+		{
+			"src": "installation-king.webp",
+			"alt": "The animated portrait of King Christian IV installed next to another portrait painting."
+		}
+	],
+	"blocks": [
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / -1"
+			},
+			"content": [
+				"As part of a new exhibition at the {link:https://malmo.se/museum}Malmö museum{/link}, I created an interactive installation that reanimates portrait paintings of the Danish royal family from the 15th century through AI-generated motion, voice, and viewer interaction. The project combines multiple AI tools, including {link:https://kling.ai/}Kling AI{/link} and {link:https://runwayml.com/}Runway ML{/link} to animate photographic reproductions of the original paintings.",
+				"To create more nuanced and believable facial expressions, I collaborated with a local acting group and used their performances as a diving input for {link:https://runwayml.com/research/introducing-act-one}Runway’s Act-One model{/link}. In addition, I recorded the performers reading a script provided by the museum's archivists and used {link:https://elevenlabs.io/}ElevenLabs{/link} to transform their voices for each respective historical character."
+			]
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "1 / span 2",
+				"lg": "1 / span 2"
+			},
+			"content": {
+				"src": "actor-01.webp",
+				"alt": "Split image: an actress with a slight smile, eyes glancing to the top right, on the left, and on the right an animated portrait painting mirroring her expression."
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "actor-02.webp",
+				"alt": "Split image: an actress with raised eyebrows and an arrogant, haughty look on the left, and on the right an animated portrait painting mirroring her expression."
+			}
+		},
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / span 2"
+			},
+			"title": "Potrait #1",
+			"content": [
+				"King Christian IV"
+			]
+		},
+		{
+			"type": "video",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "king-story.mp4",
+				"alt": "Animated portrait of King Christian IV"
+			}
+		},
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / span 2"
+			},
+			"title": "Potrait #2",
+			"content": [
+				"Queen Sophie of Mecklenburg {br}and King Frederick II"
+			]
+		},
+		{
+			"type": "video",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "queen-story.mp4",
+				"aspect": "9/16",
+				"alt": "Animated portrait of Queen Sophie of Mecklenburg and King Frederick II"
+			}
+		},
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / span 2"
+			},
+			"title": "Portrait #3",
+			"content": [
+				"Prince Christian"
+			]
+		},
+		{
+			"type": "video",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "prince-story.mp4",
+				"aspect": "9/16",
+				"alt": "Animated portrait of Prince Christian"
+			}
+		},
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / -1"
+			},
+			"content": [
+				"Each portrait is displayed on a vertically mounted 50” Samsung The Frame, enclosed within a classical golden wood frame. A radar sensor mounted behind each frame triggers the animations in response to the presence of a viewer.",
+				"The three works were presented as part of the temporary exhibition Makt och Prakt at Malmö museum. From the opening day onward, hundreds of visitors interacted with the portraits throughout the year-long exhibition period. The works were featured in the museum’s marketing campaign, local newspapers, and online publications."
+			]
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "1 / -1",
+				"lg": "1 / -1"
+			},
+			"content": {
+				"src": "installation-king.webp",
+				"alt": "The animated portrait of King Christian IV installed next to another portrait painting."
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "1 / span 2",
+				"lg": "1 / span 2"
+			},
+			"content": {
+				"src": "installation-queen.webp",
+				"alt": "A visitor standing in front of the portrait of Queen Sophie of Mecklenburg and King Frederick II.",
+				"credits": "Photo: Apelöga/Malmö museum"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "installation-prince.webp",
+				"alt": "A visitor standing in front of the portrait of Prince Christian.",
+				"credits": "Photo: Apelöga/Malmö museum"
+			}
+		},
+		{
+			"type": "video",
+			"layout": {
+				"md": "1 / -1",
+				"lg": "1 / -1"
+			},
+			"content": {
+				"src": "visitor.mp4",
+				"aspect": "16/9",
+				"alt": "A visitor observing the animated portrait of Prince Christian inside the exhibition.",
+				"credits": "Video: Apelöga/Malmö museum"
+			}
+		}
+	]
+}

@@ -1,0 +1,7 @@
+:root {
+    --sys-z-behind: calc(-1 * var(--ref-z-50));
+    --sys-z-base: var(--ref-z-0);
+    --sys-z-elevated: var(--ref-z-1);
+    --sys-z-overlay: var(--ref-z-30);
+    --sys-z-nav: var(--ref-z-50);
+}
