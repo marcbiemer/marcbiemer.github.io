@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 
 import Grid from "@/components/layout/grid/grid";
 import GridItem from "@/components/layout/grid/grid-item/grid-item";
-import HighlightText from "../../ui/highlight-text/highlight-text";
+import HighlightText from "../highlight-text/highlight-text";
 
 type BodyContent = {
   blocks: string[];
