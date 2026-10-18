@@ -3,6 +3,8 @@
 	--slide-height: 30svh;
 	--slide-spacing: calc(var(--sys-gutter) / 2);
 	--slide-size: min(calc(100svw - 8 * var(--sys-gutter) + 2 * var(--slide-spacing)), var(--sys-max-width-layout));
+	max-width: 100%;
+	overflow: hidden;
 }
 
 .emblaViewport {
