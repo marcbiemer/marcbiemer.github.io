@@ -5,7 +5,9 @@
 	--slide-size: min(calc(100svw - 8 * var(--sys-gutter) + 2 * var(--slide-spacing)), var(--sys-max-width-layout));
 }
 
-/* .emblaViewport {} */
+.emblaViewport {
+	overflow: hidden;
+}
 
 .emblaContainer {
 	display: flex;
@@ -23,7 +25,7 @@
 }
 
 .emblaSlide figure {
-	box-shadow: var(--sys-shadow-4);	
+	box-shadow: var(--sys-shadow-4);
 }
 
 .emblaSlide:active {
