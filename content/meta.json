@@ -1,0 +1,86 @@
+{
+	"studio": "marcbiemer",
+	"tagline": "creative studio",
+	"name": {
+		"full": "Marc Cedric Biemer",
+		"short": "Marc C. Biemer",
+		"initials": "MCB"
+	},
+	"location": "Malmö, Sweden",
+	"timezone": "Europe/Stockholm",
+	"coordinates": "55° 36' 21.1'' N{br}13° 00'  02.6'' E",
+	"availability": "Booking projects for 09/2026",
+	"copyright": "2026",
+	"socials": {
+		"header": {
+			"sectionTitle": "Socials"
+		},
+		"links": [
+			{
+				"label": "LinkedIn",
+				"href": "https://www.linkedin.com/in/marcbiemer"
+			},
+			{
+				"label": "Instagram",
+				"href": "https://www.instagram.com/marcbiemer"
+			},
+			{
+				"label": "GitHub",
+				"href": "https://github.com/marcbiemer"
+			}
+		]
+	},
+	"contact": {
+		"header": {
+			"sectionTitle": "Contact",
+			"body": {
+				"blocks": [
+					"The most unexpected collaborations start with a simple conversation."
+				]
+			}
+		},
+		"links": [
+			{
+				"label": "Get in touch",
+				"href": "/contact"
+			}
+		]
+	},
+	"sitemap": {
+		"header": {
+			"sectionTitle": "Navigation"
+		},
+		"links": [
+			{
+				"label": "Index",
+				"href": "/#index"
+			},
+			{
+				"label": "Work",
+				"href": "/#work"
+			},
+			{
+				"label": "About",
+				"href": "/#about"
+			},
+			{
+				"label": "Services",
+				"href": "/#services"
+			}
+		],
+		"additionalLinks": [
+			{
+				"label": "Work Archive",
+				"href": "/work"
+			},
+			{
+				"label": "Curriculum Vitea",
+				"href": "/cv"
+			},
+			{
+				"label": "Contact",
+				"href": "/contact"
+			}
+		]
+	}
+}

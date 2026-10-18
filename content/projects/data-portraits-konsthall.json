@@ -1,0 +1,158 @@
+{
+	"slug": "data-portraits-konsthall",
+	"title": "Konsthall – Data Portraits",
+	"year": "2024",
+	"id": 2,
+	"intro": "A three-part series of data portraits reflecting on curatorial leadership at Malmö Konsthall using 50 years of exhibition archive data.",
+	"tags": [
+		"Data Art",
+		"Digital Print"
+	],
+	"stats": [
+		{
+			"label": "location",
+			"value": "Malmö, Sweden"
+		},
+		{
+			"label": "client",
+			"value": "Concept Study"
+		},
+		{
+			"label": "dimensions",
+			"value": "Variable"
+		}
+	],
+	"images": [
+		{
+			"src": "mockup-timeline.webp",
+			"alt": "Work 3 — Timeline"
+		}
+	],
+	"blocks": [
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / -1"
+			},
+			"content": [
+				"In honor of {link:http://malmokonsthall.se/}Malmö Konsthall{/link}’s 50th anniversary, I created a three-part data portrait series. The works provide insight into Konsthall's efforts to make inspiring art accessible to a broad audience while inviting critical reflection on the role and impact of museum directors and curatorial practices. The series is envisioned as a set of digital prints presented together, for example within the museum’s entrance or hallway as part of a dedicated anniversary exhibition.",
+				"The series draws on data scraped from the Konsthall’s public exhibition archive. The dataset was manually cleaned and enriched with additional information. Through a series of data sketches, I explored different visualization approaches before deciding on the final direction. Visual elements were generated programmatically using {link:https://p5js.org/}p5.js{/link}, with layout and annotation developed in {link:https://www.figma.com/}Figma.{/link}"
+			]
+		},
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / -1"
+			},
+			"title": "Work 1 — Solo Exhibitions",
+			"content": [
+				"The first piece visualizes the names of all artists who have had a solo exhibition at Malmö Konsthall during the past 50 years. In addition to the spatial area occupied by the names, I use saturation to encode the artists’ gender, highlighting the imbalances between different groups."
+			]
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "1 / -1",
+				"lg": "1 / -1"
+			},
+			"content": {
+				"src": "mockup-solo-exhibitions.jpg",
+				"alt": "Installed print of Work 1 — Solo Exhibitions.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / -1"
+			},
+			"title": "Work 2 — Exhibition Windows",
+			"content": [
+				"The second work presents an overview of all exhibitions over the past 50 years. Drawing on the Konsthall’s roof windows as a visual metaphor, each exhibition is encoded through saturation and overlaying shapes. At the same time, the absence of elements reveals gaps and inconsistencies in the dataset."
+			]
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "1 / -1",
+				"lg": "1 / -1"
+			},
+			"content": {
+				"src": "mockup-exhibitions.jpg",
+				"alt": "Framed print of Work 2 — Exhibition Windows.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / -1"
+			},
+			"title": "Work 3 — Timeline",
+			"content": [
+				"The third piece uses saturation to visualize the number of exhibitions on view for each day since Malmö Konsthall opened. Museum directors are mapped across the timeline, while red markers highlight notable points in the data, such as years with particularly few or many exhibitions."
+			]
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "1 / -1",
+				"lg": "1 / -1"
+			},
+			"content": {
+				"src": "mockup-timeline.jpg",
+				"alt": "Large print of Work 3 — Timeline, on a wall.",
+				"aspect": "16/9",
+				"focusY": "top"
+			}
+		},
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / -1"
+			},
+			"content": [
+				"While the project could be extended into interactive digital formats—particularly the timeline—the gaps and inconsistencies in the dataset would require further revision before public release. These limitations have, so far, prevented the work from being fully realized in an exhibition context."
+			]
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "1 / span 2",
+				"lg": "1 / span 2"
+			},
+			"content": {
+				"src": "poster-solo-exhibitions.jpg",
+				"alt": "Zoom of the top half of Work 1 — Solo Exhibitions.",
+				"aspect": "16/9",
+				"focusX": "center",
+				"focusY": "top"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "poster-exhibitions.jpg",
+				"alt": "Zoom of the bottom half of Work 2 — Exhibitions Windows.",
+				"aspect": "16/9",
+				"focusX": "left",
+				"focusY": "bottom"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "1 / -1",
+				"lg": "1 / -1"
+			},
+			"content": {
+				"src": "poster-timeline.jpg",
+				"alt": "Detailled view of Work 3 — Timeline"
+			}
+		}
+	]
+}

@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://marcbiemer.github.io/sitemap.xml
