@@ -1,0 +1,334 @@
+{
+	"slug": "pixlar-o-ljud-live-2",
+	"title": "Pixlar O Ljud Live #2",
+	"year": "2026",
+	"id": 0,
+	"intro": "A real-time audiovisual performance in four chapters, moving from sunset into the depth of night.",
+	"tags": [
+		"Live Performance",
+		"Real-Time Generative Art"
+	],
+	"stats": [
+		{
+			"label": "location",
+			"value": "Malmö, Sweden"
+		},
+		{
+			"label": "dimensions",
+			"value": "1920 x 1080 px"
+		},
+		{
+			"label": "duration",
+			"value": "30 min"
+		}
+	],
+	"images": [
+		{
+			"src": "song-02-02.webp",
+			"alt": "Melisa performing while bright blue lines drift across the screen and melt into liquid shapes."
+		},
+		{
+			"src": "song-03-01.webp",
+			"alt": "A moonlit meadow, where small fireflies drift and light up the scene to the rhythm."
+		},
+		{
+			"src": "song-01-02.webp",
+			"alt": "A virtual sunset over the ocean. The colors of the horizon turn liquid and flow with the beat."
+		}
+	],
+	"blocks": [
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / -1"
+			},
+			"content": [
+				"A real-time audiovisual performance developed in {link:https://derivative.ca/}TouchDesigner{/link}, in which generative visuals respond to live music. Performed together with musician Melisa Hümmet, the work unfolds across four songs. Audio-reactive behaviors let color, light, and form move with the beat, while live adjustments to the system keep the performance open to improvisation. Each scene stands on its own, yet together they form a journey through fading light and deepening night.",
+				"Performed at {link:https://www.musikcentrumsyd.se/nyheter/malm-music-innovation-day}Pixlar Och Ljud Live{/link} as part of Malmö Music Innovation Day, {link:https://hypnostheatre.com/}Hypnos Theater{/link}, September 2026."
+			]
+		},
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / -1"
+			},
+			"title": "Music",
+			"content": [
+				"Melisa Hümmet{br}{link:https://open.spotify.com/artist/7g8nrrHA42iuyAvx5a5OlG?si=3BcYu2EbRlmRmoTGeFLdrg}Spotify{/link} | {link:https://www.instagram.com/melisahummet}Instagram{/link}"
+			]
+		},
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / span 2"
+			},
+			"title": "Song 1",
+			"content": [
+				"don't u wanna go"
+			]
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "song-01-00.jpg",
+				"alt": "The sun sinking into the ocean as colors of the horizon start to become liquid.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "1 / span 2",
+				"lg": "1 / span 2"
+			},
+			"content": {
+				"src": "song-01-02.jpg",
+				"alt": "After the sun set, the colors of the sky turn indigo.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "song-01-03.jpg",
+				"alt": "Northern lights dancing above the ocean surface.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "video",
+			"layout": {
+				"md": "1 / -1",
+				"lg": "1 / -1"
+			},
+			"content": {
+				"src": "song-01.mp4",
+				"alt": "A virtual sunset over the ocean. The colors of the horizon turn liquid and flow with the beat.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / span 2"
+			},
+			"title": "Song 2",
+			"content": [
+				"Sweater Weather (Cover)"
+			]
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "song-02-00.jpg",
+				"alt": "Abstract lines move across the screen, fading over time.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "1 / span 2",
+				"lg": "1 / span 2"
+			},
+			"content": {
+				"src": "song-02-01.jpg",
+				"alt": "Lines melting into soft liquid shapes like rain on a window.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "song-02-02.jpg",
+				"alt": "Lines becoming more and more liquid as if the rain becomes more intense.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "video",
+			"layout": {
+				"md": "1 / -1",
+				"lg": "1 / -1"
+			},
+			"content": {
+				"src": "song-02.mp4",
+				"alt": "Bright blue lines appear to the beat and drift across the screen, then melt into liquid shapes, as if seen through a window in the rain.",
+				"caption": "Music not available due to copyright.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / span 2",
+				"lg": "1 / span 1"
+			},
+			"title": "Song 3",
+			"content": [
+				"John Redcorn (Cover)"
+			]
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "song-03-00.jpg",
+				"alt": "A large moon standing over a calm meadow with a few small fireflies.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "1 / span 2",
+				"lg": "1 / span 2"
+			},
+			"content": {
+				"src": "song-03-01.jpg",
+				"alt": "The moon is turning blue, the grass moving in the wind.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "song-03-02.jpg",
+				"alt": "A dithering effect is overlayed on the meadow scene, higlighting the outlines of its shapes.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "video",
+			"layout": {
+				"md": "1 / -1",
+				"lg": "1 / -1"
+			},
+			"content": {
+				"src": "song-03.mp4",
+				"alt": "A moonlit meadow, where small fireflies drift and light up the scene to the rhythm.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / span 2",
+				"lg": "1 / span 1"
+			},
+			"title": "Song 4",
+			"content": [
+				"why (not released)"
+			]
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "song-04-00.jpg",
+				"alt": "Stars moving in sync to the beat.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "video",
+			"layout": {
+				"md": "1 / -1",
+				"lg": "1 / -1"
+			},
+			"content": {
+				"src": "song-04-00.mp4",
+				"alt": "Stars forming abstract patterns to the rhythm of the music.",
+				"caption": "Music not available until release.",
+				"aspect": "16/9"
+			}
+		},
+
+		{
+			"type": "image",
+			"layout": {
+				"md": "1 / span 2",
+				"lg": "1 / span 2"
+			},
+			"content": {
+				"src": "song-04-01.jpg",
+				"alt": "Kaleidoscopic effect creating patterns from the moving stars (3 by 3 grid).",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "song-04-02.jpg",
+				"alt": "Kaleidoscopic effect creating patterns from the moving stars (5 by 5 grid).",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "video",
+			"layout": {
+				"md": "1 / -1"
+			},
+			"content": {
+				"src": "song-04-01.mp4",
+				"alt": "A 5 by 5 repetition of the initial scene, creating different layers of patterns.",
+				"caption": "Music not available until release.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "1 / span 2",
+				"lg": "1 / span 2"
+			},
+			"content": {
+				"src": "song-04-03.jpg",
+				"alt": "Rotational movement is added to change the nature of the patterns.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "song-04-04.jpg",
+				"alt": "Rotational movement is added to change the nature of the patterns.",
+				"aspect": "16/9"
+			}
+		}
+	]
+}
