@@ -87,7 +87,7 @@
 			},
 			"content": {
 				"src": "song-01-02.jpg",
-				"alt": "The end of the sunset, colors turning indigo.",
+				"alt": "After the sun set, the colors of the sky turn indigo.",
 				"aspect": "16/9"
 			}
 		},
@@ -133,7 +133,7 @@
 			},
 			"content": {
 				"src": "song-02-00.jpg",
-				"alt": "Testing Alt",
+				"alt": "Abstract lines move across the screen, fading over time.",
 				"aspect": "16/9"
 			}
 		},
@@ -145,7 +145,7 @@
 			},
 			"content": {
 				"src": "song-02-01.jpg",
-				"alt": "Testing Alt",
+				"alt": "Lines melting into soft liquid shapes like rain on a window.",
 				"aspect": "16/9"
 			}
 		},
@@ -157,7 +157,7 @@
 			},
 			"content": {
 				"src": "song-02-02.jpg",
-				"alt": "Testing Alt",
+				"alt": "Lines becoming more and more liquid as if the rain becomes more intense.",
 				"aspect": "16/9"
 			}
 		},
@@ -169,7 +169,7 @@
 			},
 			"content": {
 				"src": "song-02.mp4",
-				"alt": "Testing Alt",
+				"alt": "Bright blue lines appear to the beat and drift across the screen, then melt into liquid shapes, as if seen through a window in the rain.",
 				"caption": "Music not available due to copyright.",
 				"aspect": "16/9"
 			}
@@ -193,7 +193,7 @@
 			},
 			"content": {
 				"src": "song-03-00.jpg",
-				"alt": "Testing Alt",
+				"alt": "A large moon standing over a calm meadow with a few small fireflies.",
 				"aspect": "16/9"
 			}
 		},
@@ -205,7 +205,7 @@
 			},
 			"content": {
 				"src": "song-03-01.jpg",
-				"alt": "Testing Alt",
+				"alt": "The moon is turning blue, the grass moving in the wind.",
 				"aspect": "16/9"
 			}
 		},
@@ -217,7 +217,7 @@
 			},
 			"content": {
 				"src": "song-03-02.jpg",
-				"alt": "Testing Alt",
+				"alt": "A dithering effect is overlayed on the meadow scene, higlighting the outlines of its shapes.",
 				"aspect": "16/9"
 			}
 		},
@@ -252,7 +252,7 @@
 			},
 			"content": {
 				"src": "song-04-00.jpg",
-				"alt": "Testing Alt",
+				"alt": "Stars moving in sync to the beat.",
 				"aspect": "16/9"
 			}
 		},
@@ -264,7 +264,7 @@
 			},
 			"content": {
 				"src": "song-04-00.mp4",
-				"alt": "Testing Alt",
+				"alt": "Stars forming abstract patterns to the rhythm of the music.",
 				"caption": "Music not available until release.",
 				"aspect": "16/9"
 			}
@@ -278,7 +278,7 @@
 			},
 			"content": {
 				"src": "song-04-01.jpg",
-				"alt": "Testing Alt",
+				"alt": "Kaleidoscopic effect creating patterns from the moving stars (3 by 3 grid).",
 				"aspect": "16/9"
 			}
 		},
@@ -290,7 +290,7 @@
 			},
 			"content": {
 				"src": "song-04-02.jpg",
-				"alt": "Testing Alt",
+				"alt": "Kaleidoscopic effect creating patterns from the moving stars (5 by 5 grid).",
 				"aspect": "16/9"
 			}
 		},
@@ -301,7 +301,7 @@
 			},
 			"content": {
 				"src": "song-04-01.mp4",
-				"alt": "Testing Alt",
+				"alt": "A 5 by 5 repetition of the initial scene, creating different layers of patterns.",
 				"caption": "Music not available until release.",
 				"aspect": "16/9"
 			}
@@ -314,7 +314,7 @@
 			},
 			"content": {
 				"src": "song-04-03.jpg",
-				"alt": "Testing Alt",
+				"alt": "Rotational movement is added to change the nature of the patterns.",
 				"aspect": "16/9"
 			}
 		},
@@ -326,7 +326,7 @@
 			},
 			"content": {
 				"src": "song-04-04.jpg",
-				"alt": "Testing Alt",
+				"alt": "Rotational movement is added to change the nature of the patterns.",
 				"aspect": "16/9"
 			}
 		}
