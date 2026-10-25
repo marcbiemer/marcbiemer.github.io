@@ -18,11 +18,16 @@ type WorkFeaturedProps = {
 };
 
 export default function WorkFeatured({ header, projects }: WorkFeaturedProps) {
-  const featuredProjects = projects.slice(0, 2);
   return (
-    <Section gap="spacious" padStart="spacious" padEnd="none" vh theme="default">
+    <Section
+      gap="spacious"
+      padStart="spacious"
+      padEnd="none"
+      vh
+      theme="default"
+    >
       <SectionHeader {...header} />
-      {featuredProjects.map((feature, index) => (
+      {projects.map((feature, index) => (
         <ProjectFeature {...feature} index={index} key={index} />
       ))}
     </Section>

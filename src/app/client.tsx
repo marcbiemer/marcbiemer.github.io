@@ -1,6 +1,5 @@
 "use client";
 
-// TYPES
 import type { Meta } from "@/data/meta";
 import type { Intro } from "@/data/intro";
 import type { SectionHeaderContent } from "@/components/ui/section-header/section-header";
@@ -9,11 +8,8 @@ import type { Services } from "@/data/services";
 import type { WoW } from "@/data/wow";
 import type { About } from "@/data/about";
 
-// STYLES / ANIMAITONS
-// import styles from "./page.module.css";
 import { useEffect } from "react";
 
-// COMPONENTS
 import IntroSection from "@/features/intro/intro-section";
 import WorkSection from "@/features/work/work-section";
 import ServicesSection from "@/features/services/services-section";
@@ -36,6 +32,7 @@ export default function HomeClient({
     featured: SectionHeaderContent;
     archive: SectionHeaderContent;
     projects: Project[];
+    featuredProjectsCount: number;
   };
   services: Services;
   wow: WoW;
@@ -56,6 +53,7 @@ export default function HomeClient({
       <WorkSection
         featuredHeader={work.featured}
         archiveHeader={work.archive}
+        featuredProjectsCount={work.featuredProjectsCount}
         projects={work.projects}
       />
       <ServicesSection {...services} />

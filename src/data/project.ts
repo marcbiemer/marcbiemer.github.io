@@ -4,9 +4,11 @@ import { join } from 'path'
 import type { Block } from '@/components/layout/blocks/block-renderer'
 import { ImageContent } from '@/types/common'
 
+export const FEATURED_PROJECTS_COUNT = 3;
+
 export const featuredSlugs = [
-	// "pixlar-o-ljud-live-2",
-	// "pixlar-o-ljud-live-1",
+	"pixlar-o-ljud-live-2",
+	"pixlar-o-ljud-live-1",
 	"oresund-in-motion",
 	"spark",
 	"data-portraits-konsthall",

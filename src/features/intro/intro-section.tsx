@@ -68,14 +68,14 @@ export default function IntroSection({
               </p>
             </GridItem>
           ))}
-          <GridItem md="span 1" className={styles.body}>
+          <GridItem md="span 1" className={`${styles.body} ${styles.details}`}>
             <p>
               Based in {location.split(",")[0]}
               <br />
               <Clock location={location} timezone={timezone} useTimeOnly />
             </p>
           </GridItem>
-          <GridItem md="span 1" className={styles.body}>
+          <GridItem md="span 1" className={`${styles.body} ${styles.details}`}>
             <p>
               <HighlightText
                 text={coordinates}

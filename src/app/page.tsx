@@ -1,7 +1,7 @@
 import meta from "@/data/meta";
 import intro from "@/data/intro";
 import work from "@/data/work";
-import { getFeaturedProjects } from "@/data/project";
+import { getFeaturedProjects, FEATURED_PROJECTS_COUNT } from "@/data/project";
 import services from "@/data/services";
 import wow from "@/data/wow";
 import about from "@/data/about";
@@ -14,7 +14,11 @@ export default async function HomePage() {
     <HomeClient
       meta={meta}
       intro={intro}
-      work={{...work, projects: projects }}
+      work={{
+        ...work,
+        projects: projects,
+        featuredProjectsCount: FEATURED_PROJECTS_COUNT,
+      }}
       services={services}
       wow={wow}
       about={about}

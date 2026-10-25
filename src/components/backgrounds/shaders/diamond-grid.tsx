@@ -42,11 +42,15 @@ function Plane({ bgColor, shapeColor, gridDensity }: DiamondGridProps) {
     isHovering.current = false;
   };
 
-  useFrame(({ clock }, delta) => {
+  const time = useRef(0);
+
+  useFrame((_, delta) => {
+    time.current += delta;
+
     const material = materialRef.current;
     if (!material) return;
 
-    material.uniforms.u_time.value = clock.elapsedTime;
+    material.uniforms.u_time.value = time.current;
     material.uniforms.u_aspect.value = viewport.width / viewport.height;
 
     const mouseUv = material.uniforms.u_mouse.value as THREE.Vector2;
