@@ -7,6 +7,9 @@
 	font: var(--sys-font-body-small);
 	letter-spacing: var(--sys-letter-spacing-body-small);
 	color: rgb(var(--sys-color-fg-default-subtle));
+}
+
+.details {
 	display: none;
 }
 
@@ -16,7 +19,7 @@
 
 @media screen and (min-width: 768px) {
 
-	.body {
+	.details {
 		display: inline;
 	}
 	

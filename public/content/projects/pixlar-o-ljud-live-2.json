@@ -1,0 +1,334 @@
+{
+	"slug": "pixlar-o-ljud-live-2",
+	"title": "Pixlar O Ljud Live #2",
+	"year": "2026",
+	"id": 0,
+	"intro": "A real-time audiovisual performance in four chapters, moving from sunset into the depth of night.",
+	"tags": [
+		"Live Performance",
+		"Real-Time Generative Art"
+	],
+	"stats": [
+		{
+			"label": "location",
+			"value": "Malmö, Sweden"
+		},
+		{
+			"label": "dimensions",
+			"value": "1920 x 1080 px"
+		},
+		{
+			"label": "duration",
+			"value": "30 min"
+		}
+	],
+	"images": [
+		{
+			"src": "song-02-02.webp",
+			"alt": "This is an alt"
+		},
+		{
+			"src": "song-03-01.webp",
+			"alt": "This is an alt"
+		},
+		{
+			"src": "song-01-02.webp",
+			"alt": "This is an alt"
+		}
+	],
+	"blocks": [
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / -1"
+			},
+			"content": [
+				"A real-time audiovisual performance developed in {link:https://derivative.ca/}TouchDesigner{/link}, in which generative visuals respond to live music. Performed together with musician Melisa Hümmet, the work unfolds across four songs. Audio-reactive behaviors let color, light, and form move with the beat, while live adjustments to the system keep the performance open to improvisation. Each scene stands on its own, yet together they form a journey through fading light and deepening night.",
+				"Performed at {link:https://www.musikcentrumsyd.se/nyheter/malm-music-innovation-day}Pixlar Och Ljud Live{/link} as part of Malmö Music Innovation Day, {link:https://hypnostheatre.com/}Hypnos Theater{/link}, September 2026."
+			]
+		},
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / -1"
+			},
+			"title": "Music",
+			"content": [
+				"Melisa Hümmet{br}{link:https://open.spotify.com/artist/7g8nrrHA42iuyAvx5a5OlG?si=3BcYu2EbRlmRmoTGeFLdrg}Spotify{/link} | {link:https://www.instagram.com/melisahummet}Instagram{/link}"
+			]
+		},
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / span 2"
+			},
+			"title": "Song 1",
+			"content": [
+				"don't u wanna go"
+			]
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "song-01-00.jpg",
+				"alt": "The sun sinking into the ocean as colors of the horizon start to become liquid.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "1 / span 2",
+				"lg": "1 / span 2"
+			},
+			"content": {
+				"src": "song-01-02.jpg",
+				"alt": "The end of the sunset, colors turning indigo.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "song-01-03.jpg",
+				"alt": "Northern lights dancing above the ocean surface.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "video",
+			"layout": {
+				"md": "1 / -1",
+				"lg": "1 / -1"
+			},
+			"content": {
+				"src": "song-01.mp4",
+				"alt": "A virtual sunset over the ocean. The colors of the horizon turn liquid and flow with the beat.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / span 2"
+			},
+			"title": "Song 2",
+			"content": [
+				"Sweater Weather (Cover)"
+			]
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "song-02-00.jpg",
+				"alt": "Testing Alt",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "1 / span 2",
+				"lg": "1 / span 2"
+			},
+			"content": {
+				"src": "song-02-01.jpg",
+				"alt": "Testing Alt",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "song-02-02.jpg",
+				"alt": "Testing Alt",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "video",
+			"layout": {
+				"md": "1 / -1",
+				"lg": "1 / -1"
+			},
+			"content": {
+				"src": "song-02.mp4",
+				"alt": "Testing Alt",
+				"caption": "Music not available due to copyright.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / span 2",
+				"lg": "1 / span 1"
+			},
+			"title": "Song 3",
+			"content": [
+				"John Redcorn (Cover)"
+			]
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "song-03-00.jpg",
+				"alt": "Testing Alt",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "1 / span 2",
+				"lg": "1 / span 2"
+			},
+			"content": {
+				"src": "song-03-01.jpg",
+				"alt": "Testing Alt",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "song-03-02.jpg",
+				"alt": "Testing Alt",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "video",
+			"layout": {
+				"md": "1 / -1",
+				"lg": "1 / -1"
+			},
+			"content": {
+				"src": "song-03.mp4",
+				"alt": "A moonlit meadow, where small fireflies drift and light up the scene to the rhythm.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / span 2",
+				"lg": "1 / span 1"
+			},
+			"title": "Song 4",
+			"content": [
+				"why (not released)"
+			]
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "song-04-00.jpg",
+				"alt": "Testing Alt",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "video",
+			"layout": {
+				"md": "1 / -1",
+				"lg": "1 / -1"
+			},
+			"content": {
+				"src": "song-04-00.mp4",
+				"alt": "Testing Alt",
+				"caption": "Music not available until release.",
+				"aspect": "16/9"
+			}
+		},
+
+		{
+			"type": "image",
+			"layout": {
+				"md": "1 / span 2",
+				"lg": "1 / span 2"
+			},
+			"content": {
+				"src": "song-04-01.jpg",
+				"alt": "Testing Alt",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "song-04-02.jpg",
+				"alt": "Testing Alt",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "video",
+			"layout": {
+				"md": "1 / -1"
+			},
+			"content": {
+				"src": "song-04-01.mp4",
+				"alt": "Testing Alt",
+				"caption": "Music not available until release.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "1 / span 2",
+				"lg": "1 / span 2"
+			},
+			"content": {
+				"src": "song-04-03.jpg",
+				"alt": "Testing Alt",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "song-04-04.jpg",
+				"alt": "Testing Alt",
+				"aspect": "16/9"
+			}
+		}
+	]
+}

@@ -56,20 +56,22 @@ function Plane({
     spawnRipple(e.uv.x, e.uv.y, CLICK_STRENGTH);
   };
 
-  useFrame(({ clock }) => {
+  const time = useRef(0);
+
+  useFrame((_, delta) => {
+    time.current += delta;
     const material = materialRef.current;
     if (!material) return;
 
-    currentTime.current = clock.elapsedTime;
-    material.uniforms.u_time.value = clock.elapsedTime;
+    material.uniforms.u_time.value = time.current;
     material.uniforms.u_aspect.value = viewport.width / viewport.height;
 
-    if (rainEnabled && clock.elapsedTime >= nextRaindropAt.current) {
+    if (rainEnabled && time.current >= nextRaindropAt.current) {
       spawnRipple(Math.random(), Math.random(), RAINDROP_STRENGTH);
       const interval =
         RAINDROP_MIN_INTERVAL +
         Math.random() * (RAINDROP_MAX_INTERVAL - RAINDROP_MIN_INTERVAL);
-      nextRaindropAt.current = clock.elapsedTime + interval;
+      nextRaindropAt.current = time.current + interval;
     }
   });
 

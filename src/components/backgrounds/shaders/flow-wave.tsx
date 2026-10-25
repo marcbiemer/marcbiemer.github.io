@@ -29,10 +29,13 @@ function Plane({ bgColor, highlightColor, speed, scale }: FlowWaveProps) {
     if (scale !== undefined) material.uniforms.u_scale.value = scale;
   }, [bgColor, highlightColor, speed, scale]);
 
-  useFrame(({ clock }) => {
+  const time = useRef(0);
+
+  useFrame((_, delta) => {
+    time.current += delta;
     const material = materialRef.current;
     if (!material) return;
-    material.uniforms.u_time.value = clock.elapsedTime;
+    material.uniforms.u_time.value = time.current;
     material.uniforms.u_aspect.value = viewport.width / viewport.height;
   });
 

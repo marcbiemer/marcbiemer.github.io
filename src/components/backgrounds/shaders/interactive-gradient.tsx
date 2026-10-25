@@ -36,11 +36,14 @@ function Plane({ colorA, colorB, bgColor }: InteractiveGradientProps) {
     targetPos.current.copy(DEFAULT_POS);
   };
 
-  useFrame(({ clock }, delta) => {
+  const time = useRef(0);
+
+  useFrame((_, delta) => {
+    time.current += delta;
     const material = materialRef.current;
     if (!material) return;
 
-    material.uniforms.u_time.value = clock.elapsedTime;
+    material.uniforms.u_time.value = time.current;
     material.uniforms.u_aspect.value = viewport.width / viewport.height;
 
     const gradientPos = material.uniforms.u_gradientPos.value as THREE.Vector2;

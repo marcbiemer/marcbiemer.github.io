@@ -27,10 +27,13 @@ function Plane({ bgColor, highlightColor, gridDensity }: HalftoneMatrixProps) {
     if (gridDensity) material.uniforms.u_gridDensity.value = gridDensity;
   }, [bgColor, highlightColor, gridDensity]);
 
-  useFrame(({ clock }) => {
+  const time = useRef(0);
+
+  useFrame((_, delta) => {
+    time.current += delta;
     const material = materialRef.current;
     if (!material) return;
-    material.uniforms.u_time.value = clock.elapsedTime;
+    material.uniforms.u_time.value = time.current;
     material.uniforms.u_aspect.value = viewport.width / viewport.height;
   });
 

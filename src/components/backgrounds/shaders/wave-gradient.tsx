@@ -9,9 +9,13 @@ function Plane() {
   const ref = useRef<THREE.ShaderMaterial & { u_time: number }>(null);
   const { viewport } = useThree();
 
-  useFrame(({ clock }) => {
+  const time = useRef(0);
+
+  useFrame((_, delta) => {
+    time.current += delta;
+
     if (ref.current) {
-      ref.current.u_time = clock.elapsedTime;
+      ref.current.u_time = time.current;
     }
   });
 

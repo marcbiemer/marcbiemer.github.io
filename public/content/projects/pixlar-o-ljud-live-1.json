@@ -1,0 +1,217 @@
+{
+	"slug": "pixlar-o-ljud-live-1",
+	"title": "Pixlar O Ljud Live #1",
+	"year": "2026",
+	"id": 0,
+	"intro": "A real-time audiovisual performance descending from the ocean surface into bioluminescent depths.",
+	"tags": [
+		"Live Performance",
+		"Real-Time Generative Art"
+	],
+	"stats": [
+		{
+			"label": "location",
+			"value": "Malmö, Sweden"
+		},
+		{
+			"label": "dimensions",
+			"value": "1920 x 1080 px"
+		},
+		{
+			"label": "duration",
+			"value": "20 min"
+		}
+	],
+	"images": [
+		{
+			"src": "pattern-05.webp",
+			"alt": "Triangular Waves performing music in front of an abstract pattern with blue color."
+		},
+		{
+			"src": "pattern-04.webp",
+			"alt": "A white, blue and red colored pattern formed by a 5 by 5 tiled repetition of the virtual fish flock movement."
+		},
+		{
+			"src": "grid-01.webp",
+			"alt": "A fish flock overlayed on top of the 5 by 5 tiled repetition of the scene."
+		}
+	],
+	"blocks": [
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / -1"
+			},
+			"content": [
+				"A real-time audiovisual performance developed in {link:https://derivative.ca/}TouchDesigner{/link}, unfolding as a descent beneath the ocean surface. It begins with gentle waves and a drifting buoy, then dives into vibrant underwater ecosystems. Layer upon layer of audio-reactive effects accumulate, and the recognizable scene gradually dissolves into complex, abstract patterns. Live manipulation of system parameters and sensitivity thresholds brings improvisation into the process, making the performance a unique dialogue between sound, motion, and emergence.",
+				"Performed at {link:https://www.musikcentrumsyd.se/nyheter/pixlar-och-ljud-p-hypnos}Pixlar Och Ljud Live{/link}, {link:https://hypnostheatre.com/}Hypnos Theater{/link}, June 2026."
+			]
+		},
+		{
+			"type": "text",
+			"layout": {
+				"md": "1 / -1"
+			},
+			"title": "Music",
+			"content": [
+				"Triangular Waves{br}{link:https://open.spotify.com/artist/6f2E8MEtCIqRpcUv4sX92x?si=3sje90ICSbOoO1gbKIY13A}Spotify{/link} | {link:https://triangularwaves.bandcamp.com/album/matriarch}Bandcamp{/link}"
+			]
+		},
+		{
+			"type": "video",
+			"layout": {
+				"md": "1 / -1",
+				"lg": "1 / -1"
+			},
+			"content": {
+				"src": "flocks.mp4",
+				"alt": "Virtual flocks of glowing fish moving in sync to the music.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "1 / span 2",
+				"lg": "1 / span 2"
+			},
+			"content": {
+				"src": "flocks-01.webp",
+				"alt": "Virtual flocks of fish glowing in dark blue color.",
+				"aspect": "3/4"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "flocks-02.webp",
+				"alt": "Virtual flocks of fish glowing in white color.",
+				"aspect": "3/4"
+			}
+		},
+		{
+			"type": "video",
+			"layout": {
+				"md": "1 / -1",
+				"lg": "1 / -1"
+			},
+			"content": {
+				"src": "pattern.mp4",
+				"alt": "A 5 by 5 tiled repetition of the virtual fish flocks creating an abstract pattern of movement.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "1 / span 2",
+				"lg": "1 / span 2"
+			},
+			"content": {
+				"src": "pattern-01.webp",
+				"alt": "A white and blue pattern formed by a 5 by 5 tiled repetition of the virtual fish flock movement.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "pattern-02.webp",
+				"alt": "Another white and blue  pattern formed by a 5 by 5 tiled repetition of the virtual fish flock movement.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "1 / -1",
+				"lg": "1 / -1"
+			},
+			"content": {
+				"src": "pattern-05.webp",
+				"alt": "Triangular Waves performing music in front of an abstract pattern with blue color.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "1 / span 2",
+				"lg": "1 / span 2"
+			},
+			"content": {
+				"src": "pattern-04.webp",
+				"alt": "A white, blue and red colored pattern formed by a 5 by 5 tiled repetition of the virtual fish flock movement.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "pattern-03.webp",
+				"alt": "Another white, blue and red colored pattern formed by a 5 by 5 tiled repetition of the virtual fish flock movement.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "video",
+			"layout": {
+				"md": "1 / -1",
+				"lg": "1 / -1"
+			},
+			"content": {
+				"src": "grid-01.mp4",
+				"alt": "A fish flock overlayed on top of the 5 by 5 tiled repetition of the scene.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "video",
+			"layout": {
+				"md": "1 / -1",
+				"lg": "1 / -1"
+			},
+			"content": {
+				"src": "grid-02.mp4",
+				"alt": "A grid pattern overlayed creating a pixelated effect of the scene.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "1 / span 2",
+				"lg": "1 / span 2"
+			},
+			"content": {
+				"src": "grid-01.webp",
+				"alt": "A fish flock overlayed on top of the 5 by 5 tiled repetition of the scene.",
+				"aspect": "16/9"
+			}
+		},
+		{
+			"type": "image",
+			"layout": {
+				"md": "3 / span 2",
+				"lg": "3 / span 2"
+			},
+			"content": {
+				"src": "grid-02.webp",
+				"alt": "A fish flock overlayed with an RGB delay effect on top of the 5 by 5 tiled repetition of the scene.",
+				"aspect": "16/9"
+			}
+		}
+	]
+}
