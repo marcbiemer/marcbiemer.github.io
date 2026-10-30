@@ -1,16 +1,16 @@
 :root {
-	--ref-unit-size: 0.25rem;
+    --ref-unit-size: 0.25rem;
 
-	--ref-size-1: calc(var(--ref-unit-size) * 1);
-	--ref-size-2: calc(var(--ref-unit-size) * 2);
-	--ref-size-3: calc(var(--ref-unit-size) * 3);
-	--ref-size-4: calc(var(--ref-unit-size) * 4);
-	--ref-size-5: calc(var(--ref-unit-size) * 5);
-	--ref-size-6: calc(var(--ref-unit-size) * 6);
-	--ref-size-7: calc(var(--ref-unit-size) * 7);
-	--ref-size-8: calc(var(--ref-unit-size) * 8);
-	--ref-size-9: calc(var(--ref-unit-size) * 9);
-	--ref-size-10: calc(var(--ref-unit-size) * 10);
-	--ref-size-11: calc(var(--ref-unit-size) * 11);
-	--ref-size-12: calc(var(--ref-unit-size) * 12);
+    --ref-size-1: calc(var(--ref-unit-size) * 1);
+    --ref-size-2: calc(var(--ref-unit-size) * 2);
+    --ref-size-3: calc(var(--ref-unit-size) * 3);
+    --ref-size-4: calc(var(--ref-unit-size) * 4);
+    --ref-size-5: calc(var(--ref-unit-size) * 5);
+    --ref-size-6: calc(var(--ref-unit-size) * 6);
+    --ref-size-7: calc(var(--ref-unit-size) * 7);
+    --ref-size-8: calc(var(--ref-unit-size) * 8);
+    --ref-size-9: calc(var(--ref-unit-size) * 9);
+    --ref-size-10: calc(var(--ref-unit-size) * 10);
+    --ref-size-11: calc(var(--ref-unit-size) * 11);
+    --ref-size-12: calc(var(--ref-unit-size) * 12);
 }

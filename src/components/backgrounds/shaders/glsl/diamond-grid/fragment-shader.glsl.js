@@ -73,4 +73,4 @@ const fragmentShader = `
     }
 `;
 
-export default fragmentShader
+export default fragmentShader;

@@ -1,41 +1,44 @@
 .embla {
-	margin: auto;
-	--slide-height: 30svh;
-	--slide-spacing: calc(var(--sys-gutter) / 2);
-	--slide-size: min(calc(100svw - 8 * var(--sys-gutter) + 2 * var(--slide-spacing)), var(--sys-max-width-layout));
-	max-width: 100%;
-	overflow: hidden;
+    margin: auto;
+    --slide-height: 30svh;
+    --slide-spacing: calc(var(--sys-gutter) / 2);
+    --slide-size: min(
+        calc(100svw - 8 * var(--sys-gutter) + 2 * var(--slide-spacing)),
+        var(--sys-max-width-layout)
+    );
+    max-width: 100%;
+    overflow: hidden;
 }
 
 .emblaViewport {
-	overflow: hidden;
+    overflow: hidden;
 }
 
 .emblaContainer {
-	display: flex;
-	touch-action: pan-y pinch-zoom;
-	margin-left: calc(var(--slide-spacing) * -1);
+    display: flex;
+    touch-action: pan-y pinch-zoom;
+    margin-left: calc(var(--slide-spacing) * -1);
 }
 
 .emblaSlide {
-	transform: translate3d(0, 0, 0);
-	flex: 0 0 var(--slide-size);
-	min-width: 0;
-	padding-left: var(--slide-spacing);
-	height: var(--slide-height);
-	user-select: none;
+    transform: translate3d(0, 0, 0);
+    flex: 0 0 var(--slide-size);
+    min-width: 0;
+    padding-left: var(--slide-spacing);
+    height: var(--slide-height);
+    user-select: none;
 }
 
 .emblaSlide figure {
-	box-shadow: var(--sys-shadow-4);
+    box-shadow: var(--sys-shadow-4);
 }
 
 .emblaSlide:active {
-	cursor: grabbing;
+    cursor: grabbing;
 }
 
 @media screen and (min-width: 768px) {
-	.embla {
-		--slide-height: 60svh;
-	}
+    .embla {
+        --slide-height: 60svh;
+    }
 }

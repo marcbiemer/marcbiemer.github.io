@@ -1,235 +1,234 @@
 .nav {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100svh;
-	pointer-events: none;
-	overflow: hidden;
-	z-index: var(--sys-z-nav);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100svh;
+    pointer-events: none;
+    overflow: hidden;
+    z-index: var(--sys-z-nav);
 }
 
 .menuBar {
-	transition: color 0.75s cubic-bezier(0.87, 0, 0.13, 1);
-	position: relative;
-	top: 0;
-	left: 0;
-	width: 100%;
-	max-width: var(--sys-max-width-layout);
-	padding-inline: var(--sys-gutter);
-	padding-top: var(--sys-stack-pad-condensed);
-	margin-inline: auto;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	pointer-events: all;
-	color: rgb(var(--sys-color-fg-default));
-	z-index: calc(var(--sys-z-nav) + 1);
-}
-
-.nav.default .menuBar, 
-.nav.default .menuToggleBtn {
-	color: rgb(var(--sys-color-fg-default));
-}
-
-.nav.default .menuHamburgerIcon span {
-	background-color: rgb(var(--sys-color-fg-default));
-}
-  
-.nav.inverse .menuBar, .nav.inverse .menuToggleBtn {
-	color: rgb(var(--sys-color-fg-inverse));
-}
-
-.nav.nav.inverse .menuHamburgerIcon span {
-	background-color: rgb(var(--sys-color-fg-inverse));
+    transition: color 0.75s cubic-bezier(0.87, 0, 0.13, 1);
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: var(--sys-max-width-layout);
+    padding-inline: var(--sys-gutter);
+    padding-top: var(--sys-stack-pad-condensed);
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: all;
+    color: rgb(var(--sys-color-fg-default));
+    z-index: calc(var(--sys-z-nav) + 1);
 }
 
 .menuLogo {
-	padding: var(--sys-stack-pad-condensed);
-	font: var(--sys-font-title-small);
-	letter-spacing: var(--sys-letter-spacing-title-small);
+    padding: var(--sys-stack-pad-condensed);
+    font: var(--sys-font-title-small);
+    letter-spacing: var(--sys-letter-spacing-title-small);
 }
 
 .menuToggleBtn {
-	transition: color 0.75s cubic-bezier(0.87, 0, 0.13, 1);
-	display: flex;
-	align-items: center;
-	gap: var(--sys-control-gap-normal);
-	padding: 0 var(--sys-stack-pad-condensed);
-	background-color: transparent;
-	border: var(--sys-border-transparent);
-	font: var(--sys-font-title-small);
-	letter-spacing: var(--sys-letter-spacing-title-small);
-	cursor: pointer;
-	height: var(--sys-control-size-medium);
+    transition: color 0.75s cubic-bezier(0.87, 0, 0.13, 1);
+    display: flex;
+    align-items: center;
+    gap: var(--sys-control-gap-normal);
+    padding: 0 var(--sys-stack-pad-condensed);
+    background-color: transparent;
+    border: var(--sys-border-transparent);
+    font: var(--sys-font-title-small);
+    letter-spacing: var(--sys-letter-spacing-title-small);
+    cursor: pointer;
+    height: var(--sys-control-size-medium);
 }
 
 .menuToggleLabel {
-	overflow: hidden;
+    overflow: hidden;
 }
 
 .menuToggleLabel p {
-	position: relative;
-	transform: translateY(0%);
-	will-change: transform;
+    position: relative;
+    transform: translateY(0%);
+    will-change: transform;
 }
 
 .menuHamburgerIcon {
-	position: relative;
-	width: var(--sys-control-size-small);
-	height: var(--sys-control-size-small);
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: flex-end;
-	border: var(--sys-border-transparent);
-	border-radius: 100%;
+    position: relative;
+    width: var(--sys-control-size-small);
+    height: var(--sys-control-size-small);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    border: var(--sys-border-transparent);
+    border-radius: 100%;
 }
 
 .menuHamburgerIcon span {
-	position: absolute;
-	width: var(--ref-space-4);
-	height: 1px;
-	transition: all 0.75s cubic-bezier(0.87, 0, 0.13, 1);
-	transform-origin: center;
-	will-change: transform;
+    position: absolute;
+    width: var(--ref-space-4);
+    height: 1px;
+    transition: all 0.75s cubic-bezier(0.87, 0, 0.13, 1);
+    transform-origin: center;
+    will-change: transform;
 }
 
 .menuHamburgerIcon span:nth-child(1) {
-	transform: translateY(-2px);
+    transform: translateY(-2px);
 }
 
 .menuHamburgerIcon span:nth-child(2) {
-	transform: translateY(2px);
-	width: var(--ref-space-3);
+    transform: translateY(2px);
+    width: var(--ref-space-3);
 }
 
 .menuHamburgerIcon.active span:nth-child(1) {
-	transform: translateY(0) rotate(45deg) scaleX(1.05);
+    transform: translateY(0) rotate(45deg) scaleX(1.05);
 }
 
 .menuHamburgerIcon.active span:nth-child(2) {
-	transform: translateY(0) rotate(-45deg) scaleX(1.05);
-	width: var(--ref-space-4);
+    transform: translateY(0) rotate(-45deg) scaleX(1.05);
+    width: var(--ref-space-4);
 }
 
 .menuOverlay,
 .menuOverlayContent {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100svh;
-	color: rgb(var(--sys-color-fg-default));
-	overflow: hidden;
-	z-index: var(--sys-z-nav);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100svh;
+    color: rgb(var(--sys-color-fg-default));
+    overflow: hidden;
+    z-index: var(--sys-z-nav);
 }
 
 .menuOverlay {
-	background-color: rgba(var(--sys-color-bg-default), var(--sys-opacity-scrim));
-	clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
-	will-change: clip-path;
-	-webkit-backdrop-filter: blur(var(--sys-blur-overlay));
-	backdrop-filter: blur(var(--sys-blur-overlay));
+    background-color: rgba(var(--sys-color-bg-default), var(--sys-opacity-scrim));
+    clip-path: polygon(0% 0%, 100% 0%, 100% 0%, 0% 0%);
+    will-change: clip-path;
+    -webkit-backdrop-filter: blur(var(--sys-blur-overlay));
+    backdrop-filter: blur(var(--sys-blur-overlay));
 }
 
 .menuOverlayContent {
-	position: relative;
-	display: flex;
-	transform: translateY(0%);
-	will-change: transform;
-	pointer-events: all;
-	max-width: var(--sys-max-width-layout);
-	padding-inline: var(--sys-gutter);
-	padding-top: var(--sys-stack-pad-condensed);
-	margin-inline: auto;
+    position: relative;
+    display: flex;
+    transform: translateY(0%);
+    will-change: transform;
+    pointer-events: all;
+    max-width: var(--sys-max-width-layout);
+    padding-inline: var(--sys-gutter);
+    padding-top: var(--sys-stack-pad-condensed);
+    margin-inline: auto;
 }
 
 .menuMediaWrapper {
-	position: relative;
-	flex: 1.5;
-	opacity: 0;
-	will-change: opacity;
-	padding: var(--sys-section-pad-normal) var(--sys-stack-pad-condensed);
+    position: relative;
+    flex: 1.5;
+    opacity: 0;
+    will-change: opacity;
+    padding: var(--sys-section-pad-normal) var(--sys-stack-pad-condensed);
 }
 
 .menuMedia {
-	position: relative;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
-	border-radius: var(--sys-radius-media);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: var(--sys-radius-media);
 }
 
 .menuContentWrapper {
-	flex: 3;
-	position: relative;
-	display: flex;
+    flex: 3;
+    position: relative;
+    display: flex;
 }
 
 .menuContentMain {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .menuFooter {
-	margin: 0 auto;
+    margin: 0 auto;
 }
 
 .menuContentMain,
 .menuFooter {
-	width: 75%;
-	padding: var(--sys-stack-pad-condensed);
-	display: flex;
-	align-items: flex-end;
-	gap: var(--sys-container-gap-normal);
+    width: 75%;
+    padding: var(--sys-stack-pad-condensed);
+    display: flex;
+    align-items: flex-end;
+    gap: var(--sys-container-gap-normal);
 }
 
 .menuCol {
-	display: flex;
-	flex-direction: column;
-	gap: var(--sys-stack-gap-normal);
+    display: flex;
+    flex-direction: column;
+    gap: var(--sys-stack-gap-normal);
 }
 
 .menuCol:nth-child(1) {
-	flex: 3;
+    flex: 3;
 }
 
 .menuCol:nth-child(2) {
-	flex: 2;
+    flex: 2;
 }
 
 .menuCol:has(.menuLink) {
-	gap: var(--sys-container-gap-condensed);
+    gap: var(--sys-container-gap-condensed);
 }
 
 .menuLink a {
-	font: var(--sys-font-display-large);
-	letter-spacing: var(--sys-letter-spacing-display-large);
+    font: var(--sys-font-display-large);
+    letter-spacing: var(--sys-letter-spacing-display-large);
 }
 
 .line {
-	position: relative;
-	will-change: transform;
+    position: relative;
+    will-change: transform;
+}
+
+.nav.default .menuBar,
+.nav.default .menuToggleBtn {
+    color: rgb(var(--sys-color-fg-default));
+}
+
+.nav.default .menuHamburgerIcon span {
+    background-color: rgb(var(--sys-color-fg-default));
+}
+
+.nav.inverse .menuBar,
+.nav.inverse .menuToggleBtn {
+    color: rgb(var(--sys-color-fg-inverse));
+}
+
+.nav.nav.inverse .menuHamburgerIcon span {
+    background-color: rgb(var(--sys-color-fg-inverse));
 }
 
 @media screen and (max-width: 768px) {
+    .menuMediaWrapper {
+        display: none;
+    }
 
-	.menuMediaWrapper {
-		display: none;
-	}
+    .menuContentMain,
+    .menuFooter {
+        width: 100%;
+    }
 
-	.menuContentMain,
-	.menuFooter {
-		width: 100%;
-	}
-
-	.menuContentMain {
-		top: 50%;
-		flex-direction: column;
-		align-items: flex-start;
-	}
-
+    .menuContentMain {
+        top: 50%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }

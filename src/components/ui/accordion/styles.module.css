@@ -1,27 +1,27 @@
 .trigger {
-	cursor: pointer;
-	background-color: transparent;
-	border: var(--sys-border-transparent);
-	color: inherit;
-	text-align: start;
+    cursor: pointer;
+    background-color: transparent;
+    border: var(--sys-border-transparent);
+    color: inherit;
+    text-align: start;
 }
 
 .body {
-	display: grid;
-	grid-column: 1 / -1;
-	grid-template-columns: subgrid;
-	grid-template-rows: 0fr;
-	overflow: hidden;
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-columns: subgrid;
+    grid-template-rows: 0fr;
+    overflow: hidden;
 }
 
 .body,
 .body * {
-	transition: var(--sys-motion-expand);
+    transition: var(--sys-motion-expand);
 }
 
 .bodyInner {
-	display: grid;
-	grid-column: 1 / -1;
-	grid-template-columns: subgrid;
-	min-height: 0;
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-columns: subgrid;
+    min-height: 0;
 }

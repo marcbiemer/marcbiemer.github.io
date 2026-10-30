@@ -41,13 +41,13 @@
 }
 
 @media (min-width: 768px) {
-	:root {
-		--sys-gutter: var(--ref-space-10);
-	}
+    :root {
+        --sys-gutter: var(--ref-space-10);
+    }
 }
 
 @media (min-width: 1440px) {
-	:root {
-		--sys-gutter: var(--ref-space-20);
-	}
+    :root {
+        --sys-gutter: var(--ref-space-20);
+    }
 }

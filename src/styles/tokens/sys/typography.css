@@ -13,26 +13,58 @@
 
     --sys-font-size-display-hero: clamp(2.75rem, 2.1rem + 3.25vw, 4.5rem);
 
-    --sys-font-label-small: var(--ref-font-weight-regular) var(--sys-font-size-1)/var(--ref-line-height-relaxed) var(--ref-font-family-mono);
-    --sys-font-label-medium: var(--ref-font-weight-bold) var(--sys-font-size-2)/var(--ref-line-height-snug) var(--ref-font-family-mono);
-    --sys-font-label-large: var(--ref-font-weight-bold) var(--sys-font-size-3)/var(--ref-line-height-relaxed) var(--ref-font-family-mono);
+    --sys-font-label-small:
+        var(--ref-font-weight-regular) var(--sys-font-size-1) / var(--ref-line-height-relaxed)
+        var(--ref-font-family-mono);
+    --sys-font-label-medium:
+        var(--ref-font-weight-bold) var(--sys-font-size-2) / var(--ref-line-height-snug)
+        var(--ref-font-family-mono);
+    --sys-font-label-large:
+        var(--ref-font-weight-bold) var(--sys-font-size-3) / var(--ref-line-height-relaxed)
+        var(--ref-font-family-mono);
 
-    --sys-font-body-small: var(--ref-font-weight-regular) var(--sys-font-size-2)/var(--ref-line-height-snug) var(--ref-font-family-sans);
-    --sys-font-body-medium: var(--ref-font-weight-regular) var(--sys-font-size-3)/var(--ref-line-height-regular) var(--ref-font-family-sans);
-    --sys-font-body-large: var(--ref-font-weight-regular) var(--sys-font-size-4)/var(--ref-line-height-loose) var(--ref-font-family-sans);
+    --sys-font-body-small:
+        var(--ref-font-weight-regular) var(--sys-font-size-2) / var(--ref-line-height-snug)
+        var(--ref-font-family-sans);
+    --sys-font-body-medium:
+        var(--ref-font-weight-regular) var(--sys-font-size-3) / var(--ref-line-height-regular)
+        var(--ref-font-family-sans);
+    --sys-font-body-large:
+        var(--ref-font-weight-regular) var(--sys-font-size-4) / var(--ref-line-height-loose)
+        var(--ref-font-family-sans);
 
-    --sys-font-title-small: var(--ref-font-weight-semibold) var(--sys-font-size-3)/var(--ref-line-height-regular) var(--ref-font-family-display);
-    --sys-font-title-medium: var(--ref-font-weight-semibold) var(--sys-font-size-4)/var(--ref-line-height-loose) var(--ref-font-family-display);
-    --sys-font-title-large: var(--ref-font-weight-semibold) var(--sys-font-size-5)/var(--ref-line-height-tight) var(--ref-font-family-display);
+    --sys-font-title-small:
+        var(--ref-font-weight-semibold) var(--sys-font-size-3) / var(--ref-line-height-regular)
+        var(--ref-font-family-display);
+    --sys-font-title-medium:
+        var(--ref-font-weight-semibold) var(--sys-font-size-4) / var(--ref-line-height-loose)
+        var(--ref-font-family-display);
+    --sys-font-title-large:
+        var(--ref-font-weight-semibold) var(--sys-font-size-5) / var(--ref-line-height-tight)
+        var(--ref-font-family-display);
 
-    --sys-font-headline-small: var(--ref-font-weight-bold) var(--sys-font-size-6)/var(--ref-line-height-tight) var(--ref-font-family-display);
-    --sys-font-headline-medium: var(--ref-font-weight-bold) var(--sys-font-size-7)/var(--ref-line-height-tight) var(--ref-font-family-display);
-    --sys-font-headline-large: var(--ref-font-weight-bold) var(--sys-font-size-8)/var(--ref-line-height-tight) var(--ref-font-family-display);
+    --sys-font-headline-small:
+        var(--ref-font-weight-bold) var(--sys-font-size-6) / var(--ref-line-height-tight)
+        var(--ref-font-family-display);
+    --sys-font-headline-medium:
+        var(--ref-font-weight-bold) var(--sys-font-size-7) / var(--ref-line-height-tight)
+        var(--ref-font-family-display);
+    --sys-font-headline-large:
+        var(--ref-font-weight-bold) var(--sys-font-size-8) / var(--ref-line-height-tight)
+        var(--ref-font-family-display);
 
-    --sys-font-display-small: var(--ref-font-weight-bold) var(--sys-font-size-9)/var(--ref-line-height-tight) var(--ref-font-family-display);
-    --sys-font-display-medium: var(--ref-font-weight-bold) var(--sys-font-size-10)/var(--ref-line-height-xtight) var(--ref-font-family-display);
-    --sys-font-display-large: var(--ref-font-weight-bold) var(--sys-font-size-11)/var(--ref-line-height-xtight) var(--ref-font-family-display);
-    --sys-font-display-hero: var(--ref-font-weight-bold) var(--sys-font-size-display-hero)/var(--ref-line-height-xtight) var(--ref-font-family-display);
+    --sys-font-display-small:
+        var(--ref-font-weight-bold) var(--sys-font-size-9) / var(--ref-line-height-tight)
+        var(--ref-font-family-display);
+    --sys-font-display-medium:
+        var(--ref-font-weight-bold) var(--sys-font-size-10) / var(--ref-line-height-xtight)
+        var(--ref-font-family-display);
+    --sys-font-display-large:
+        var(--ref-font-weight-bold) var(--sys-font-size-11) / var(--ref-line-height-xtight)
+        var(--ref-font-family-display);
+    --sys-font-display-hero:
+        var(--ref-font-weight-bold) var(--sys-font-size-display-hero) /
+        var(--ref-line-height-xtight) var(--ref-font-family-display);
 
     --sys-letter-spacing-label-small: var(--ref-letter-spacing-loose);
     --sys-letter-spacing-label-medium: var(--ref-letter-spacing-loose);

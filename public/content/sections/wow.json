@@ -1,33 +1,33 @@
 {
-	"header": {
-		"layout": "row",
-		"hasMarker": false,
-		"sectionTitle": "Ways Of Working",
-		"titleLimit": true,
-		"title": "From Concept{br}[To Experience]",
-		"titleScale": "large",
-		"body": {
-			"blocks": [
-				"One person invested in creating unique experiences, handling the entire creative and technical process end to end. No separate designers, no developer handoffs."
-			]
-		}
-	},
-	"process": [
-		{
-			"label": "Discover",
-			"description": "Understand what makes your project unique: the space, the audience, the data, and the story worth telling."
-		},
-		{
-			"label": "Design",
-			"description": "From there, sketch, prototype and test ideas to refine the artistic direction through an iterative process."
-		},
-		{
-			"label": "Develop",
-			"description": "Bring the concept to life through a combination of cutting-edge creative software and hardware tools."
-		},
-		{
-			"label": "Deliver",
-			"description": "Install the finished piece in its intended environment, including setup, calibration, and on-site support."
-		}
-	]
+    "header": {
+        "layout": "row",
+        "hasMarker": false,
+        "sectionTitle": "Ways Of Working",
+        "titleLimit": true,
+        "title": "From Concept{br}[To Experience]",
+        "titleScale": "large",
+        "body": {
+            "blocks": [
+                "One person invested in creating unique experiences, handling the entire creative and technical process end to end. No separate designers, no developer handoffs."
+            ]
+        }
+    },
+    "process": [
+        {
+            "label": "Discover",
+            "description": "Understand what makes your project unique: the space, the audience, the data, and the story worth telling."
+        },
+        {
+            "label": "Design",
+            "description": "From there, sketch, prototype and test ideas to refine the artistic direction through an iterative process."
+        },
+        {
+            "label": "Develop",
+            "description": "Bring the concept to life through a combination of cutting-edge creative software and hardware tools."
+        },
+        {
+            "label": "Deliver",
+            "description": "Install the finished piece in its intended environment, including setup, calibration, and on-site support."
+        }
+    ]
 }

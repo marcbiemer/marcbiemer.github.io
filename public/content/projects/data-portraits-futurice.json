@@ -1,98 +1,95 @@
 {
-	"slug": "data-portraits-futurice",
-	"title": "Futurice – Data Portraits",
-	"year": "2021",
-	"id": 4,
-	"intro": "Exploring a playful, personal way to connect by turning ordinary postcards into generative portraits of their senders.",
-	"tags": [
-		"Data Art",
-		"Digital Print"
-	],
-	"stats": [
-		{
-			"label": "location",
-			"value": "Stockholm, Sweden"
-		},
-		{
-			"label": "client",
-			"value": "Futurice"
-		},
-		{
-			"label": "dimensions",
-			"value": "14.8 × 10.5 cm"
-		}
-	],
-	"images": [
-		{
-			"src": "data-portraits-postcards.webp",
-			"alt": "Different Data Portrait Postcards floating."
-		}
-	],
-	"blocks": [
-		{
-			"type": "text",
-			"layout": {
-				"md": "1 / -1"
-			},
-			"content": [
-				"I was commissioned by {link:https://futurice.com/}Futurice{/link}’s Head of Marketing Sweden to develop a playful and personal way to engage their local business contacts. The project proposed transforming ordinary postcards into data portraits of their sender. A questionnaire of nine concise questions was developed, focusing on the subject’s professional profile and working methods. I developed graphical metaphors and analogies to represent the data in an intriguing way as the postcard’s front motif. Each design was generated programmatically using a custom {link:https://processing.org/}Processing{/link} script.",
-				"Each participant received their data portrait as both a physical print and a digital asset. The project was featured in various online publications (e.g. {link:https://futurice.com/blog/data-portrait-postcards}Futurice blog{/link} and {link:https://www.arkitektkopia.se/case/futurice-vykort/}arkitektkopia blog{/link}), and presented at the WeAreDevelopers World Congress (Berlin, 2022) and the UPPSTART Conference (Stockholm, 2021). In addition to engaging clients and business partners, the data portraits also functioned as effective conversation starters within Futurice itself."
-			]
-		},
-		{
-			"type": "image",
-			"layout": {
-				"md": "1 / -1",
-				"lg": "1 / -1"
-			},
-			"content": {
-				"src": "data-portraits-postcards-presentation.png",
-				"alt": "Postcards showing different Data Portraits."
-			}
-		},
-		{
-			"type": "image",
-			"layout": {
-				"md": "1 / -1",
-				"lg": "1 / -1"
-			},
-			"content": {
-				"src": "data-portraits-postcards-details.png",
-				"alt": "Questionnaire with a legend of the visual translation of its answers."
-			}
-		},
-		{
-			"type": "image",
-			"layout": {
-				"md": "1 / span 2",
-				"lg": "1 / span 2"
-			},
-			"content": {
-				"src": "production-cutting.png",
-				"alt": "A worker cutting the Data Portrait postcards."
-			}
-		},
-		{
-			"type": "image",
-			"layout": {
-				"md": "3 / span 2",
-				"lg": "3 / span 2"
-			},
-			"content": {
-				"src": "production-stacking.png",
-				"alt": "Data Portrait Postcards being stacked by a worker."
-			}
-		},
-		{
-			"type": "image",
-			"layout": {
-				"md": "1 / -1",
-				"lg": "1 / -1"
-			},
-			"content": {
-				"src": "data-portraits-postcards.png",
-				"alt": "Different Data Portrait Postcards floating."
-			}
-		}
-	]
+    "slug": "data-portraits-futurice",
+    "title": "Futurice – Data Portraits",
+    "year": "2021",
+    "id": 4,
+    "intro": "Exploring a playful, personal way to connect by turning ordinary postcards into generative portraits of their senders.",
+    "tags": ["Data Art", "Digital Print"],
+    "stats": [
+        {
+            "label": "location",
+            "value": "Stockholm, Sweden"
+        },
+        {
+            "label": "client",
+            "value": "Futurice"
+        },
+        {
+            "label": "dimensions",
+            "value": "14.8 × 10.5 cm"
+        }
+    ],
+    "images": [
+        {
+            "src": "data-portraits-postcards.webp",
+            "alt": "Different Data Portrait Postcards floating."
+        }
+    ],
+    "blocks": [
+        {
+            "type": "text",
+            "layout": {
+                "md": "1 / -1"
+            },
+            "content": [
+                "I was commissioned by {link:https://futurice.com/}Futurice{/link}’s Head of Marketing Sweden to develop a playful and personal way to engage their local business contacts. The project proposed transforming ordinary postcards into data portraits of their sender. A questionnaire of nine concise questions was developed, focusing on the subject’s professional profile and working methods. I developed graphical metaphors and analogies to represent the data in an intriguing way as the postcard’s front motif. Each design was generated programmatically using a custom {link:https://processing.org/}Processing{/link} script.",
+                "Each participant received their data portrait as both a physical print and a digital asset. The project was featured in various online publications (e.g. {link:https://futurice.com/blog/data-portrait-postcards}Futurice blog{/link} and {link:https://www.arkitektkopia.se/case/futurice-vykort/}arkitektkopia blog{/link}), and presented at the WeAreDevelopers World Congress (Berlin, 2022) and the UPPSTART Conference (Stockholm, 2021). In addition to engaging clients and business partners, the data portraits also functioned as effective conversation starters within Futurice itself."
+            ]
+        },
+        {
+            "type": "image",
+            "layout": {
+                "md": "1 / -1",
+                "lg": "1 / -1"
+            },
+            "content": {
+                "src": "data-portraits-postcards-presentation.png",
+                "alt": "Postcards showing different Data Portraits."
+            }
+        },
+        {
+            "type": "image",
+            "layout": {
+                "md": "1 / -1",
+                "lg": "1 / -1"
+            },
+            "content": {
+                "src": "data-portraits-postcards-details.png",
+                "alt": "Questionnaire with a legend of the visual translation of its answers."
+            }
+        },
+        {
+            "type": "image",
+            "layout": {
+                "md": "1 / span 2",
+                "lg": "1 / span 2"
+            },
+            "content": {
+                "src": "production-cutting.png",
+                "alt": "A worker cutting the Data Portrait postcards."
+            }
+        },
+        {
+            "type": "image",
+            "layout": {
+                "md": "3 / span 2",
+                "lg": "3 / span 2"
+            },
+            "content": {
+                "src": "production-stacking.png",
+                "alt": "Data Portrait Postcards being stacked by a worker."
+            }
+        },
+        {
+            "type": "image",
+            "layout": {
+                "md": "1 / -1",
+                "lg": "1 / -1"
+            },
+            "content": {
+                "src": "data-portraits-postcards.png",
+                "alt": "Different Data Portrait Postcards floating."
+            }
+        }
+    ]
 }

@@ -1,38 +1,39 @@
 .textStack {
-	display: flex;
-	flex-direction: column;
-	gap: var(--sys-stack-gap-condensed);
-	/* padding: 0 var(--sys-stack-pad-condensed); */
+    display: flex;
+    flex-direction: column;
+    gap: var(--sys-stack-gap-condensed);
+    /* padding: 0 var(--sys-stack-pad-condensed); */
 }
 
 .textStack[data-text-align="center"] {
-	align-items: center;
+    align-items: center;
 }
 
 .textStack[data-text-align="start"] {
-	align-items: flex-start;
+    align-items: flex-start;
 }
 
 .textStack[data-text-align="end"] {
-	align-items: flex-end;
+    align-items: flex-end;
 }
 
-.title, .body {
-	width: 100%;
-	max-width: vaR(--sys-max-width-body);
+.title,
+.body {
+    width: 100%;
+    max-width: vaR(--sys-max-width-body);
 }
 
 .title {
-	font: var(--sys-font-title-small);
-	letter-spacing: var(--sys-letter-spacing-title-small);
-	color: rgb(var(--sys-color-fg-default));
+    font: var(--sys-font-title-small);
+    letter-spacing: var(--sys-letter-spacing-title-small);
+    color: rgb(var(--sys-color-fg-default));
 }
 
 .body {
-	font: var(--sys-font-body-medium);
-	letter-spacing: var(--sys-letter-spacing-body-medium);
+    font: var(--sys-font-body-medium);
+    letter-spacing: var(--sys-letter-spacing-body-medium);
 }
 
 .bodyAlt {
-	color: rgb(var(--sys-color-fg-accent));
+    color: rgb(var(--sys-color-fg-accent));
 }

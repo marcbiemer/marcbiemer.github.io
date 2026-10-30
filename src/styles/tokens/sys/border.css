@@ -1,6 +1,7 @@
 :root {
     --sys-border-default: var(--ref-border-width-1) solid rgb(var(--ref-color-neutral-60-variant));
-    --sys-border-default-subtle: var(--ref-border-width-1) solid rgb(var(--ref-color-neutral-90-variant));
+    --sys-border-default-subtle: var(--ref-border-width-1) solid
+        rgb(var(--ref-color-neutral-90-variant));
     --sys-border-inverse: var(--ref-border-width-1) solid rgb(var(--ref-color-neutral-99));
     --sys-border-accent: var(--ref-border-width-1) solid rgb(var(--ref-color-indigo-80));
     --sys-border-transparent: var(--ref-border-width-1) solid transparent;

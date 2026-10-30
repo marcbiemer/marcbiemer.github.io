@@ -1,69 +1,66 @@
 .label,
 .year,
 .textStack {
-	padding: 0 var(--sys-stack-pad-condensed);
+    padding: 0 var(--sys-stack-pad-condensed);
 }
 
 .labelWrapper {
-	border-top: var(--sys-border-default-subtle);
-	padding-top: var(--sys-section-pad-condensed);
+    border-top: var(--sys-border-default-subtle);
+    padding-top: var(--sys-section-pad-condensed);
 }
 
 .label {
-	font: var(--sys-font-title-small);
-	letter-spacing: var(--sys-letter-spacing-title-small);
+    font: var(--sys-font-title-small);
+    letter-spacing: var(--sys-letter-spacing-title-small);
 }
 
 .list {
-	display: grid;
-	grid-column: 1 / -1;
-	grid-template-columns: subgrid;
-	row-gap: var(--sys-section-gap-condensed);
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-columns: subgrid;
+    row-gap: var(--sys-section-gap-condensed);
 }
 
 .item {
-	display: grid;
-	grid-column: 1 / -1;
-	grid-template-columns: subgrid;
-	row-gap: var(--sys-stack-gap-condensed);
-
+    display: grid;
+    grid-column: 1 / -1;
+    grid-template-columns: subgrid;
+    row-gap: var(--sys-stack-gap-condensed);
 }
 
 .year {
-	color: rgb(var(--sys-color-fg-default-subtle));
-	font: var(--sys-font-label-large);
-	letter-spacing: var(--sys-letter-spacing-label-large);
+    color: rgb(var(--sys-color-fg-default-subtle));
+    font: var(--sys-font-label-large);
+    letter-spacing: var(--sys-letter-spacing-label-large);
 }
 
 .textStack {
-	display: flex;
-	flex-direction: column;
-	gap: calc(var(--sys-stack-gap-condensed) / 2);
-	max-width: var(--sys-max-width-body);
+    display: flex;
+    flex-direction: column;
+    gap: calc(var(--sys-stack-gap-condensed) / 2);
+    max-width: var(--sys-max-width-body);
 }
 
 .itemTitle {
-	font: var(--sys-font-title-small);
-	letter-spacing: var(--sys-letter-spacing-title-small);
-	color: rgb(var(--sys-color-fg-default));
+    font: var(--sys-font-title-small);
+    letter-spacing: var(--sys-letter-spacing-title-small);
+    color: rgb(var(--sys-color-fg-default));
 }
 
 .itemSubTitle {
-	font: var(--sys-font-body-medium);
-	letter-spacing: var(--sys-letter-spacing-body-medium-letterSpacing);
-	color: rgb(var(--sys-color-fg-default-subtle));
+    font: var(--sys-font-body-medium);
+    letter-spacing: var(--sys-letter-spacing-body-medium-letterSpacing);
+    color: rgb(var(--sys-color-fg-default-subtle));
 }
 
 @media screen and (min-width: 768px) {
+    .list {
+        grid-column: 2 / span 3;
+        border-top: var(--sys-border-default-subtle);
+        padding-top: var(--sys-section-pad-condensed);
+    }
 
-	.list {
-		grid-column: 2 / span 3;
-		border-top: var(--sys-border-default-subtle);
-		padding-top: var(--sys-section-pad-condensed);
-	}
-
-	.textStack {
-		padding-left: clamp(var(--sys-stack-pad-condensed), 4vw, var(--sys-container-pad-spacious));
-	}
-
+    .textStack {
+        padding-left: clamp(var(--sys-stack-pad-condensed), 4vw, var(--sys-container-pad-spacious));
+    }
 }

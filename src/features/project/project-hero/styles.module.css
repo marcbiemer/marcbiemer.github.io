@@ -14,7 +14,7 @@
     flex-direction: column;
     gap: var(--sys-stack-gap-condensed);
     padding: 0 var(--sys-stack-pad-condensed);
-    color: rgb(var(--sys-color-fg-default))
+    color: rgb(var(--sys-color-fg-default));
 }
 
 .title span {
