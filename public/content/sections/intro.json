@@ -1,34 +1,34 @@
 {
-	"header": {
-		"layout": "row",
-		"title": "Experiences beyond{br}the expected.",
-		"titleScale": "xlarge",
-		"titleLimit": false,
-		"indentFirstLine": false,
-		"titleShift": 3,
-		"body": {
-			"blocks": [
-				"A creative studio collaborating with brands, cultural institutions, and venues to build captivating digital experiences.",
-				"[Data Art,]{br}[Installations,]{br}[Live]"
-			]
-		}
-	},
-	"logos": [
-		{
-			"src": "logo-a.jpg",
-			"label": "Company A"
-		},
-		{
-			"src": "logo-b.jpg",
-			"label": "Company B"
-		},
-		{
-			"src": "logo-c.jpg",
-			"label": "Company C"
-		},
-		{
-			"src": "logo-d.jpg",
-			"label": "Company D"
-		}
-	]
+    "header": {
+        "layout": "row",
+        "title": "Experiences beyond{br}the expected.",
+        "titleScale": "xlarge",
+        "titleLimit": false,
+        "indentFirstLine": false,
+        "titleShift": 3,
+        "body": {
+            "blocks": [
+                "A creative studio collaborating with brands, cultural institutions, and venues to build captivating digital experiences.",
+                "[Data Art,]{br}[Installations,]{br}[Live]"
+            ]
+        }
+    },
+    "logos": [
+        {
+            "src": "logo-a.jpg",
+            "label": "Company A"
+        },
+        {
+            "src": "logo-b.jpg",
+            "label": "Company B"
+        },
+        {
+            "src": "logo-c.jpg",
+            "label": "Company C"
+        },
+        {
+            "src": "logo-d.jpg",
+            "label": "Company D"
+        }
+    ]
 }

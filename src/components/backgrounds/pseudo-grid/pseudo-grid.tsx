@@ -1,23 +1,24 @@
 import styles from "../../layout/Grid/styles.module.css";
 
 type PseudoGridProps = {
-  columns?: number;
+    columns?: number;
 };
 
 export default function PseudoGrid({ columns = 4 }: PseudoGridProps) {
-  return (
-    <div
-      className={styles.pseudoGrid}
-      style={
-        {
-          "--pseudo-columns": columns,
-        } as React.CSSProperties
-      }
-      aria-hidden
-    >
-      {Array.from({ length: columns }).map((_, i) => (
-        <div key={i} className={styles.pseudoColumn} />
-      ))}
-    </div>
-  );
+    const columnIds = Array.from({ length: columns }, (_, i) => `column-${i}`);
+    return (
+        <div
+            className={styles.pseudoGrid}
+            style={
+                {
+                    "--pseudo-columns": columns,
+                } as React.CSSProperties
+            }
+            aria-hidden
+        >
+            {columnIds.map((id) => (
+                <div key={id} className={styles.pseudoColumn} />
+            ))}
+        </div>
+    );
 }

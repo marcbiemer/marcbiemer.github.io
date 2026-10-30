@@ -1,17 +1,17 @@
 :root {
-	--ref-easing-linear: linear;
-	--ref-easing-standard: cubic-bezier(0.2, 0.0, 0.0, 1.0);
-	--ref-easing-standard-accelerate: cubic-bezier(0.3, 0.0, 1.0, 1.0);
-	--ref-easing-standard-decelerate: cubic-bezier(0.0, 0.0, 0.0, 1.0);
-	--ref-easing-emphasized-accelerate: cubic-bezier(0.3, 0.0, 0.8, 0.15);
-	--ref-easing-emphasized-decelerate: cubic-bezier(0.05, 0.7, 0.1, 1.0);
+    --ref-easing-linear: linear;
+    --ref-easing-standard: cubic-bezier(0.2, 0, 0, 1);
+    --ref-easing-standard-accelerate: cubic-bezier(0.3, 0, 1, 1);
+    --ref-easing-standard-decelerate: cubic-bezier(0, 0, 0, 1);
+    --ref-easing-emphasized-accelerate: cubic-bezier(0.3, 0, 0.8, 0.15);
+    --ref-easing-emphasized-decelerate: cubic-bezier(0.05, 0.7, 0.1, 1);
 
-	--ref-duration-instant: 0ms;
-	--ref-duration-xxshort: 50ms;
-	--ref-duration-xshort: 100ms;
-	--ref-duration-short: 150ms;
-	--ref-duration-medium: 200ms;
-	--ref-duration-long: 250ms;
-	--ref-duration-xlong: 400ms;
-	--ref-duration-xxlong: 600ms;
+    --ref-duration-instant: 0ms;
+    --ref-duration-xxshort: 50ms;
+    --ref-duration-xshort: 100ms;
+    --ref-duration-short: 150ms;
+    --ref-duration-medium: 200ms;
+    --ref-duration-long: 250ms;
+    --ref-duration-xlong: 400ms;
+    --ref-duration-xxlong: 600ms;
 }

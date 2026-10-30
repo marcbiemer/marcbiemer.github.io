@@ -1,38 +1,45 @@
 :root {
-	--sys-color-bg-default: var(--ref-color-neutral-99);
-	--sys-color-bg-inverse: var(--ref-color-neutral-4);
-	--sys-color-bg-accent: var(--ref-color-neutral-95);
-	--sys-color-bg-critical: var(--ref-color-red-30);
-	--sys-color-bg-success: var(--ref-color-green-30);
+    --sys-color-bg-default: var(--ref-color-neutral-99);
+    --sys-color-bg-inverse: var(--ref-color-neutral-4);
+    --sys-color-bg-accent: var(--ref-color-neutral-95);
+    --sys-color-bg-critical: var(--ref-color-red-30);
+    --sys-color-bg-success: var(--ref-color-green-30);
 
-	--sys-color-fg-default: var(--ref-color-neutral-12);
-	--sys-color-fg-default-subtle: var(--ref-color-neutral-50);
-	--sys-color-fg-inverse: var(--ref-color-neutral-95);
-	--sys-color-fg-inverse-subtle: var(--ref-color-neutral-70);
-	--sys-color-fg-accent: var(--ref-color-indigo-80);
-	--sys-color-fg-critical: var(--ref-color-red-70);
-	--sys-color-fg-success: var(--ref-color-green-70);
+    --sys-color-fg-default: var(--ref-color-neutral-12);
+    --sys-color-fg-default-subtle: var(--ref-color-neutral-50);
+    --sys-color-fg-inverse: var(--ref-color-neutral-95);
+    --sys-color-fg-inverse-subtle: var(--ref-color-neutral-70);
+    --sys-color-fg-accent: var(--ref-color-indigo-80);
+    --sys-color-fg-critical: var(--ref-color-red-70);
+    --sys-color-fg-success: var(--ref-color-green-70);
 
-	--sys-color-shadow: var(--ref-color-neutral-30);
+    --sys-color-shadow: var(--ref-color-neutral-30);
 
-	--sys-color-light: var(--ref-color-neutral-100);
-	--sys-color-dark: var(--ref-color-neutral-0);
+    --sys-color-light: var(--ref-color-neutral-100);
+    --sys-color-dark: var(--ref-color-neutral-0);
 
-	--sys-color-gradient-radial-0: radial-gradient(#e66465, #9198e5);
-	--sys-color-gradient-radial-1: radial-gradient(circle, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
-	--sys-color-gradient-radial-2: radial-gradient(#9198e5, #e66465);
-	--sys-color-gradient-radial-3: radial-gradient(circle, rgba(0, 212, 255, 1) 35%, rgba(9, 9, 121, 1) 100%);
+    --sys-color-gradient-radial-0: radial-gradient(#e66465, #9198e5);
+    --sys-color-gradient-radial-1: radial-gradient(
+        circle,
+        rgba(9, 9, 121, 1) 35%,
+        rgba(0, 212, 255, 1) 100%
+    );
+    --sys-color-gradient-radial-2: radial-gradient(#9198e5, #e66465);
+    --sys-color-gradient-radial-3: radial-gradient(
+        circle,
+        rgba(0, 212, 255, 1) 35%,
+        rgba(9, 9, 121, 1) 100%
+    );
 }
 
-
 [data-theme="inverse"] {
-	--sys-color-bg-default: var(--ref-color-neutral-4);
-	--sys-color-bg-inverse: var(--ref-color-neutral-99);
-	--sys-color-bg-accent: var(--ref-color-neutral-12);
+    --sys-color-bg-default: var(--ref-color-neutral-4);
+    --sys-color-bg-inverse: var(--ref-color-neutral-99);
+    --sys-color-bg-accent: var(--ref-color-neutral-12);
 
-	--sys-color-fg-default: var(--ref-color-neutral-95);
-	--sys-color-fg-default-subtle: var(--ref-color-neutral-70);
-	--sys-color-fg-inverse: var(--ref-color-neutral-12);
-	--sys-color-fg-inverse-subtle: var(--ref-color-neutral-50);
-	--sys-color-fg-accent: var(--ref-color-indigo-80);
-  }
+    --sys-color-fg-default: var(--ref-color-neutral-95);
+    --sys-color-fg-default-subtle: var(--ref-color-neutral-70);
+    --sys-color-fg-inverse: var(--ref-color-neutral-12);
+    --sys-color-fg-inverse-subtle: var(--ref-color-neutral-50);
+    --sys-color-fg-accent: var(--ref-color-indigo-80);
+}

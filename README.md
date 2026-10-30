@@ -52,10 +52,10 @@ git clone https://github.com/marcbiemer/marcbiemer.github.io.git
 cd marcbiemer.github.io
 
 # Install dependencies
-npm install
+pnpm i
 
 # Start the dev server
-npm run dev
+pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
@@ -68,18 +68,16 @@ All content lives in `public/content.json`. Edit it to update the site:
 
 ```json
 {
-  "bio": "...",
-  "projects": [
-    {
-      "id": "project-slug",
-      "title": "Project Title",
-      "description": "...",
-      "tags": ["Tag"]
-    }
-  ],
-  "socials": [
-    { "label": "GitHub", "url": "https://github.com/marcbiemer" }
-  ]
+    "bio": "...",
+    "projects": [
+        {
+            "id": "project-slug",
+            "title": "Project Title",
+            "description": "...",
+            "tags": ["Tag"]
+        }
+    ],
+    "socials": [{ "label": "GitHub", "url": "https://github.com/marcbiemer" }]
 }
 ```
 
@@ -91,7 +89,7 @@ Adding a new project automatically generates a static page at `/work/[id]` on th
 
 Deployment is fully automated via GitHub Actions. Every push to `main`:
 
-1. Runs `npm run build` — exports the site to `./out`
+1. Runs `pnpm build` — exports the site to `./out`
 2. Pushes `./out` to the `gh-pages` branch
 3. GitHub Pages serves from `gh-pages`
 
@@ -110,6 +108,6 @@ The `out/` folder is gitignored and should never be committed directly.
 To preview the static export locally before pushing:
 
 ```bash
-npm run build
-npx serve out
+pnpm build
+pnpm preview
 ```

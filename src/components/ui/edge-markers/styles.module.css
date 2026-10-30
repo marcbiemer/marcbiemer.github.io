@@ -2,34 +2,34 @@
 .markerTR,
 .markerBL,
 .markerBR {
-	position: absolute;
-	width: var(--ref-space-4);
-	height: var(--ref-space-4);
-	text-align: center;
-	vertical-align: middle;
-	font: var(--sys-font-label-large);
+    position: absolute;
+    width: var(--ref-space-4);
+    height: var(--ref-space-4);
+    text-align: center;
+    vertical-align: middle;
+    font: var(--sys-font-label-large);
 }
 
 .markerTL {
-	top: 0;
-	left: 0;
-	transform: translate(-50%, -70%);
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -70%);
 }
 
 .markerTR {
-	top: 0;
-	right: 0;
-	transform: translate(50%, -70%);
+    top: 0;
+    right: 0;
+    transform: translate(50%, -70%);
 }
 
 .markerBL {
-	bottom: 0;
-	left: 0;
-	transform: translate(-50%, 30%);
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%, 30%);
 }
 
 .markerBR {
-	bottom: 0;
-	right: 0;
-	transform: translate(50%, 30%);
+    bottom: 0;
+    right: 0;
+    transform: translate(50%, 30%);
 }

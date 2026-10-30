@@ -1,15 +1,15 @@
 .item {
-	grid-column: var(--col-base, 1 / -1);
+    grid-column: var(--col-base, 1 / -1);
 }
 
 @media (min-width: 768px) {
-	.item {
-		grid-column: var(--col-md, var(--col-base));
-	}
+    .item {
+        grid-column: var(--col-md, var(--col-base));
+    }
 }
 
 @media (min-width: 1280px) {
-	.item {
-		grid-column: var(--col-lg, var(--col-md, var(--col-base)));
-	}
+    .item {
+        grid-column: var(--col-lg, var(--col-md, var(--col-base)));
+    }
 }

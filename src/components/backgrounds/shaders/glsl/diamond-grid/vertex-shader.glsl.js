@@ -7,4 +7,4 @@ const vertexShader = `
     }
 `;
 
-export default vertexShader
+export default vertexShader;

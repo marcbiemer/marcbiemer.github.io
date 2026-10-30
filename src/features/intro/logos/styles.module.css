@@ -1,16 +1,14 @@
 .logos {
-	grid-template-columns: repeat(4, 1fr);
-	column-gap: var(--sys-container-gap-condensed);
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: var(--sys-container-gap-condensed);
 }
 
 .logo {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	padding: var(--sys-stack-pad-normal);
-	background-color: rgb(var(--sys-color-bg-accent));
-	border-radius: var(--sys-radius-large);
-	min-height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: var(--sys-stack-pad-normal);
+    background-color: rgb(var(--sys-color-bg-accent));
+    border-radius: var(--sys-radius-large);
+    min-height: 120px;
 }
-
-@media screen and (min-width: 768) {}

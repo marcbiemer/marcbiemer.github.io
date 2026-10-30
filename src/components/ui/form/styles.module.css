@@ -1,85 +1,85 @@
 .formWrapper {
-	display: flex;
-	flex-direction: column;
-	padding: var(--sys-container-pad-normal);
-	background-color: rgb(var(--sys-color-bg-default));
-	border-radius: var(--sys-radius-tile);
-	outline-offset: 0px;
-	outline: var(--sys-border-inverse);
-	box-shadow: var(--sys-shadow-3);
+    display: flex;
+    flex-direction: column;
+    padding: var(--sys-container-pad-normal);
+    background-color: rgb(var(--sys-color-bg-default));
+    border-radius: var(--sys-radius-tile);
+    outline-offset: 0px;
+    outline: var(--sys-border-inverse);
+    box-shadow: var(--sys-shadow-3);
 }
 
 .form {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-	gap: var(--sys-container-gap-normal);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: var(--sys-container-gap-normal);
 }
 
 .inputWrapper {
-	display: flex;
-	flex-direction: column;
-	gap: var(--sys-stack-gap-condensed);
-	width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: var(--sys-stack-gap-condensed);
+    width: 100%;
 }
 
 .label {
-	font: var(--sys-font-title-small);
-	letter-spacing: var(--sys-letter-spacing-title-small);
-	color: rgb(var(--sys-color-fg-default));
-	width: 100%;
+    font: var(--sys-font-title-small);
+    letter-spacing: var(--sys-letter-spacing-title-small);
+    color: rgb(var(--sys-color-fg-default));
+    width: 100%;
 }
 
 .form input,
 .form textarea {
-	min-height: var(--sys-control-size-large);
-	padding: var(--sys-stack-pad-condensed);
-	font: var(--sys-font-body-medium);
-	letter-spacing: var(--sys-letter-spacing-body-medium);
-	border-radius: var(--sys-radius-input);
-	border: var(--sys-border-default-subtle);
-	background-color: rgba(var(--sys-color-bg-accent), var(--sys-opacity-decorative));
-	color: rgb(var(--sys-color-fg-default));
-	width: 100%;
+    min-height: var(--sys-control-size-large);
+    padding: var(--sys-stack-pad-condensed);
+    font: var(--sys-font-body-medium);
+    letter-spacing: var(--sys-letter-spacing-body-medium);
+    border-radius: var(--sys-radius-input);
+    border: var(--sys-border-default-subtle);
+    background-color: rgba(var(--sys-color-bg-accent), var(--sys-opacity-decorative));
+    color: rgb(var(--sys-color-fg-default));
+    width: 100%;
 }
 
 .inputWrapper:has(textarea) {
-	min-height: 200px;
+    min-height: 200px;
 }
 
 .form textarea {
-	resize: vertical;
-	flex: 1;
+    resize: vertical;
+    flex: 1;
 }
 
 .success {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	padding: var(--sys-container-pad-normal);
-	gap: var(--sys-container-gap-condensed);
-	font: var(--sys-font-title-small);
-	letter-spacing: var(--sys-letter-spacing-title-small);
-	color: rgb(var(--sys-color-fg-success));
-	width: 100%;
-	text-align: center;
-	background-color: rgb(var(--sys-color-bg-success));
-	border-radius: var(--sys-radius-tile);
-	border: var(--sys-border-success);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: var(--sys-container-pad-normal);
+    gap: var(--sys-container-gap-condensed);
+    font: var(--sys-font-title-small);
+    letter-spacing: var(--sys-letter-spacing-title-small);
+    color: rgb(var(--sys-color-fg-success));
+    width: 100%;
+    text-align: center;
+    background-color: rgb(var(--sys-color-bg-success));
+    border-radius: var(--sys-radius-tile);
+    border: var(--sys-border-success);
 }
 
 .error {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	gap: var(--sys-stack-gap-normal);
-	padding: var(--sys-container-pad-condensed);
-	font: var(--sys-font-label-medium);
-	letter-spacing: var(--sys-letter-spacing-label-medium);
-	width: 100%;
-	color: rgb(var(--sys-color-fg-critical));
-	background-color: rgb(var(--sys-color-bg-critical));
-	border-radius: var(--sys-radius-tile);
-	border: var(--sys-border-critical);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: var(--sys-stack-gap-normal);
+    padding: var(--sys-container-pad-condensed);
+    font: var(--sys-font-label-medium);
+    letter-spacing: var(--sys-letter-spacing-label-medium);
+    width: 100%;
+    color: rgb(var(--sys-color-fg-critical));
+    background-color: rgb(var(--sys-color-bg-critical));
+    border-radius: var(--sys-radius-tile);
+    border: var(--sys-border-critical);
 }

@@ -1,71 +1,67 @@
 .content {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	gap: var(--sys-container-gap-spacious);
-	padding: var(--sys-container-pad-spacious) var(--sys-container-pad-normal);
-	background-color: rgb(var(--sys-color-bg-default));
-	border-radius: var(--sys-radius-tile);
-	outline-offset: 0px;
-	outline: var(--sys-border-inverse);
-	box-shadow: var(--sys-shadow-3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--sys-container-gap-spacious);
+    padding: var(--sys-container-pad-spacious) var(--sys-container-pad-normal);
+    background-color: rgb(var(--sys-color-bg-default));
+    border-radius: var(--sys-radius-tile);
+    outline-offset: 0px;
+    outline: var(--sys-border-inverse);
+    box-shadow: var(--sys-shadow-3);
 }
 
 .textStack {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	gap: var(--sys-container-gap-condensed);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: var(--sys-container-gap-condensed);
 }
 
 .supTitle {
-	font: var(--sys-font-label-medium);
-	letter-spacing: var(--sys-letter-spacing-label-medium);
-	text-transform: uppercase;
+    font: var(--sys-font-label-medium);
+    letter-spacing: var(--sys-letter-spacing-label-medium);
+    text-transform: uppercase;
 }
 
 .title {
-	font: var(--sys-font-headline-small);
-	letter-spacing: var(--sys-letter-spacing-headline-small);
-	max-width: var(--sys-max-width-title);
+    font: var(--sys-font-headline-small);
+    letter-spacing: var(--sys-letter-spacing-headline-small);
+    max-width: var(--sys-max-width-title);
 }
 
 .textStack p {
-	font: var(--sys-font-body-medium);
-	letter-spacing: var(--sys-letter-spacing-body-medium);
-	max-width: var(--sys-layout-max-width-body);
+    font: var(--sys-font-body-medium);
+    letter-spacing: var(--sys-letter-spacing-body-medium);
+    max-width: var(--sys-layout-max-width-body);
 }
 
 .titleAlt {
-	color: rgb(var(--sys-color-fg-default-subtle));
+    color: rgb(var(--sys-color-fg-default-subtle));
 }
 
 .ctaWrapper {
-	display: flex;
-	flex-direction: column;
-	gap: var(--sys-stack-gap-spacious);
+    display: flex;
+    flex-direction: column;
+    gap: var(--sys-stack-gap-spacious);
 }
 
 @media screen and (min-width: 420px) {
-
-	.ctaWrapper {
-		flex-direction: row;
-	}
-	
+    .ctaWrapper {
+        flex-direction: row;
+    }
 }
 
 @media screen and (min-width: 940px) {
+    .content {
+        padding: var(--sys-container-pad-spacious);
+    }
 
-	.content {
-		padding: var(--sys-container-pad-spacious);
-	}
-
-	.title {
-		font: var(--sys-font-display-small);
-		letter-spacing: var(--sys-letter-spacing-display-small);
-	}
-
+    .title {
+        font: var(--sys-font-display-small);
+        letter-spacing: var(--sys-letter-spacing-display-small);
+    }
 }

@@ -1,54 +1,52 @@
 .info {
-	margin-top: var(--sys-container-pad-normal);
-	margin-bottom: var(--sys-container-pad-spacious);
+    margin-top: var(--sys-container-pad-normal);
+    margin-bottom: var(--sys-container-pad-spacious);
 }
 
 .idStack,
 .textStack,
 .tagStack {
-	display: flex;
-	flex-direction: column;
-	gap: var(--sys-stack-gap-condensed);
-	padding: 0 var(--sys-stack-pad-condensed);
-	color: rgb(var(--sys-color-fg-default-subtle));
+    display: flex;
+    flex-direction: column;
+    gap: var(--sys-stack-gap-condensed);
+    padding: 0 var(--sys-stack-pad-condensed);
+    color: rgb(var(--sys-color-fg-default-subtle));
 }
 
 .tagStack {
-	display: none;
+    display: none;
 }
 
 .tags {
-	display: flex;
-	flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .id,
 .year {
-	font: var(--sys-font-label-medium);
-	letter-spacing: var(--sys-letter-spacing-label-medium);
+    font: var(--sys-font-label-medium);
+    letter-spacing: var(--sys-letter-spacing-label-medium);
 }
 
 .title {
-	position: relative;
-	font: var(--sys-font-title-small);
-	letter-spacing: var(--sys-letter-spacing-title-small);
+    position: relative;
+    font: var(--sys-font-title-small);
+    letter-spacing: var(--sys-letter-spacing-title-small);
 }
 
 .title,
 .year {
-	color: rgb(var(--sys-color-fg-default));
+    color: rgb(var(--sys-color-fg-default));
 }
 
 .intro,
 .tag {
-	font: var(--sys-font-body-small);
-	letter-spacing: var(--sys-letter-spacing-body-small);
+    font: var(--sys-font-body-small);
+    letter-spacing: var(--sys-letter-spacing-body-small);
 }
 
 @media screen and (min-width: 768px) {
-
-	.tagStack {
-		display: flex;
-	}
-
+    .tagStack {
+        display: flex;
+    }
 }

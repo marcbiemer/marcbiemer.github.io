@@ -1,22 +1,22 @@
 {
-	"header": {
-		"layout": "col",
-		"hasMarker": true,
-		"sectionTitle": "About",
-		"title": "Marc Biemer is a new media artist working at the intersection of [art], [data], and [technology], bridging physical and digital spaces.",
-		"titleScale": "large",
-		"titleLimit": false,
-		"titleShift": 3,
-		"indentFirstLine": true
-	},
-	"content": {
-		"body": [
-			"Based in Malmö, Sweden, his creative studio collaborates with brands, cultural institutions, and venues to create custom artworks, installations, and live performances. Using generative systems, it creates dynamic structures that emerge from chaos, evolve over time, and reveal hidden patterns.",
-			"The studio’s practice is rooted in the embodiment of data, moving beyond charts and interfaces to create interactive, immersive experiences that carry emotion and invite discovery. Here, data is not simply something to display, but material to shape and experience."
-		]
-	},
-	"img": {
-		"src": "portrait.webp",
-		"alt": "Portrait of Marc Biemer"
-	}
+    "header": {
+        "layout": "col",
+        "hasMarker": true,
+        "sectionTitle": "About",
+        "title": "Marc Biemer is a new media artist working at the intersection of [art], [data], and [technology], bridging physical and digital spaces.",
+        "titleScale": "large",
+        "titleLimit": false,
+        "titleShift": 3,
+        "indentFirstLine": true
+    },
+    "content": {
+        "body": [
+            "Based in Malmö, Sweden, his creative studio collaborates with brands, cultural institutions, and venues to create custom artworks, installations, and live performances. Using generative systems, it creates dynamic structures that emerge from chaos, evolve over time, and reveal hidden patterns.",
+            "The studio’s practice is rooted in the embodiment of data, moving beyond charts and interfaces to create interactive, immersive experiences that carry emotion and invite discovery. Here, data is not simply something to display, but material to shape and experience."
+        ]
+    },
+    "img": {
+        "src": "portrait.webp",
+        "alt": "Portrait of Marc Biemer"
+    }
 }

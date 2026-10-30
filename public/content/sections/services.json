@@ -1,41 +1,41 @@
 {
-	"header": {
-		"layout": "row",
-		"hasMarker": true,
-		"sectionTitle": "Services"
-	},
-	"services": [
-		{
-			"label": "Data Art",
-			"description": "Every commission is built specifically around your data and story, taking shape as a generative print, data portrait, or sculpture in physical, digital, or hybrid form. Abstract information becomes shape, motion, and meaning, transforming data into an experience that resonates far beyond charts and graphs.",
-			"img": {
-				"src": "data-portraits-futurice/data-portraits-postcards.webp",
-				"alt": "Postcards with data art motifs"
-			}
-		},
-		{
-			"label": "Spatial Installations",
-			"description": "Site-specific works designed from the ground up around the space, event, and audience, creating generative, interactive, or ambient experiences for permanent or temporary installations. Projects are delivered across a wide range of formats including large-scale displays, projections, and fulldome environments.",
-			"img": {
-				"src": "oresund-in-motion/installation-1.webp",
-				"alt": "Installation visualizing water data collected from a buoy in the Öresund"
-			}
-		},
-		{
-			"label": "Live Performances",
-			"description": "Live visual performances that respond to sound, space, and audience in real time. From VJ sets to collaborative performances with musicians from the studio’s network or yours, each work is shaped by the energy of the moment. Available for events, festivals, and concert productions.",
-			"img": {
-				"src": "pixlar-o-ljud-live-2/song-02-02.webp",
-				"alt": "Audio-reactive visuals generated and controlled in real-time"
-			}
-		},
-		{
-			"label": "Talks & Workshops",
-			"description": "Tailored talks, lectures, and workshops drawing on over five years of teaching experience at design and business universities across Sweden and Germany. Sessions explore digital design, data art, generative systems, immersive media, and creative technology through practical insights and hands-on learning.",
-			"img": {
-				"src": "talks/intersection-conference.webp",
-				"alt": "Marc Biemer speaking in front of an audience at the Intersection Conference in Turin, Italy"
-			}
-		}
-	]
+    "header": {
+        "layout": "row",
+        "hasMarker": true,
+        "sectionTitle": "Services"
+    },
+    "services": [
+        {
+            "label": "Data Art",
+            "description": "Every commission is built specifically around your data and story, taking shape as a generative print, data portrait, or sculpture in physical, digital, or hybrid form. Abstract information becomes shape, motion, and meaning, transforming data into an experience that resonates far beyond charts and graphs.",
+            "img": {
+                "src": "data-portraits-futurice/data-portraits-postcards.webp",
+                "alt": "Postcards with data art motifs"
+            }
+        },
+        {
+            "label": "Spatial Installations",
+            "description": "Site-specific works designed from the ground up around the space, event, and audience, creating generative, interactive, or ambient experiences for permanent or temporary installations. Projects are delivered across a wide range of formats including large-scale displays, projections, and fulldome environments.",
+            "img": {
+                "src": "oresund-in-motion/installation-1.webp",
+                "alt": "Installation visualizing water data collected from a buoy in the Öresund"
+            }
+        },
+        {
+            "label": "Live Performances",
+            "description": "Live visual performances that respond to sound, space, and audience in real time. From VJ sets to collaborative performances with musicians from the studio’s network or yours, each work is shaped by the energy of the moment. Available for events, festivals, and concert productions.",
+            "img": {
+                "src": "pixlar-o-ljud-live-2/song-02-02.webp",
+                "alt": "Audio-reactive visuals generated and controlled in real-time"
+            }
+        },
+        {
+            "label": "Talks & Workshops",
+            "description": "Tailored talks, lectures, and workshops drawing on over five years of teaching experience at design and business universities across Sweden and Germany. Sessions explore digital design, data art, generative systems, immersive media, and creative technology through practical insights and hands-on learning.",
+            "img": {
+                "src": "talks/intersection-conference.webp",
+                "alt": "Marc Biemer speaking in front of an audience at the Intersection Conference in Turin, Italy"
+            }
+        }
+    ]
 }
