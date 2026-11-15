@@ -2,9 +2,12 @@
     "slug": "data-portraits-konsthall",
     "title": "Konsthall – Data Portraits",
     "year": "2024",
-    "id": 2,
+    "id": 3,
     "intro": "A three-part series of data portraits reflecting on curatorial leadership at Malmö Konsthall using 50 years of exhibition archive data.",
-    "tags": ["Data Art", "Digital Print"],
+    "tags": [
+        "Data Art",
+        "Digital Print"
+    ],
     "stats": [
         {
             "label": "location",

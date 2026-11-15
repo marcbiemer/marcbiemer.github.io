@@ -14,7 +14,7 @@ export const featuredSlugs = [
     "data-portraits-konsthall",
     "curvature",
     "data-portraits-futurice",
-    // "talking-portraits"
+    "talking-portraits"
 ] as const;
 
 export type ProjectStat = {

@@ -1,4 +1,4 @@
-import { execSync } from "node:child_process";
+import { execFileSync } from "node:child_process";
 import { existsSync, mkdirSync, readdirSync } from "node:fs";
 import { basename, extname, join } from "node:path";
 
@@ -6,17 +6,17 @@ import { basename, extname, join } from "node:path";
 const SECTIONS = ["work", "about"];
 const VALID_EXTENSIONS = /\.(mp4|mov)$/i;
 
+// `box` is the bounding box for landscape video (long side = width).
+// Portrait video automatically gets the box rotated (long side = height).
 const PREVIEW = {
-    width: 640,
-    height: 360,
+    box: { long: 640, short: 360 },
     duration: 5, // seconds to trim for preview
-    mp4: { crf: 28, preset: "fast", audioBitrate: null }, // no audio for preview
-    webm: { crf: 35, audioBitrate: null },
+    mp4: { crf: 28, preset: "fast" }, // no audioBitrate = no audio
+    webm: { crf: 35 },
 };
 
 const FULL = {
-    width: 1280,
-    height: 720,
+    box: { long: 1280, short: 720 },
     mp4: { crf: 23, preset: "fast", audioBitrate: "128k" },
     webm: { crf: 31, audioBitrate: "128k" },
 };
@@ -27,16 +27,16 @@ let errors = 0;
 
 function checkFfmpeg() {
     try {
-        execSync("ffmpeg -version", { stdio: "ignore" });
+        execFileSync("ffmpeg", ["-version"], { stdio: "ignore" });
     } catch {
         console.error("❌ ffmpeg not found. Install it with: brew install ffmpeg");
         process.exit(1);
     }
 }
 
-function runFfmpeg(command) {
+function runFfmpeg(args) {
     try {
-        execSync(command, { stdio: "ignore" });
+        execFileSync("ffmpeg", args, { stdio: "ignore" });
         return true;
     } catch (err) {
         console.error(`  ❌ ffmpeg error: ${err.message}`);
@@ -45,105 +45,77 @@ function runFfmpeg(command) {
     }
 }
 
-function generatePreviewMp4(inputPath, outputPath) {
-    const cmd = [
-        "ffmpeg -y",
-        `-i "${inputPath}"`,
-        `-t ${PREVIEW.duration}`,
-        `-vf "scale=${PREVIEW.width}:${PREVIEW.height}:force_original_aspect_ratio=decrease,pad=${PREVIEW.width}:${PREVIEW.height}:(ow-iw)/2:(oh-ih)/2"`,
-        `-c:v libx264`,
-        `-crf ${PREVIEW.mp4.crf}`,
-        `-preset ${PREVIEW.mp4.preset}`,
-        `-movflags +faststart`,
-        `-an`, // no audio for preview
-        `-pix_fmt yuv420p`,
-        `"${outputPath}"`,
-    ].join(" ");
-    return runFfmpeg(cmd);
+// Fit inside the box without padding or upscaling the aspect ratio.
+// iw/ih are measured after ffmpeg's automatic rotation, so phone footage
+// that is only flagged as rotated is detected correctly.
+function scaleFilter({ long, short }) {
+    return [
+        `scale='if(gte(iw,ih),${long},${short})'`,
+        `'if(gte(iw,ih),${short},${long})'`,
+        "force_original_aspect_ratio=decrease",
+        "force_divisible_by=2",
+    ].join(":");
 }
 
-function generatePreviewWebm(inputPath, outputPath) {
-    const cmd = [
-        "ffmpeg -y",
-        `-i "${inputPath}"`,
-        `-t ${PREVIEW.duration}`,
-        `-vf "scale=${PREVIEW.width}:${PREVIEW.height}:force_original_aspect_ratio=decrease,pad=${PREVIEW.width}:${PREVIEW.height}:(ow-iw)/2:(oh-ih)/2"`,
-        `-c:v libvpx-vp9`,
-        `-crf ${PREVIEW.webm.crf}`,
-        `-b:v 0`,
-        `-an`, // no audio for preview
-        `"${outputPath}"`,
-    ].join(" ");
-    return runFfmpeg(cmd);
-}
+function buildArgs(inputPath, outputPath, { box, duration, format, crf, preset, audioBitrate }) {
+    const args = ["-y", "-i", inputPath];
 
-function generateFullMp4(inputPath, outputPath) {
-    const cmd = [
-        "ffmpeg -y",
-        `-i "${inputPath}"`,
-        `-vf "scale=${FULL.width}:${FULL.height}:force_original_aspect_ratio=decrease,pad=${FULL.width}:${FULL.height}:(ow-iw)/2:(oh-ih)/2"`,
-        `-c:v libx264`,
-        `-crf ${FULL.mp4.crf}`,
-        `-preset ${FULL.mp4.preset}`,
-        `-movflags +faststart`, // enables progressive download
-        `-c:a aac`,
-        `-b:a ${FULL.mp4.audioBitrate}`,
-        `-pix_fmt yuv420p`,
-        `"${outputPath}"`,
-    ].join(" ");
-    return runFfmpeg(cmd);
-}
+    if (duration) args.push("-t", String(duration));
 
-function generateFullWebm(inputPath, outputPath) {
-    const cmd = [
-        "ffmpeg -y",
-        `-i "${inputPath}"`,
-        `-vf "scale=${FULL.width}:${FULL.height}:force_original_aspect_ratio=decrease,pad=${FULL.width}:${FULL.height}:(ow-iw)/2:(oh-ih)/2"`,
-        `-c:v libvpx-vp9`,
-        `-crf ${FULL.webm.crf}`,
-        `-b:v 0`,
-        `-c:a libopus`,
-        `-b:a ${FULL.webm.audioBitrate}`,
-        `"${outputPath}"`,
-    ].join(" ");
-    return runFfmpeg(cmd);
+    args.push("-vf", scaleFilter(box));
+
+    if (format === "mp4") {
+        args.push(
+            "-c:v", "libx264",
+            "-crf", String(crf),
+            "-preset", preset,
+            "-movflags", "+faststart", // start playing before fully downloaded
+            "-pix_fmt", "yuv420p",
+        );
+    } else {
+        args.push("-c:v", "libvpx-vp9", "-crf", String(crf), "-b:v", "0");
+    }
+
+    if (audioBitrate) {
+        args.push("-c:a", format === "mp4" ? "aac" : "libopus", "-b:a", audioBitrate);
+    } else {
+        args.push("-an");
+    }
+
+    args.push(outputPath);
+    return args;
 }
 
 async function processVideo(filePath, videosDir, filename) {
     const name = basename(filename, extname(filename));
-    const previewDir = join(videosDir, "preview");
-    const fullDir = join(videosDir, "full");
 
-    mkdirSync(previewDir, { recursive: true });
-    mkdirSync(fullDir, { recursive: true });
-
-    const outputs = [
-        {
-            path: join(previewDir, `${name}.mp4`),
-            generate: () => generatePreviewMp4(filePath, join(previewDir, `${name}.mp4`)),
-        },
-        {
-            path: join(previewDir, `${name}.webm`),
-            generate: () => generatePreviewWebm(filePath, join(previewDir, `${name}.webm`)),
-        },
-        {
-            path: join(fullDir, `${name}.mp4`),
-            generate: () => generateFullMp4(filePath, join(fullDir, `${name}.mp4`)),
-        },
-        {
-            path: join(fullDir, `${name}.webm`),
-            generate: () => generateFullWebm(filePath, join(fullDir, `${name}.webm`)),
-        },
+    const variants = [
+        ["preview", PREVIEW],
+        ["full", FULL],
     ];
 
-    for (const output of outputs) {
-        if (existsSync(output.path)) {
-            console.log(`  ⏭  Skipping existing: ${basename(output.path)}`);
-            skipped++;
-            continue;
+    for (const [folder, config] of variants) {
+        const outDir = join(videosDir, folder);
+        mkdirSync(outDir, { recursive: true });
+
+        for (const format of ["mp4", "webm"]) {
+            const outPath = join(outDir, `${name}.${format}`);
+
+            if (existsSync(outPath)) {
+                console.log(`  ⏭  Skipping existing: ${folder}/${name}.${format}`);
+                skipped++;
+                continue;
+            }
+
+            console.log(`  ⚙️  Generating: ${folder}/${name}.${format}`);
+            const args = buildArgs(filePath, outPath, {
+                box: config.box,
+                duration: config.duration,
+                format,
+                ...config[format],
+            });
+            if (runFfmpeg(args)) processed++;
         }
-        console.log(`  ⚙️  Generating: ${basename(output.path)}`);
-        if (output.generate()) processed++;
     }
 }
 

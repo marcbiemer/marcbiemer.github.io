@@ -2,9 +2,12 @@
     "slug": "pixlar-o-ljud-live-1",
     "title": "Pixlar O Ljud Live #1",
     "year": "2026",
-    "id": 0,
+    "id": 1,
     "intro": "A real-time audiovisual performance descending from the ocean surface into bioluminescent depths.",
-    "tags": ["Live Performance", "Real-Time Generative Art"],
+    "tags": [
+        "Live Performance",
+        "Real-Time Generative Art"
+    ],
     "stats": [
         {
             "label": "location",

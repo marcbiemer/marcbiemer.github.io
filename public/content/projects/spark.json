@@ -2,9 +2,12 @@
     "slug": "spark",
     "title": "Spark",
     "year": "2020",
-    "id": 5,
+    "id": 6,
     "intro": "An interactive mixed-reality installation for children on the spectrum to practice social initiation through embodied play.",
-    "tags": ["Interactive Installation", "Large-Scale Projection"],
+    "tags": [
+        "Interactive Installation",
+        "Large-Scale Projection"
+    ],
     "stats": [
         {
             "label": "location",

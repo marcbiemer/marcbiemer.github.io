@@ -2,9 +2,13 @@
     "slug": "oresund-in-motion",
     "title": "Øresund in Motion",
     "year": "2025",
-    "id": 1,
+    "id": 2,
     "intro": "A three-part generative installation turning 25 years of wind, water, and commuter data into flowing visuals that invite a moment of reflection.",
-    "tags": ["Data Art", "Installation", "Real-Time Generative Art"],
+    "tags": [
+        "Data Art",
+        "Installation",
+        "Real-Time Generative Art"
+    ],
     "stats": [
         {
             "label": "location",
@@ -92,7 +96,6 @@
                 "loop": true
             }
         },
-
         {
             "type": "text",
             "layout": {
@@ -141,7 +144,6 @@
                 "loop": true
             }
         },
-
         {
             "type": "text",
             "layout": {

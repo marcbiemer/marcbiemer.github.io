@@ -2,9 +2,12 @@
     "slug": "curvature",
     "title": "Curvature",
     "year": "2025",
-    "id": 3,
+    "id": 4,
     "intro": "A generative drawing system that layers sine- and cosine-based curves into intricate compositions, released as a curated NFT collection.",
-    "tags": ["Generative Art", "NFT Collection"],
+    "tags": [
+        "Generative Art",
+        "NFT Collection"
+    ],
     "stats": [
         {
             "label": "location",

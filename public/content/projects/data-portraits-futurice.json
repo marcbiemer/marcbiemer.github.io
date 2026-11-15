@@ -2,9 +2,12 @@
     "slug": "data-portraits-futurice",
     "title": "Futurice – Data Portraits",
     "year": "2021",
-    "id": 4,
+    "id": 5,
     "intro": "Exploring a playful, personal way to connect by turning ordinary postcards into generative portraits of their senders.",
-    "tags": ["Data Art", "Digital Print"],
+    "tags": [
+        "Data Art",
+        "Digital Print"
+    ],
     "stats": [
         {
             "label": "location",

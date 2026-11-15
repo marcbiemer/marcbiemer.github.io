@@ -45,8 +45,10 @@ next-env.d.ts
 AGENTS.md
 CLAUDE.md
 
-# Generated image sizes
-public/media/**/640/
-public/media/**/1080/
-public/media/**/1920/
-public/media/**/2560/
+# Original media: keep locally, never commit
+public/media/**/images/*.[jJ][pP][gG]
+public/media/**/images/*.[jJ][pP][eE][gG]
+public/media/**/images/*.[pP][nN][gG]
+public/media/**/images/*.[wW][eE][bB][pP]
+public/media/**/videos/*.[mM][pP]4
+public/media/**/videos/*.[mM][oO][vV]

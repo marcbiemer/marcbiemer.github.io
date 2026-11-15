@@ -20,7 +20,14 @@ export async function generateMetadata({
         openGraph: {
             title: project.title,
             description: project.intro,
-            images: [`/og/${project.slug}/og-image.jpg`],
+            images: [
+                {
+                    url: `/media/og/${project.slug}/og-image.jpg`,
+                    width: 1200,
+                    height: 630,
+                    alt: project.title,
+                },
+            ],
         },
     };
 }
