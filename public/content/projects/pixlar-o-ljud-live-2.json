@@ -3,8 +3,11 @@
     "title": "Pixlar O Ljud Live #2",
     "year": "2026",
     "id": 0,
-    "intro": "A real-time audiovisual performance in four chapters, moving from sunset into the depth of night.",
-    "tags": ["Live Performance", "Real-Time Generative Art"],
+    "intro": "A real-time audiovisual performance in four chapters, moving from sunset into the depth of the night.",
+    "tags": [
+        "Live Performance",
+        "Real-Time Generative Art"
+    ],
     "stats": [
         {
             "label": "location",
@@ -22,15 +25,15 @@
     "images": [
         {
             "src": "song-02-02.webp",
-            "alt": "Melisa performing while bright blue lines drift across the screen and melt into liquid shapes."
+            "alt": ""
         },
         {
             "src": "song-03-01.webp",
-            "alt": "A moonlit meadow, where small fireflies drift and light up the scene to the rhythm."
+            "alt": ""
         },
         {
             "src": "song-01-02.webp",
-            "alt": "A virtual sunset over the ocean. The colors of the horizon turn liquid and flow with the beat."
+            "alt": ""
         }
     ],
     "blocks": [
@@ -41,7 +44,7 @@
             },
             "content": [
                 "A real-time audiovisual performance developed in {link:https://derivative.ca/}TouchDesigner{/link}, in which generative visuals respond to live music. Performed together with musician Melisa Hümmet, the work unfolds across four songs. Audio-reactive behaviors let color, light, and form move with the beat, while live adjustments to the system keep the performance open to improvisation. Each scene stands on its own, yet together they form a journey through fading light and deepening night.",
-                "Performed at {link:https://www.musikcentrumsyd.se/nyheter/malm-music-innovation-day}Pixlar Och Ljud Live{/link} as part of Malmö Music Innovation Day, {link:https://hypnostheatre.com/}Hypnos Theater{/link}, September 2026."
+                "Performed at {link:https://www.musikcentrumsyd.se/nyheter/malm-music-innovation-day}Pixlar O Ljud Live{/link} as part of Malmö Music Innovation Day at {link:https://hypnostheatre.com/}Hypnos Theater{/link}, September 2026."
             ]
         },
         {
@@ -60,7 +63,9 @@
                 "md": "1 / span 2"
             },
             "title": "Song 1",
-            "content": ["don't u wanna go"]
+            "content": [
+                "don't u wanna go"
+            ]
         },
         {
             "type": "image",
@@ -70,7 +75,8 @@
             },
             "content": {
                 "src": "song-01-00.jpg",
-                "alt": "The sun sinking into the ocean as colors of the horizon start to become liquid.",
+                "alt": "The sun sinking into the ocean as the colours of the horizon begin to turn liquid.",
+                "caption": "Sunset, dissolving.",
                 "aspect": "16/9"
             }
         },
@@ -82,7 +88,8 @@
             },
             "content": {
                 "src": "song-01-02.jpg",
-                "alt": "After the sun set, the colors of the sky turn indigo.",
+                "alt": "The sky turning indigo after sunset.",
+                "caption": "Indigo settles in.",
                 "aspect": "16/9"
             }
         },
@@ -95,6 +102,7 @@
             "content": {
                 "src": "song-01-03.jpg",
                 "alt": "Northern lights dancing above the ocean surface.",
+                "caption": "Aurora over open water.",
                 "aspect": "16/9"
             }
         },
@@ -106,7 +114,8 @@
             },
             "content": {
                 "src": "song-01.mp4",
-                "alt": "A virtual sunset over the ocean. The colors of the horizon turn liquid and flow with the beat.",
+                "alt": "Video of a sunset sinking into the ocean, giving way to indigo sky and northern lights.",
+                "caption": "Song 1: from dusk to aurora.",
                 "aspect": "16/9"
             }
         },
@@ -116,7 +125,9 @@
                 "md": "1 / span 2"
             },
             "title": "Song 2",
-            "content": ["Sweater Weather (Cover)"]
+            "content": [
+                "Sweater Weather (Cover)"
+            ]
         },
         {
             "type": "image",
@@ -126,7 +137,8 @@
             },
             "content": {
                 "src": "song-02-00.jpg",
-                "alt": "Abstract lines move across the screen, fading over time.",
+                "alt": "Abstract lines moving across the screen and fading over time.",
+                "caption": "Lines, fading.",
                 "aspect": "16/9"
             }
         },
@@ -138,7 +150,8 @@
             },
             "content": {
                 "src": "song-02-01.jpg",
-                "alt": "Lines melting into soft liquid shapes like rain on a window.",
+                "alt": "Lines melting into soft liquid shapes, like rain on a window.",
+                "caption": "Rain on glass.",
                 "aspect": "16/9"
             }
         },
@@ -150,7 +163,8 @@
             },
             "content": {
                 "src": "song-02-02.jpg",
-                "alt": "Lines becoming more and more liquid as if the rain becomes more intense.",
+                "alt": "Lines becoming more and more liquid, as if the rain were growing heavier.",
+                "caption": "The downpour builds.",
                 "aspect": "16/9"
             }
         },
@@ -162,8 +176,8 @@
             },
             "content": {
                 "src": "song-02.mp4",
-                "alt": "Bright blue lines appear to the beat and drift across the screen, then melt into liquid shapes, as if seen through a window in the rain.",
-                "caption": "Music not available due to copyright.",
+                "alt": "Video of abstract lines drifting across the screen and melting into liquid shapes.",
+                "caption": "Song 2: lines reshaped by rain. Silent preview.",
                 "aspect": "16/9"
             }
         },
@@ -174,7 +188,9 @@
                 "lg": "1 / span 1"
             },
             "title": "Song 3",
-            "content": ["John Redcorn (Cover)"]
+            "content": [
+                "John Redcorn (Cover)"
+            ]
         },
         {
             "type": "image",
@@ -184,7 +200,8 @@
             },
             "content": {
                 "src": "song-03-00.jpg",
-                "alt": "A large moon standing over a calm meadow with a few small fireflies.",
+                "alt": "A large moon over a calm meadow with a few small fireflies.",
+                "caption": "A quiet meadow, a large moon.",
                 "aspect": "16/9"
             }
         },
@@ -196,7 +213,8 @@
             },
             "content": {
                 "src": "song-03-01.jpg",
-                "alt": "The moon is turning blue, the grass moving in the wind.",
+                "alt": "The moon turning blue as the meadow grass moves in the wind.",
+                "caption": "The moon turns blue.",
                 "aspect": "16/9"
             }
         },
@@ -208,7 +226,8 @@
             },
             "content": {
                 "src": "song-03-02.jpg",
-                "alt": "A dithering effect is overlayed on the meadow scene, higlighting the outlines of its shapes.",
+                "alt": "The meadow scene with a dithering effect overlaid, sharpening the outlines of its shapes.",
+                "caption": "The meadow, redrawn in dots.",
                 "aspect": "16/9"
             }
         },
@@ -220,7 +239,8 @@
             },
             "content": {
                 "src": "song-03.mp4",
-                "alt": "A moonlit meadow, where small fireflies drift and light up the scene to the rhythm.",
+                "alt": "Video of a moonlit meadow with fireflies, the moon turning blue and the scene shifting to a dithered look.",
+                "caption": "Song 3: moonrise over the meadow.",
                 "aspect": "16/9"
             }
         },
@@ -231,7 +251,9 @@
                 "lg": "1 / span 1"
             },
             "title": "Song 4",
-            "content": ["why (not released)"]
+            "content": [
+                "why (not released)"
+            ]
         },
         {
             "type": "image",
@@ -241,7 +263,8 @@
             },
             "content": {
                 "src": "song-04-00.jpg",
-                "alt": "Stars moving in sync to the beat.",
+                "alt": "Stars moving in sync with the beat.",
+                "caption": "Stars on the beat.",
                 "aspect": "16/9"
             }
         },
@@ -253,12 +276,11 @@
             },
             "content": {
                 "src": "song-04-00.mp4",
-                "alt": "Stars forming abstract patterns to the rhythm of the music.",
-                "caption": "Music not available until release.",
+                "alt": "Video of stars pulsing and moving in time with the music.",
+                "caption": "Song 4: the night sky. Silent preview.",
                 "aspect": "16/9"
             }
         },
-
         {
             "type": "image",
             "layout": {
@@ -267,7 +289,8 @@
             },
             "content": {
                 "src": "song-04-01.jpg",
-                "alt": "Kaleidoscopic effect creating patterns from the moving stars (3 by 3 grid).",
+                "alt": "A kaleidoscopic effect creating patterns from the moving stars in a 3 × 3 grid.",
+                "caption": "Stars, mirrored (1/2).",
                 "aspect": "16/9"
             }
         },
@@ -279,7 +302,8 @@
             },
             "content": {
                 "src": "song-04-02.jpg",
-                "alt": "Kaleidoscopic effect creating patterns from the moving stars (5 by 5 grid).",
+                "alt": "A kaleidoscopic effect creating patterns from the moving stars in a 5 × 5 grid.",
+                "caption": "Stars, mirrored (2/2).",
                 "aspect": "16/9"
             }
         },
@@ -290,8 +314,8 @@
             },
             "content": {
                 "src": "song-04-01.mp4",
-                "alt": "A 5 by 5 repetition of the initial scene, creating different layers of patterns.",
-                "caption": "Music not available until release.",
+                "alt": "Video of kaleidoscopic star patterns shifting across a grid.",
+                "caption": "Song 4: patterns from starlight. Silent preview.",
                 "aspect": "16/9"
             }
         },
@@ -303,7 +327,8 @@
             },
             "content": {
                 "src": "song-04-03.jpg",
-                "alt": "Rotational movement is added to change the nature of the patterns.",
+                "alt": "Kaleidoscopic star patterns with rotational movement added (1/2).",
+                "caption": "Rotational movement (1/2).",
                 "aspect": "16/9"
             }
         },
@@ -315,7 +340,8 @@
             },
             "content": {
                 "src": "song-04-04.jpg",
-                "alt": "Rotational movement is added to change the nature of the patterns.",
+                "alt": "Kaleidoscopic star patterns with rotational movement added (1/2).",
+                "caption": "Rotational movement (2/2).",
                 "aspect": "16/9"
             }
         }

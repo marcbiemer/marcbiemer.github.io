@@ -18,14 +18,14 @@
             "value": "OpenSea"
         },
         {
-            "label": "dimension",
+            "label": "dimensions",
             "value": "Variable"
         }
     ],
     "images": [
         {
             "src": "virtual-exhibition-2.webp",
-            "alt": "Virtual exhibition of Curvature."
+            "alt": ""
         }
     ],
     "blocks": [
@@ -47,7 +47,8 @@
             },
             "content": {
                 "src": "print-blue-1.jpg",
-                "alt": "Print 1 of Blue Curves."
+                "alt": "Generative drawing of three layered blue sine-wave curves on a light ground with tighter curves.",
+                "caption": "Blue Curves I."
             }
         },
         {
@@ -58,7 +59,8 @@
             },
             "content": {
                 "src": "print-blue-2.jpg",
-                "alt": "Print 2 of Blue Curves."
+                "alt": "Generative drawing of three layered blue sine-wave curves on a light ground with a wider sweep.",
+                "caption": "Blue Curves II."
             }
         },
         {
@@ -69,7 +71,8 @@
             },
             "content": {
                 "src": "print-blue-3.jpg",
-                "alt": "Print 3 of Blue Curves."
+                "alt": "Generative drawing of three layered blue sine-wave curves on a light ground with a more complex overlap.",
+                "caption": "Blue Curves III."
             }
         },
         {
@@ -80,7 +83,8 @@
             },
             "content": {
                 "src": "print-complex-1.jpg",
-                "alt": "Print 1 of Blue Curves Complex."
+                "alt": "Dense generative drawing of eight overlapping blue curves forming an intricate, flower-like composition (Step 1).",
+                "caption": "Blue Curves Complex I."
             }
         },
         {
@@ -91,7 +95,8 @@
             },
             "content": {
                 "src": "print-complex-2.jpg",
-                "alt": "Print 2 of Blue Curves Complex."
+                "alt": "Dense generative drawing of eight overlapping blue curves forming an intricate, flower-like composition (Step 2).",
+                "caption": "Blue Curves Complex II."
             }
         },
         {
@@ -102,7 +107,8 @@
             },
             "content": {
                 "src": "print-complex-3.jpg",
-                "alt": "Print 3 of Blue Curves Complex."
+                "alt": "Dense generative drawing of eight overlapping blue curves forming an intricate, flower-like composition (Step 3).",
+                "caption": "Blue Curves Complex III."
             }
         },
         {
@@ -113,7 +119,8 @@
             },
             "content": {
                 "src": "virtual-exhibition-1.webp",
-                "alt": "Virtual exhibition of Curvature (Perspective 1)."
+                "alt": "Virtual gallery view from a first perspective, showing Curvature drawings on display.",
+                "caption": "The virtual gallery space."
             }
         },
         {
@@ -124,7 +131,8 @@
             },
             "content": {
                 "src": "virtual-exhibition-2.webp",
-                "alt": "Virtual exhibition of Curvature (Perspective 2)."
+                "alt": "Virtual gallery space with framed Curvature drawings hanging on its walls.",
+                "caption": "The Blue Curves Complex series, hung in a virtual gallery."
             }
         }
     ]

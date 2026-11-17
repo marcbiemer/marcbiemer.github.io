@@ -26,15 +26,15 @@
     "images": [
         {
             "src": "installation-1.webp",
-            "alt": "Installation concept using a single, large projection"
+            "alt": ""
         },
         {
             "src": "installation-2.webp",
-            "alt": "Installation concept using paired screens"
+            "alt": ""
         },
         {
             "src": "installation-3.webp",
-            "alt": "Installation concept using three synced screens"
+            "alt": ""
         }
     ],
     "blocks": [
@@ -44,8 +44,8 @@
                 "md": "1 / -1"
             },
             "content": [
-                "This work presents a conceptual proposal for a data-driven installation on the occasion of the {link:https://www.oresundsbron.com/private}Öresund Link{/link}'s 25-year anniversary. To me, the Link embodies the region's constant state of movement, transition, and interconnection. Through this installation, I aim to capture these qualities in a poetic way and invite the local audience to pause for a moment of reflection.",
-                "The installation consists of three dynamic generative works created using {link:https://derivative.ca/}TouchDesigner{/link}. Each offers a unique artistic lens on the ephemeral forces of the Öresund: wind, water, and human mobility. The individual pieces are driven by hourly data collected over the past 25 years. Each cycle lasts approximately 10 min, the time it takes to cross the Link. The installation can be presented in three different configurations: a large-scale projection with all works running in sequence, fostering an immersive spatial experience; a side-by-side setup with all three works running in parallel, highlighting the differences between datasets; or paired presentations of the same work at different points in time, emphasizing changes within each dataset."
+                "This work presents a conceptual proposal for a data-driven installation on the occasion of the {link:https://www.oresundsbron.com/private}Øresund Link{/link}'s 25-year anniversary. To me, the Link embodies the region's constant state of movement, transition, and interconnection. Through this installation, I aim to capture these qualities in a poetic way and invite the local audience to pause for a moment of reflection.",
+                "The installation consists of three dynamic generative works created using {link:https://derivative.ca/}TouchDesigner{/link}. Each offers a unique artistic lens on the ephemeral forces of the Øresund: wind, water, and human mobility. The individual pieces are driven by hourly data collected over the past 25 years. Each cycle lasts approximately 10 min, the time it takes to cross the Link. The installation can be presented in three different configurations: a large-scale projection with all works running in sequence, fostering an immersive spatial experience; a side-by-side setup with all three works running in parallel, highlighting the differences between datasets; or paired presentations of the same work at different points in time, emphasizing changes within each dataset."
             ]
         },
         {
@@ -55,7 +55,7 @@
             },
             "title": "Work 1 — Water",
             "content": [
-                "I use data collected from a buoy in the Öresund to control a digital particle system mimicking waves. Water temperature is mapped to particle hue, while sea level shifts the visuals closer to or father from the viewer. Longer wave periods produce smoother movement, while shorter periods result in increased turbulence. Wave height is mapped to the amplitude, creating greater depth during intense wave activity. Wave direction affects the positioning of particles, imparting a sense of directional flow."
+                "I use data collected from a buoy in the Øresund to control a digital particle system mimicking waves. Water temperature is mapped to particle hue, while sea level shifts the visuals closer to or farther from the viewer. Longer wave periods produce smoother movement, while shorter periods result in increased turbulence. Wave height is mapped to the amplitude, creating greater depth during intense wave activity. Wave direction affects the positioning of particles, imparting a sense of directional flow."
             ]
         },
         {
@@ -67,7 +67,8 @@
             },
             "content": {
                 "src": "water-1.webp",
-                "alt": "Still image of Work 1 — Water."
+                "alt": "Still from Work 1, Water: a particle system forming waves, shifting in hue with water temperature.",
+                "caption": "Water, in two moments (1/2)."
             }
         },
         {
@@ -79,7 +80,8 @@
             },
             "content": {
                 "src": "water-2.webp",
-                "alt": "Different still image of Work 1 — Water."
+                "alt": "Still from Work 1, Water: a particle system forming waves, shifting in hue with water temperature.",
+                "caption": "Water, in two moments (2/2)."
             }
         },
         {
@@ -90,7 +92,8 @@
             },
             "content": {
                 "src": "water.mp4",
-                "alt": "Work 1 — Water Teaser.",
+                "alt": "Video of Work 1, Water: particles ripple and swell like waves in continuous motion.",
+                "caption": "Water: wave height, period and direction at work.",
                 "aspect": "16/9",
                 "muted": true,
                 "loop": true
@@ -103,7 +106,7 @@
             },
             "title": "Work 2 — Society",
             "content": [
-                "Symbolizing the bidirectional flow between Denmark and Sweden, two oscillating attractor forces move toward one another. The forces leave behind ripples, resembling those of the ferry connections replaced by the Öresund Link. The radius of each attractor is modulated by commuter volume at a given moment in the respective direction of travel. A grey, concrete-like palette emphasizes the human-made infrastructure underpinning this movement."
+                "Symbolizing the bidirectional flow between Denmark and Sweden, two oscillating attractor forces move toward one another. The forces leave behind ripples, resembling those of the ferry connections replaced by the Øresund Link. The radius of each attractor is modulated by commuter volume at a given moment in the respective direction of travel. A grey, concrete-like palette emphasizes the human-made infrastructure underpinning this movement."
             ]
         },
         {
@@ -115,7 +118,8 @@
             },
             "content": {
                 "src": "society-1.webp",
-                "alt": "Still image of Work 2 — Society."
+                "alt": "Still from Work 2, Society: ripples in a grey, concrete-toned palette spreading from two attractor points.",
+                "caption": "Society, two currents meeting (1/2)."
             }
         },
         {
@@ -127,7 +131,8 @@
             },
             "content": {
                 "src": "society-2.webp",
-                "alt": "Different still image of Work 2 — Society."
+                "alt": "Still from Work 2, Society: ripples in a grey, concrete-toned palette spreading from two attractor points.",
+                "caption": "Society, two currents meeting (2/2)."
             }
         },
         {
@@ -138,7 +143,8 @@
             },
             "content": {
                 "src": "society.mp4",
-                "alt": "Work 2 — Society Teaser.",
+                "alt": "Video of Work 2, Society: two oscillating forces drift toward each other, leaving ripples behind.",
+                "caption": "Society: commuters crossing in both directions.",
                 "aspect": "16/9",
                 "muted": true,
                 "loop": true
@@ -151,7 +157,7 @@
             },
             "title": "Work 3 — Wind",
             "content": [
-                "Wind data collected from the highest point of the Öresund Bridge is represented as virtual grass swaying in the wind. Air temperature affects the hue, giving the grass a naturalistic, seasonal quality. Lower air pressure, often linked to stormy weather conditions, produces more chaotic motion. Wind speed and direction affect the movement of the grass and produce more pronounced bends during stronger gusts."
+                "Wind data collected from the highest point of the Øresund Bridge is represented as virtual grass swaying in the wind. Air temperature affects the hue, giving the grass a naturalistic, seasonal quality. Lower air pressure, often linked to stormy weather conditions, produces more chaotic motion. Wind speed and direction affect the movement of the grass and produce more pronounced bends during stronger gusts."
             ]
         },
         {
@@ -163,7 +169,8 @@
             },
             "content": {
                 "src": "wind-1.webp",
-                "alt": "Still image of Work 3 — Wind."
+                "alt": "Still from Work 3, Wind: virtual grass bending in the wind, its colour shifting with air temperature.",
+                "caption": "Wind, as swaying grass (1/2)."
             }
         },
         {
@@ -175,7 +182,8 @@
             },
             "content": {
                 "src": "wind-2.webp",
-                "alt": "Different still image of Work 3 — Wind."
+                "alt": "Still from Work 3, Wind: virtual grass bending in the wind, its colour shifting with air temperature.",
+                "caption": "Wind, as swaying grass (2/2)."
             }
         },
         {
@@ -186,7 +194,8 @@
             },
             "content": {
                 "src": "wind.mp4",
-                "alt": "Work 3 — Wind Teaser.",
+                "alt": "Video of Work 3, Wind: a field of virtual grass sways and bends in gusts.",
+                "caption": "Wind: pressure and gusts, in motion.",
                 "aspect": "16/9",
                 "muted": true,
                 "loop": true
@@ -198,7 +207,7 @@
                 "md": "1 / -1"
             },
             "content": [
-                "Due to limited access to data collected directly on the Öresund Link, the concept was created using proxy data from nearby locations along the Swedish coastline. Through this project, I explored how abstract data can be transformed into dynamic digital artworks and how these systems can give rise to intuitive visual typologies. The underlying system built in TouchDesigner is highly adaptable and invites further exploration of other themes and dynamics. I plan to expand the system by incorporating data sonification and enabling live data feeds. The project is accompanied by a booklet documenting its development and outcomes, produced as the thesis for a Master's degree in Creative Computing."
+                "Due to limited access to data collected directly on the Øresund Link, the concept was created using proxy data from nearby locations along the Swedish coastline. Through this project, I explored how abstract data can be transformed into dynamic digital artworks and how these systems can give rise to intuitive visual typologies. The underlying system built in TouchDesigner is highly adaptable and invites further exploration of other themes and dynamics. I plan to expand the system by incorporating data sonification and enabling live data feeds. The project is accompanied by a booklet documenting its development and outcomes, produced as the thesis for a Master's degree in Creative Computing."
             ]
         },
         {
@@ -209,8 +218,8 @@
             },
             "content": {
                 "src": "installation-1.webp",
-                "alt": "Installation concept using a single, large projection",
-                "caption": "Large-scale projection with three works running in sequence, fostering the creation of an immersive spatial experience.",
+                "alt": "Concept visualization of one large projection of the generative works in an exhibition space.",
+                "caption": "Three works, one sweeping projection.",
                 "aspect": "16/9"
             }
         },
@@ -222,8 +231,8 @@
             },
             "content": {
                 "src": "installation-3.webp",
-                "alt": "Installation concept using paired screens",
-                "caption": "Side-by-side screens with three works running in parallel, highlighting the differences between datasets.",
+                "alt": "Concept visualization of three works running side by side on adjacent screens.",
+                "caption": "Side by side, in parallel.",
                 "aspect": "16/9"
             }
         },
@@ -235,8 +244,8 @@
             },
             "content": {
                 "src": "installation-2.webp",
-                "alt": "Installation concept using three synced screens",
-                "caption": "Paired screens displaying the same work at different times, highlighting differences within each dataset.",
+                "alt": "Concept visualization of paired screens showing the same work at two different points in time.",
+                "caption": "One work, two moments.",
                 "aspect": "16/9"
             }
         }
