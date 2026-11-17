@@ -25,15 +25,15 @@
     "images": [
         {
             "src": "pattern-05.webp",
-            "alt": "Triangular Waves performing music in front of an abstract pattern with blue color."
+            "alt": ""
         },
         {
             "src": "pattern-04.webp",
-            "alt": "A white, blue and red colored pattern formed by a 5 by 5 tiled repetition of the virtual fish flock movement."
+            "alt": ""
         },
         {
             "src": "grid-01.webp",
-            "alt": "A fish flock overlayed on top of the 5 by 5 tiled repetition of the scene."
+            "alt": ""
         }
     ],
     "blocks": [
@@ -44,7 +44,7 @@
             },
             "content": [
                 "A real-time audiovisual performance developed in {link:https://derivative.ca/}TouchDesigner{/link}, unfolding as a descent beneath the ocean surface. It begins with gentle waves and a drifting buoy, then dives into vibrant underwater ecosystems. Layer upon layer of audio-reactive effects accumulate, and the recognizable scene gradually dissolves into complex, abstract patterns. Live manipulation of system parameters and sensitivity thresholds brings improvisation into the process, making the performance a unique dialogue between sound, motion, and emergence.",
-                "Performed at {link:https://www.musikcentrumsyd.se/nyheter/pixlar-och-ljud-p-hypnos}Pixlar Och Ljud Live{/link}, {link:https://hypnostheatre.com/}Hypnos Theater{/link}, June 2026."
+                "Performed at {link:https://www.musikcentrumsyd.se/nyheter/pixlar-och-ljud-p-hypnos}Pixlar O Ljud Live{/link}, {link:https://hypnostheatre.com/}Hypnos Theater{/link}, June 2026."
             ]
         },
         {
@@ -65,7 +65,8 @@
             },
             "content": {
                 "src": "flocks.mp4",
-                "alt": "Virtual flocks of glowing fish moving in sync to the music.",
+                "alt": "Video of virtual fish flocks gliding and turning in a dark underwater scene.",
+                "caption": "Virtual fish flocks, moving to music.",
                 "aspect": "16/9"
             }
         },
@@ -77,7 +78,8 @@
             },
             "content": {
                 "src": "flocks-01.webp",
-                "alt": "Virtual flocks of fish glowing in dark blue color.",
+                "alt": "Virtual flocks of fish glowing in deep blue against a dark background.",
+                "caption": "Bioluminescence, in blue.",
                 "aspect": "3/4"
             }
         },
@@ -89,7 +91,8 @@
             },
             "content": {
                 "src": "flocks-02.webp",
-                "alt": "Virtual flocks of fish glowing in white color.",
+                "alt": "Virtual flocks of fish glowing white against a dark background.",
+                "caption": "The same flock, turned white.",
                 "aspect": "3/4"
             }
         },
@@ -101,7 +104,8 @@
             },
             "content": {
                 "src": "pattern.mp4",
-                "alt": "A 5 by 5 tiled repetition of the virtual fish flocks creating an abstract pattern of movement.",
+                "alt": "Video of a white and blue pattern forming and shifting from a tiled repetition of the fish-flock movement.",
+                "caption": "The scene begins to dissolve, creating abstract patterns.",
                 "aspect": "16/9"
             }
         },
@@ -113,7 +117,8 @@
             },
             "content": {
                 "src": "pattern-01.webp",
-                "alt": "A white and blue pattern formed by a 5 by 5 tiled repetition of the virtual fish flock movement.",
+                "alt": "A white and blue pattern formed by a 5 × 5 tiled repetition of the virtual fish flock movement.",
+                "caption": "Flocks, tiled into pattern.",
                 "aspect": "16/9"
             }
         },
@@ -125,7 +130,8 @@
             },
             "content": {
                 "src": "pattern-02.webp",
-                "alt": "Another white and blue  pattern formed by a 5 by 5 tiled repetition of the virtual fish flock movement.",
+                "alt": "A second white and blue pattern formed by a 5 × 5 tiled repetition of the virtual fish flock movement.",
+                "caption": "Pattern, in a different breath.",
                 "aspect": "16/9"
             }
         },
@@ -137,7 +143,8 @@
             },
             "content": {
                 "src": "pattern-05.webp",
-                "alt": "Triangular Waves performing music in front of an abstract pattern with blue color.",
+                "alt": "Triangular Waves performing on stage in front of an abstract blue pattern projection.",
+                "caption": "Triangular Waves, set against an abstract blue pattern.",
                 "aspect": "16/9"
             }
         },
@@ -149,7 +156,8 @@
             },
             "content": {
                 "src": "pattern-04.webp",
-                "alt": "A white, blue and red colored pattern formed by a 5 by 5 tiled repetition of the virtual fish flock movement.",
+                "alt": "A white, blue and red pattern formed by a 5 × 5 tiled repetition of the virtual fish flock movement.",
+                "caption": "A flash of red enters the water.",
                 "aspect": "16/9"
             }
         },
@@ -161,7 +169,8 @@
             },
             "content": {
                 "src": "pattern-03.webp",
-                "alt": "Another white, blue and red colored pattern formed by a 5 by 5 tiled repetition of the virtual fish flock movement.",
+                "alt": "A second white, blue and red pattern formed by a 5 × 5 tiled repetition of the virtual fish flock movement.",
+                "caption": "Red takes hold.",
                 "aspect": "16/9"
             }
         },
@@ -173,7 +182,8 @@
             },
             "content": {
                 "src": "grid-01.mp4",
-                "alt": "A fish flock overlayed on top of the 5 by 5 tiled repetition of the scene.",
+                "alt": "Video of a fish flock layered over a 5 × 5 tiled repetition of the scene.",
+                "caption": "Flock over grid (1/2).",
                 "aspect": "16/9"
             }
         },
@@ -185,7 +195,8 @@
             },
             "content": {
                 "src": "grid-02.mp4",
-                "alt": "A grid pattern overlayed creating a pixelated effect of the scene.",
+                "alt": "Video of a fish flock layered over a 5 × 5 tiled repetition of the scene with an RGB delay effect.",
+                "caption": "Flock over grid (2/2).",
                 "aspect": "16/9"
             }
         },
@@ -197,7 +208,8 @@
             },
             "content": {
                 "src": "grid-01.webp",
-                "alt": "A fish flock overlayed on top of the 5 by 5 tiled repetition of the scene.",
+                "alt": "A fish flock overlaid on a 5 × 5 tiled repetition of the scene.",
+                "caption": "Layered effects forming patterns.",
                 "aspect": "16/9"
             }
         },
@@ -209,7 +221,8 @@
             },
             "content": {
                 "src": "grid-02.webp",
-                "alt": "A fish flock overlayed with an RGB delay effect on top of the 5 by 5 tiled repetition of the scene.",
+                "alt": "A fish flock overlaid with an RGB delay effect on a 5 × 5 tiled repetition of the scene.",
+                "caption": "Red, green and blue drift apart.",
                 "aspect": "16/9"
             }
         }

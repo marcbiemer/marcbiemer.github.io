@@ -25,7 +25,7 @@
 	"images": [
 		{
 			"src": "installation-king.webp",
-			"alt": "The animated portrait of King Christian IV installed next to another portrait painting."
+			"alt": ""
 		}
 	],
 	"blocks": [
@@ -47,7 +47,8 @@
 			},
 			"content": {
 				"src": "actor-01.webp",
-				"alt": "Split image: an actress with a slight smile, eyes glancing to the top right, on the left, and on the right an animated portrait painting mirroring her expression."
+				"alt": "Split image. On the left, an actress with a slight smile, eyes glancing to the upper right. On the right, an animated portrait painting mirroring her expression.",
+				"caption": "Facial expression modeling using Act-One (1/2)."
 			}
 		},
 		{
@@ -58,7 +59,8 @@
 			},
 			"content": {
 				"src": "actor-02.webp",
-				"alt": "Split image: an actress with raised eyebrows and an arrogant, haughty look on the left, and on the right an animated portrait painting mirroring her expression."
+				"alt": "Split image. On the left, an actress with raised eyebrows and a haughty look. On the right, an animated portrait painting mirroring her expression.",
+				"caption": "Facial expression modeling using Act-One (2/2)."
 			}
 		},
 		{
@@ -66,7 +68,7 @@
 			"layout": {
 				"md": "1 / span 2"
 			},
-			"title": "Potrait #1",
+			"title": "Portrait 1",
 			"content": [
 				"King Christian IV"
 			]
@@ -79,7 +81,8 @@
 			},
 			"content": {
 				"src": "king-story.mp4",
-				"alt": "Animated portrait of King Christian IV"
+				"alt": "Video of the animated portrait of King Christian IV speaking, his face moving as he delivers his story.",
+				"caption": "Portrait 1: King Christian IV."
 			}
 		},
 		{
@@ -87,7 +90,7 @@
 			"layout": {
 				"md": "1 / span 2"
 			},
-			"title": "Potrait #2",
+			"title": "Portrait 2",
 			"content": [
 				"Queen Sophie of Mecklenburg {br}and King Frederick II"
 			]
@@ -101,7 +104,8 @@
 			"content": {
 				"src": "queen-story.mp4",
 				"aspect": "9/16",
-				"alt": "Animated portrait of Queen Sophie of Mecklenburg and King Frederick II"
+				"alt": "Video of the animated double portrait of Queen Sophie of Mecklenburg and King Frederick II speaking.",
+				"caption": "Portrait 2: Queen Sophie of Mecklenburg & King Frederick II."
 			}
 		},
 		{
@@ -109,7 +113,7 @@
 			"layout": {
 				"md": "1 / span 2"
 			},
-			"title": "Portrait #3",
+			"title": "Portrait 3",
 			"content": [
 				"Prince Christian"
 			]
@@ -123,7 +127,8 @@
 			"content": {
 				"src": "prince-story.mp4",
 				"aspect": "9/16",
-				"alt": "Animated portrait of Prince Christian"
+				"alt": "Video of the animated portrait of Prince Christian speaking.",
+				"caption": "Portrait 3: Prince Christian."
 			}
 		},
 		{
@@ -144,7 +149,8 @@
 			},
 			"content": {
 				"src": "installation-king.webp",
-				"alt": "The animated portrait of King Christian IV installed next to another portrait painting."
+				"alt": "The animated portrait of King Christian IV on display beside another framed portrait painting.",
+				"caption": "King Christian IV, installed on the gallery wall."
 			}
 		},
 		{
@@ -155,7 +161,8 @@
 			},
 			"content": {
 				"src": "installation-queen.webp",
-				"alt": "A visitor standing in front of the portrait of Queen Sophie of Mecklenburg and King Frederick II.",
+				"alt": "A visitor standing in front of the portrait of Queen Sophie of Mecklenburg and King Frederick II in the exhibition.",
+				"caption": "Queen & King, face to face with a visitor.",
 				"credits": "Photo: Apelöga/Malmö museum"
 			}
 		},
@@ -167,7 +174,8 @@
 			},
 			"content": {
 				"src": "installation-prince.webp",
-				"alt": "A visitor standing in front of the portrait of Prince Christian.",
+				"alt": "A visitor standing in front of the portrait of Prince Christian in the exhibition.",
+				"caption": "The Prince meets his audience.",
 				"credits": "Photo: Apelöga/Malmö museum"
 			}
 		},
@@ -180,7 +188,8 @@
 			"content": {
 				"src": "visitor.mp4",
 				"aspect": "16/9",
-				"alt": "A visitor observing the animated portrait of Prince Christian inside the exhibition.",
+				"alt": "Video of a visitor approaching a portrait, which comes to life as they step in front of it.",
+				"caption": "The portrait wakes as a visitor draws near.",
 				"credits": "Video: Apelöga/Malmö museum"
 			}
 		}

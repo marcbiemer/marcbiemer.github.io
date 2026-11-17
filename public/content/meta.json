@@ -34,7 +34,9 @@
         "header": {
             "sectionTitle": "Contact",
             "body": {
-                "blocks": ["The most unexpected collaborations start with a simple conversation."]
+                "blocks": [
+                    "The most unexpected collaborations start with a simple conversation."
+                ]
             }
         },
         "links": [
@@ -72,7 +74,7 @@
                 "href": "/work"
             },
             {
-                "label": "Curriculum Vitea",
+                "label": "Curriculum Vitae",
                 "href": "/cv"
             },
             {

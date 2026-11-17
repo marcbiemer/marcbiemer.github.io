@@ -25,7 +25,7 @@
     "images": [
         {
             "src": "mockup-timeline.webp",
-            "alt": "Work 3 — Timeline"
+            "alt": ""
         }
     ],
     "blocks": [
@@ -57,7 +57,8 @@
             },
             "content": {
                 "src": "mockup-solo-exhibitions.jpg",
-                "alt": "Installed print of Work 1 — Solo Exhibitions.",
+                "alt": "Installed print of Work 1, Solo Exhibitions, a field of artists’ names at varying saturation.",
+                "caption": "Work 1: who got a solo show.",
                 "aspect": "16/9"
             }
         },
@@ -79,7 +80,8 @@
             },
             "content": {
                 "src": "mockup-exhibitions.jpg",
-                "alt": "Framed print of Work 2 — Exhibition Windows.",
+                "alt": "Framed print of Work 2, Exhibition Windows, with overlapping shapes inspired by the Konsthall’s roof windows.",
+                "caption": "Work 2: every exhibition, as a skylight.",
                 "aspect": "16/9"
             }
         },
@@ -101,7 +103,8 @@
             },
             "content": {
                 "src": "mockup-timeline.jpg",
-                "alt": "Large print of Work 3 — Timeline, on a wall.",
+                "alt": "Large print of Work 3, Timeline, on a gallery wall, showing a banded graphic with red markers.",
+                "caption": "Work 3: fifty years of exhibitions, in one wall.",
                 "aspect": "16/9",
                 "focusY": "top"
             }
@@ -123,7 +126,8 @@
             },
             "content": {
                 "src": "poster-solo-exhibitions.jpg",
-                "alt": "Zoom of the top half of Work 1 — Solo Exhibitions.",
+                "alt": "Close-up of the top half of Work 1, showing artists’ names set at different saturations.",
+                "caption": "Names, up close.",
                 "aspect": "16/9",
                 "focusX": "center",
                 "focusY": "top"
@@ -137,7 +141,8 @@
             },
             "content": {
                 "src": "poster-exhibitions.jpg",
-                "alt": "Zoom of the bottom half of Work 2 — Exhibitions Windows.",
+                "alt": "Close-up of the bottom half of Work 2, showing layered shapes and gaps in the data.",
+                "caption": "Layered shapes and data gaps.",
                 "aspect": "16/9",
                 "focusX": "left",
                 "focusY": "bottom"
@@ -151,7 +156,8 @@
             },
             "content": {
                 "src": "poster-timeline.jpg",
-                "alt": "Detailled view of Work 3 — Timeline"
+                "alt": "Detail of Work 3, showing the timeline with director spans and red markers at notable points.",
+                "caption": "Red marks guide viewers."
             }
         }
     ]

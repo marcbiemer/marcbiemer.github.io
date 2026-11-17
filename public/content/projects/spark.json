@@ -25,15 +25,15 @@
     "images": [
         {
             "src": "play-whiteholes.webp",
-            "alt": "Children playing Spark."
+            "alt": ""
         },
         {
             "src": "play-planet-creation.webp",
-            "alt": "Players creating a planet."
+            "alt": ""
         },
         {
             "src": "play-example-3.webp",
-            "alt": "Players exploring the virtual environment."
+            "alt": ""
         }
     ],
     "blocks": [
@@ -54,7 +54,7 @@
             },
             "content": {
                 "src": "setup-room.jpg",
-                "alt": "A technical drawing of the hardware environment used for Spark.",
+                "alt": "Technical drawing of the Spark room setup, showing the floor projection area and the sound system.",
                 "caption": "Projection and sound system design."
             }
         },
@@ -66,7 +66,7 @@
             },
             "content": {
                 "src": "setup-controller.jpg",
-                "alt": "A technical drawing of the handheld controllers utilized for playing Spark.",
+                "alt": "Technical drawing of the custom-built handheld controller used to play Spark.",
                 "caption": "Custom-built handheld controller design."
             }
         },
@@ -78,7 +78,8 @@
             },
             "content": {
                 "src": "play-example-1.webp",
-                "alt": "Controllers placed on the projection surface waiting for children to play.",
+                "alt": "Two handheld controllers resting on the projected floor, waiting for players.",
+                "caption": "Controllers wait for the next players.",
                 "aspect": "16/9"
             }
         },
@@ -90,7 +91,8 @@
             },
             "content": {
                 "src": "game-element-whitehole.jpg",
-                "alt": "Game element design - Whitehole."
+                "alt": "Illustration of the whitehole, a game element in Spark.",
+                "caption": "Game element: Whitehole."
             }
         },
         {
@@ -101,7 +103,8 @@
             },
             "content": {
                 "src": "game-element-planets.jpg",
-                "alt": "Game element design - Planets."
+                "alt": "Illustration of the planet shapes that players create and collect in Spark.",
+                "caption": "Game element: Planets."
             }
         },
         {
@@ -112,7 +115,8 @@
             },
             "content": {
                 "src": "game-elements-celest-bodies.jpg",
-                "alt": "Game element design - Celestrial bodies."
+                "alt": "Illustration of the celestial bodies that populate the Spark environment.",
+                "caption": "Game element: Celestial bodies."
             }
         },
         {
@@ -123,7 +127,8 @@
             },
             "content": {
                 "src": "game-elements-star-blackhole.jpg",
-                "alt": "Game element design - Star and blackhole."
+                "alt": "Illustration of a star and a black hole, game elements in Spark.",
+                "caption": "Game element: Star and black hole."
             }
         },
         {
@@ -143,7 +148,7 @@
             },
             "content": {
                 "src": "play-whiteholes.webp",
-                "alt": "Children playing Spark.",
+                "alt": "Two children playing Spark on a floor projection of glowing space shapes.",
                 "caption": "Children playing Spark.",
                 "aspect": "16/9"
             }
@@ -156,8 +161,8 @@
             },
             "content": {
                 "src": "play-example-2.webp",
-                "alt": "Players moving a planet together.",
-                "caption": "Players moving a planet together.",
+                "alt": "Two players moving a planet together across the projected floor.",
+                "caption": "Moving a planet together.",
                 "aspect": "16/9"
             }
         },
@@ -169,8 +174,8 @@
             },
             "content": {
                 "src": "play-example-3.webp",
-                "alt": "Players exploring the virtual environment.",
-                "caption": "Players exploring the virtual environment.",
+                "alt": "Players exploring the projected virtual environment.",
+                "caption": "Exploring a shared universe.",
                 "aspect": "16/9"
             }
         },
@@ -181,8 +186,8 @@
             },
             "content": {
                 "src": "play-planet-creation.webp",
-                "alt": "Players creating a planet.",
-                "caption": "Players creating a planet.",
+                "alt": "Players creating a new planet with their handheld controllers.",
+                "caption": "A new planet takes shape.",
                 "aspect": "16/9"
             }
         },
@@ -193,8 +198,8 @@
             },
             "content": {
                 "src": "analysis-red.jpg",
-                "alt": "Heat-Map created from red player movement data.",
-                "caption": "Visualization of movement and interaction data (Red Player)."
+                "alt": "Heat map of the red player’s movement and interaction across the play space.",
+                "caption": "Movement and interaction data, Red Player."
             }
         },
         {
@@ -204,8 +209,8 @@
             },
             "content": {
                 "src": "analysis-blue.jpg",
-                "alt": "Heat-Map created from blue player movement data.",
-                "caption": "Visualization of movement and interaction data (Blue Player)."
+                "alt": "Heat map of the blue player’s movement and interaction across the play space.",
+                "caption": "Movement and interaction data, Blue Player."
             }
         }
     ]

@@ -25,7 +25,7 @@
     "images": [
         {
             "src": "data-portraits-postcards.webp",
-            "alt": "Different Data Portrait Postcards floating."
+            "alt": ""
         }
     ],
     "blocks": [
@@ -47,7 +47,8 @@
             },
             "content": {
                 "src": "data-portraits-postcards-presentation.png",
-                "alt": "Postcards showing different Data Portraits."
+                "alt": "A set of postcards displayed together, each showing a distinct generative data portrait.",
+                "caption": "Careers, translated into color and form."
             }
         },
         {
@@ -58,7 +59,8 @@
             },
             "content": {
                 "src": "data-portraits-postcards-details.png",
-                "alt": "Questionnaire with a legend of the visual translation of its answers."
+                "alt": "The nine-question questionnaire alongside a legend showing how each answer translates into a visual element.",
+                "caption": "From answers to shapes."
             }
         },
         {
@@ -69,7 +71,8 @@
             },
             "content": {
                 "src": "production-cutting.png",
-                "alt": "A worker cutting the Data Portrait postcards."
+                "alt": "A print worker cutting a sheet of data portrait postcards.",
+                "caption": "Cut to size, 14.8 × 10.5 cm."
             }
         },
         {
@@ -80,7 +83,8 @@
             },
             "content": {
                 "src": "production-stacking.png",
-                "alt": "Data Portrait Postcards being stacked by a worker."
+                "alt": "A worker stacking finished data portrait postcards.",
+                "caption": "Stacked and ready to send."
             }
         },
         {
@@ -91,7 +95,8 @@
             },
             "content": {
                 "src": "data-portraits-postcards.png",
-                "alt": "Different Data Portrait Postcards floating."
+                "alt": "Several postcards, each printed with a different abstract generative portrait, floating against a plain background.",
+                "caption": "No two senders look alike."
             }
         }
     ]
