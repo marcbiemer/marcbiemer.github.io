@@ -15,7 +15,7 @@
     inset: 0;
 }
 
-.section > *:not(.background, .backgroundLayer) {
+.section>*:not(.background, .backgroundLayer) {
     position: relative;
     z-index: var(--sys-z-base);
 }
@@ -77,7 +77,7 @@
 /* MinHeight */
 
 .section[data-min-height="true"] {
-    min-height: 100svh;
+    min-height: 100lvh;
 }
 
 /* Vertical Alignment */
