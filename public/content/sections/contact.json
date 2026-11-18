@@ -3,7 +3,8 @@
         "sectionTitle": "Get In Touch",
         "title": "The most unexpected collaborations {br}[start with a simple conversation]",
         "titleLimit": false,
-        "titleScale": "small"
+        "titleScale": "small",
+        "titleShift": 3
     },
     "contactForm": {
         "inputs": [

@@ -8,6 +8,7 @@ import "material-symbols";
 import { ViewTransitions } from "next-view-transitions";
 import Footer from "@/components/layout/footer/footer";
 import Nav from "@/components/layout/nav/nav";
+import ScrollReset from "@/lib/hooks/scroll-reset";
 import LenisProvider from "@/providers/lenis-provider/lenis-provider";
 import { MenuProvider } from "@/providers/menu-provider/menu-provider";
 
@@ -139,6 +140,7 @@ export default function RootLayout({
             >
                 <body>
                     <LenisProvider>
+                        <ScrollReset />
                         <MenuProvider>
                             <Nav />
                             {children}

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { gsap } from "@/lib/gsap";
 import styles from "./styles.module.css";
 
@@ -20,12 +20,8 @@ type Props = {
 
 /**
  * Follows the pointer while it is over the element this component is rendered in.
- * The DOM parent is the hover target, so no refs or wrappers are needed:
- *
- *   <li className={styles.project}>
- *     ...
- *     <CursorFollower>View</CursorFollower>
- *   </li>
+ * The DOM parent is the hover target, so no refs or wrappers are needed.
+ * Renders nothing on touch devices.
  */
 export default function CursorFollower({
     children,
@@ -36,35 +32,32 @@ export default function CursorFollower({
     className,
 }: Props) {
     const followerRef = useRef<HTMLDivElement>(null);
+    const [isTouch, setIsTouch] = useState(false);
 
     useEffect(() => {
         const follower = followerRef.current;
         const parent = follower?.parentElement;
         if (!follower || !parent) return;
 
-        // No hover on touch devices, so nothing to follow
-        if (window.matchMedia("(hover: none)").matches) return;
+        // Touch devices: no hover, so remove the follower from the DOM entirely
+        if (window.matchMedia("(hover: none), (pointer: coarse)").matches) {
+            setIsTouch(true);
+            return;
+        }
 
         const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
         const lag = reduceMotion ? 0 : followDuration;
         const scaleTime = reduceMotion ? 0 : scaleDuration;
 
         // Start hidden and centered on its own origin
-        gsap.set(follower, { xPercent: -50, yPercent: -50, scale: 0 });
+        gsap.set(follower, { xPercent: -50, yPercent: -50, scale: 0, autoAlpha: 1 });
 
-        const moveX = gsap.quickTo(follower, "x", {
-            duration: lag,
-            ease: "power3",
-        });
-        const moveY = gsap.quickTo(follower, "y", {
-            duration: lag,
-            ease: "power3",
-        });
+        const moveX = gsap.quickTo(follower, "x", { duration: lag, ease: "power3" });
+        const moveY = gsap.quickTo(follower, "y", { duration: lag, ease: "power3" });
 
         const onEnter = (e: PointerEvent) => {
             if (e.pointerType !== "mouse") return;
 
-            // Jump to the entry point so it doesn't fly in from the last position
             gsap.set(follower, { x: e.clientX, y: e.clientY });
             moveX(e.clientX);
             moveY(e.clientY);
@@ -108,6 +101,8 @@ export default function CursorFollower({
             gsap.killTweensOf(follower);
         };
     }, [followDuration, scaleDuration, hideCursor]);
+
+    if (isTouch) return null;
 
     return (
         <div

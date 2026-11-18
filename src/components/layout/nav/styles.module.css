@@ -2,8 +2,8 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100svh;
+    width: 100lvw;
+    height: 100lvh;
     pointer-events: none;
     overflow: hidden;
     z-index: var(--sys-z-nav);
@@ -101,8 +101,8 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100vw;
-    height: 100svh;
+    width: 100lvw;
+    height: 100lvh;
     color: rgb(var(--sys-color-fg-default));
     overflow: hidden;
     z-index: var(--sys-z-nav);

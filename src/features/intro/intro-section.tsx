@@ -40,14 +40,7 @@ export default function IntroSection({ header, location, timezone, coordinates }
 
     return (
         <>
-            <Section
-                padStart="spacious"
-                padEnd="normal"
-                id="index"
-                vh
-                valign="space-between"
-                theme="inverse"
-            >
+            <Section pad="spacious" id="index" vh valign="space-between" theme="inverse">
                 <Section.Background>
                     <SwirlGradientBackground
                         darkColor="#03060d"

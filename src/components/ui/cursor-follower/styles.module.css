@@ -20,3 +20,10 @@
     white-space: nowrap;
     box-shadow: var(--sys-shadow-4);
 }
+
+@media (hover: none),
+(pointer: coarse) {
+    .follower {
+        display: none;
+    }
+}
