@@ -34,17 +34,13 @@
     transition: var(--sys-motion-hover-out);
 }
 
-.serviceItem:hover .label {
-    color: rgb(var(--sys-color-fg-default));
-    transition: var(--sys-motion-hover-in);
-}
-
+.serviceItem:hover .label,
 .serviceItem.active .label {
     color: rgb(var(--sys-color-fg-default));
     transition: var(--sys-motion-hover-in);
 }
 
-.serviceList:has(.serviceItem):hover .label {
+.serviceList:hover .serviceItem:not(:hover) .label {
     color: rgba(var(--sys-color-fg-default-subtle), var(--sys-opacity-hover));
     transition: var(--sys-motion-hover-in);
 }
@@ -55,13 +51,14 @@
 }
 
 .fadeGroup {
-    opacity: var(--sys-opacity-full);
+    display: grid;
 }
 
 .serviceDesc {
     font: var(--sys-font-body-small);
     letter-spacing: var(--sys-letter-spacing-body-small);
     color: rgb(var(--sys-color-fg-default));
+    grid-area: 1 / 1;
 }
 
 @media screen and (min-width: 768px) {
@@ -78,8 +75,4 @@
         justify-content: flex-end;
         align-items: flex-end;
     }
-
-    /* .serviceDesc {
-		max-width: clamp(200px, 30vw, var(--sys-max-width-body));
-	} */
 }

@@ -22,11 +22,11 @@ type Props = {
 
 export default function ServicesSection({ header, services }: Props) {
     const [current, setCurrent] = useState(0);
-    const [displayed, setDisplayed] = useState(0);
 
     const bgRefs = useRef<Array<HTMLDivElement | null>>([]);
-    const textRef = useRef<HTMLDivElement>(null);
+    const descRefs = useRef<Array<HTMLParagraphElement | null>>([]);
     const listRef = useRef<HTMLUListElement>(null);
+
     const isAnimating = useRef(false);
     const reduceMotion = useRef(false);
 
@@ -71,6 +71,8 @@ export default function ServicesSection({ header, services }: Props) {
 
         const prevIndex = current;
         const dur = reduceMotion.current ? 0 : BG_FADE_DURATION;
+        const textOut = reduceMotion.current ? 0 : TEXT_OUT_DURATION;
+        const textIn = reduceMotion.current ? 0 : TEXT_IN_DURATION;
 
         setCurrent(idx);
 
@@ -91,24 +93,16 @@ export default function ServicesSection({ header, services }: Props) {
             },
         });
 
-        if (reduceMotion.current) {
-            setDisplayed(idx);
-            return;
-        }
-
-        tl.to(textRef.current, {
-            opacity: 0,
-            y: 8,
-            duration: TEXT_OUT_DURATION,
+        tl.to(descRefs.current[prevIndex], {
+            autoAlpha: 0,
+            duration: textOut,
             ease: "power1.in",
-        })
-            .call(() => setDisplayed(idx))
-            .to(textRef.current, {
-                opacity: 1,
-                y: 0,
-                duration: TEXT_IN_DURATION,
-                ease: "power2.out",
-            });
+        }).fromTo(
+            descRefs.current[idx],
+            { autoAlpha: 0, y: 8 },
+            { autoAlpha: 1, y: 0, duration: textIn, ease: "power2.out" },
+            "-=0.1",
+        );
     }
 
     function handleKeyDown(e: React.KeyboardEvent, idx: number) {
@@ -117,8 +111,6 @@ export default function ServicesSection({ header, services }: Props) {
             selectService(idx);
         }
     }
-
-    const active = services[displayed];
 
     useEffect(() => {
         bgRefs.current.forEach((layer, i) => {
@@ -179,8 +171,19 @@ export default function ServicesSection({ header, services }: Props) {
             </Grid>
             <Grid>
                 <GridItem className={styles.textStack} md="3 / span 2" lg="4 / span 1">
-                    <div ref={textRef} className={styles.fadeGroup}>
-                        <p className={styles.serviceDesc}>{active.description}</p>
+                    <div className={styles.fadeGroup}>
+                        {services.map((service, idx) => (
+                            <p
+                                key={service.label}
+                                ref={(el) => {
+                                    descRefs.current[idx] = el;
+                                }}
+                                className={styles.serviceDesc}
+                                style={idx === 0 ? undefined : { opacity: 0, visibility: "hidden" }}
+                            >
+                                {service.description}
+                            </p>
+                        ))}
                     </div>
                 </GridItem>
             </Grid>
